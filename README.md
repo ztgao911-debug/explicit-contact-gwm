@@ -115,8 +115,9 @@ explicit-contact-gwm/
 ├── scripts/                 # 数据处理、训练和评估入口
 ├── src/contact_gwm/
 │   ├── structures.py        # Gaussian、刚体与接触状态
-│   ├── geometry.py          # 显式接触几何解析
-│   ├── physics.py           # 接触响应与整体运动
+│   ├── math3d.py            # 四元数与坐标变换
+│   ├── contact_geometry.py  # 显式接触几何解析
+│   ├── contact_force.py     # 接触响应与整体运动
 │   ├── deformation.py       # 接触门控局部形变
 │   └── world_model.py       # 组合式 Gaussian 状态更新
 └── tests/                   # 几何与物理模块测试
@@ -125,10 +126,12 @@ explicit-contact-gwm/
 ## 开发计划
 
 - [x] 明确整体方法框架与状态变量
-- [ ] 实现并验证 Gaussian 接触几何解析
-- [ ] 实现显式接触力与整体近刚体更新
-- [ ] 实现接触门控局部形变网络
+- [x] 实现 Gaussian 接触几何解析原型
+- [x] 实现显式接触力与整体近刚体更新原型
+- [x] 实现接触门控局部形变网络原型
+- [x] 完成核心模块的单步组合与合成示例
 - [ ] 构建 ManiSkill 仿真数据采集流程
+- [ ] 使用仿真真值验证接触解析与接触力
 - [ ] 建立物体中心 3D Gaussian 表示
 - [ ] 接入可微 Gaussian 渲染器
 - [ ] 完成单步预测与多步未来展开
@@ -143,12 +146,31 @@ explicit-contact-gwm/
 
 ## 安装
 
-安装方式将在首个可运行版本发布后补充。预计主要依赖包括：
+建议使用 Python 3.10 或 3.11，并根据本机 CUDA 环境安装对应版本的 PyTorch：
 
-- Python
-- PyTorch
-- ManiSkill
-- 3D Gaussian Splatting 渲染模块
+```bash
+git clone https://github.com/ztgao911-debug/explicit-contact-gwm.git
+cd explicit-contact-gwm
+
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install -e ".[dev]"
+```
+
+运行合成接触示例：
+
+```bash
+python scripts/toy_rollout.py
+```
+
+运行测试：
+
+```bash
+pytest
+```
+
+ManiSkill 和可微 3D Gaussian Splatting 渲染器将在后续实验阶段接入。
 
 ## 引用
 
