@@ -117,6 +117,10 @@ def main() -> None:
     print(f"net force on object: {net_force.detach().cpu().tolist()}")
     print(f"next rigid position: {output.rigid_state.position.detach().cpu().tolist()}")
     print(f"contact gates: {output.contact_gates.detach().cpu().tolist()}")
+    local_center_delta = output.object_local.centers - object_local.centers
+    local_log_scale_delta = output.object_local.log_scales - object_local.log_scales
+    print(f"max local center change: {local_center_delta.detach().abs().max().item()}")
+    print(f"max local log-scale change: {local_log_scale_delta.detach().abs().max().item()}")
 
 
 if __name__ == "__main__":

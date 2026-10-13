@@ -146,7 +146,11 @@ explicit-contact-gwm/
 
 ## 安装
 
-建议使用 Python 3.10 或 3.11，并根据本机 CUDA 环境安装对应版本的 PyTorch：
+项目要求 Python 3.10 以上，建议使用 Python 3.10 或 3.11。
+macOS / Apple Silicon 的 CPU 验证直接安装 PyTorch 即可，无需 CUDA。
+本项目也已在 Apple M1、macOS 15.6.1、Python 3.13.5 上完成 CPU 验证，
+环境版本、实测结果和复现步骤见 [CPU 验证记录](docs/cpu-validation.md)。
+若后续在 NVIDIA GPU 上运行，再根据 CUDA 环境选择对应的 PyTorch。
 
 ```bash
 git clone https://github.com/ztgao911-debug/explicit-contact-gwm.git
@@ -161,13 +165,13 @@ pip install -e ".[dev]"
 运行合成接触示例：
 
 ```bash
-python scripts/toy_rollout.py
+python scripts/toy_rollout.py --device cpu
 ```
 
 运行测试：
 
 ```bash
-pytest
+python -m pytest
 ```
 
 ManiSkill 和可微 3D Gaussian Splatting 渲染器将在后续实验阶段接入。
