@@ -176,6 +176,23 @@ python -m pytest
 
 ManiSkill 和可微 3D Gaussian Splatting 渲染器将在后续实验阶段接入。
 
+## 可控合成实验
+
+该脚本验证无接触静止、穿透深度与接触力的关系、接触门控与力矩的位置变化，
+并在相同物理时长内比较不同时间步的多步运行结果。
+绘图依赖为可选安装项，不影响原有 Toy 和测试。
+
+```bash
+source .venv/bin/activate
+python -m pip install -e ".[dev,experiments]"
+python scripts/synthetic_validation.py --device cpu
+```
+
+默认结果保存在 `outputs/synthetic_validation/`，包含 CSV 数据、JSON 检查结果和
+四张 PNG 图；任意行为检查失败时脚本返回非零退出码。
+默认进行 23 项合成检查，它们与原有 7 个 pytest 测试分别统计。
+实测结果、每步含义及限制见 [合成验证记录](docs/synthetic-validation.md)。
+
 ## 引用
 
 本项目仍在开发中。论文与引用信息将在正式发布后补充。
