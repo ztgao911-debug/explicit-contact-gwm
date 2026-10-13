@@ -193,6 +193,26 @@ python scripts/synthetic_validation.py --device cpu
 默认进行 23 项合成检查，它们与原有 7 个 pytest 测试分别统计。
 实测结果、每步含义及限制见 [合成验证记录](docs/synthetic-validation.md)。
 
+## 独立 MuJoCo 软体试采
+
+使用 MuJoCo 原生 CPU 的三维四面体弹性软块，底部固定，球形压头由位置伺服器驱动。
+采集左 / 中 / 右 × 浅 / 深共六条按压轨迹及一条无接触对照，
+每条包含接近、按压、保持、释放和恢复观察。
+节点与接触标签直接来自独立求解器，配置见 `configs/mujoco_soft_pilot.yaml`。
+
+```bash
+source .venv/bin/activate
+python -m pip install -e ".[dev,simulation]"
+python scripts/collect_soft_pilot.py
+python scripts/collect_soft_pilot.py --validate-only data/mujoco_soft_pilot/pilot_001
+python -m pytest
+```
+
+默认输出 `data/mujoco_soft_pilot/pilot_001/`；已有目录会被拒绝覆盖，
+再次试采可用 `--output-dir` 指定新目录。
+数据、场景 XML、配置、求解器状态、检查报告和调试图保存在一起。
+七条试采的实测结果与字段说明见 [MuJoCo 软体试采记录](docs/mujoco-soft-pilot.md)。
+
 ## 引用
 
 本项目仍在开发中。论文与引用信息将在正式发布后补充。

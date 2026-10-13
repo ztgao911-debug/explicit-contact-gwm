@@ -1,0 +1,49 @@
+schema_version: 1
+seed: 7
+units: {length: m, mass: kg, time: s, force: N}
+solver:
+  backend: mujoco_native_cpu
+  version: 3.3.7
+  timestep: 0.0002
+  sample_interval: 0.01
+  integrator: implicitfast
+  solver: Newton
+  jacobian: sparse
+  iterations: 50
+  tolerance: 1.0e-8
+  gravity: [0.0, 0.0, 0.0]
+block:
+  count: [7, 5, 4]
+  spacing: [0.01, 0.01, 0.01]
+  center: [0.0, 0.0, 0.015]
+  total_mass: 0.072
+  collision_radius: 0.001
+  young: 5000.0
+  poisson: 0.3
+  rayleigh_damping: 0.0002
+contact:
+  friction: [0.3, 0.005, 0.0001]
+  solref: [0.008, 1.0]
+  solimp: [0.95, 0.99, 0.001]
+indenter:
+  radius: 0.012
+  mass: 0.05
+  kp: 2000.0
+  kv: 20.0
+  start_z: 0.068
+  approach_clearance: 0.002
+  no_contact_low_z: 0.055
+  positions: {left: -0.02, center: 0.0, right: 0.02}
+  depths: {shallow: 0.003, deep: 0.006}
+phases:
+  approach: 0.4
+  press: 0.6
+  hold: 0.4
+  release: 0.6
+  recover: 1.0
+acceptance:
+  min_peak_displacement: 0.0001
+  max_no_contact_displacement: 1.0e-8
+  max_pinned_displacement: 1.0e-12
+  max_recovery_fraction: 0.2
+  min_tetra_volume_ratio: 0.1

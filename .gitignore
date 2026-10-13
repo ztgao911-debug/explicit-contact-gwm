@@ -8,9 +8,10 @@ __pycache__/
 venv/
 .idea/
 .vscode/
+.DS_Store
 
 # Experiment outputs
-data/
+/data/
 checkpoints/
 outputs/
 runs/
