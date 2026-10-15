@@ -1,0 +1,10 @@
+# Full center training, left validation; the right-side arrays are not loaded.
+base_config: train_soft_local.yaml
+seeds: [7, 17, 27]
+groups: [A, B, C]
+splits:
+  train: [center_shallow, center_deep]
+  validation: [left_shallow, left_deep]
+loss_multiplier: 100.0
+selection_metric: validation_balanced_coordinate_mse
+include_epoch_zero: true

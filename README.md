@@ -336,6 +336,22 @@ python scripts/ablate_soft_spatial_encoding.py \
 空间编码组本次总体拟合优于原模型和近参数量对照，但保持阶段活动节点误差退化，
 三组均未达到小样本诊断标准；完整数据和限制见[空间编码消融记录](docs/soft-spatial-encoding-ablation.md)。
 
+## 完整中央轨迹训练与左侧验证
+
+复用同一 A/B/C 模型，使用中央两条轨迹全部合格按压/保持帧对训练、左侧两条验证，
+种子固定为 7、17、27。各组训练 500 epoch，损失乘 100，包含第0轮恒速候选，
+按验证公共损失选模。不加载右侧测试数组；这仍是真实当前状态/接触条件下的一步预测。
+
+```bash
+python scripts/compare_soft_spatial_trajectories.py --data-dir /path/to/pilot_001
+python scripts/compare_soft_spatial_trajectories.py \
+  --verify-only outputs/soft_spatial_trajectories/run_001
+```
+
+保存每个种子的权重、逐轮损失、完整分组指标，以及按种子汇总的均值和样本标准差。
+配置见 `configs/compare_soft_spatial_trajectories.yaml`，结果及研究阶段安排见
+[完整轨迹空间编码验证](docs/soft-spatial-trajectory-validation.md)。
+
 ## 引用
 
 本项目仍在开发中。论文与引用信息将在正式发布后补充。

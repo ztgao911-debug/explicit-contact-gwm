@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import copy
+import math
 import time
 from dataclasses import dataclass
 from pathlib import Path
@@ -160,12 +161,21 @@ def metric_rows(split: str, method: str, prediction: Tensor, pack: PreparedPairs
 
 
 def fit_model(
-    kind: str, train: PreparedPairs, validation: PreparedPairs, config: dict, output: Path
+    kind: str,
+    train: PreparedPairs,
+    validation: PreparedPairs,
+    config: dict,
+    output: Path,
+    *,
+    model_factory=None,
+    loss_multiplier: float = 1.0,
 ) -> dict:
     """Only train and validation packs enter this function. Epoch 0 is a valid candidate."""
+    if not math.isfinite(loss_multiplier) or loss_multiplier <= 0:
+        raise ValueError("Loss multiplier must be finite and positive")
     torch.manual_seed(config["seed"])
     generator = torch.Generator().manual_seed(config["seed"])
-    model = make_model(kind, config)
+    model = make_model(kind, config) if model_factory is None else model_factory()
     settings = config["training"]
     optimizer = torch.optim.Adam(model.parameters(), lr=settings["learning_rate"])
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
@@ -192,7 +202,15 @@ def fit_model(
                 if not torch.isfinite(value):
                     raise RuntimeError(f"Non-finite {kind} loss at epoch {epoch}")
                 optimizer.zero_grad(set_to_none=True)
-                value.backward()
+                scaled = value * loss_multiplier
+                if not torch.isfinite(scaled):
+                    raise RuntimeError("Non-finite scaled training loss")
+                scaled.backward()
+                if any(
+                    p.grad is not None and not torch.isfinite(p.grad).all()
+                    for p in model.parameters()
+                ):
+                    raise RuntimeError("Non-finite training gradient")
                 torch.nn.utils.clip_grad_norm_(model.parameters(), settings["gradient_clip"])
                 optimizer.step()
             scheduler.step()
