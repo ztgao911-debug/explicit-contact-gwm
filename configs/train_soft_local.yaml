@@ -1,0 +1,32 @@
+seed: 7
+device: cpu
+cpu_threads: 1
+trajectories: [center_shallow, center_deep]
+dt: 0.01
+normalization:
+  rest_position: 0.03
+  displacement: 0.01
+  velocity: 0.05
+  action_position: 0.05
+  action_velocity: 0.05
+  young: 5000.0
+  rayleigh_damping: 0.001
+model:
+  hidden_dim: 128
+  contact_sigma: 0.02
+  max_translation: 0.001
+training:
+  epochs: 500
+  batch_size: 16
+  learning_rate: 0.001
+  gradient_clip: 1.0
+  loss_unit_m: 0.001
+  neighborhood_weight: 0.5
+  log_interval: 25
+selection:
+  phase_ids: [1, 2]
+  require_both_phases: true
+  min_force_N: 1.0e-8
+evaluation:
+  contact_neighborhood_radius: 0.02
+  protocol: teacher_forced_one_step_training_fit_only

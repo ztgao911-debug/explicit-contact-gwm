@@ -213,6 +213,24 @@ python -m pytest
 数据、场景 XML、配置、求解器状态、检查报告和调试图保存在一起。
 七条试采的实测结果与字段说明见 [MuJoCo 软体试采记录](docs/mujoco-soft-pilot.md)。
 
+## Gaussian 局部形变首次训练
+
+将 `pilot_001` 的中央浅 / 深按压轨迹连接到接触门控形变网络：每个节点对应一个
+Gaussian，固定尺度与旋转，硬约束底部节点，只预测相邻 0.01 秒记录帧的中心增量。
+本轮使用当前帧 MuJoCo 接触与力真值作为调试条件，拟合按压 / 保持帧对。
+
+```bash
+source .venv/bin/activate
+python -m pip install -e ".[dev,experiments]"
+python scripts/train_soft_local.py
+python -m pytest
+```
+
+默认结果在 `outputs/soft_local_training/run_001/`，包含模型、损失、预测、误差及曲线。
+已有目录不会被覆盖；重跑可指定 `--output-dir outputs/soft_local_training/run_002`。
+数据目录保持只读。输入、初始化规则、基线比较和实际运行结果见
+[首次 CPU 训练记录](docs/soft-local-training.md)。本轮成绩仅代表训练帧对上的一步拟合。
+
 ## 引用
 
 本项目仍在开发中。论文与引用信息将在正式发布后补充。

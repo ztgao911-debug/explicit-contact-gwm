@@ -44,14 +44,15 @@ class ContactGatedDeformation(nn.Module):
             output_layer,
         )
 
-    def forward(
+    def encode_context(
         self,
         gaussians: GaussianSet,
         contacts: ContactGeometry,
         contact_forces: ContactForces,
         action: Tensor,
         material_features: Tensor,
-    ) -> tuple[Tensor, Tensor, Tensor]:
+    ) -> tuple[Tensor, Tensor]:
+        """Build parameter-free current-frame context, reusable across training epochs."""
         if action.shape != (self.action_dim,):
             raise ValueError(f"action must have shape ({self.action_dim},)")
         if material_features.shape != (self.material_dim,):
@@ -62,8 +63,10 @@ class ContactGatedDeformation(nn.Module):
         count = gaussians.num_gaussians
         active_contacts = contacts.signed_gaps <= 0.0
         if contacts.num_contacts == 0 or not torch.any(active_contacts):
-            zeros3 = gaussians.centers.new_zeros((count, 3))
-            return zeros3, zeros3.clone(), gaussians.centers.new_zeros(count)
+            return (
+                gaussians.centers.new_zeros((count, self.network[0].in_features)),
+                gaussians.centers.new_zeros(count),
+            )
 
         offsets = contacts.points[None, :, :] - gaussians.centers[:, None, :]
         squared_distances = torch.sum(offsets**2, dim=-1)
@@ -92,8 +95,28 @@ class ContactGatedDeformation(nn.Module):
             ),
             dim=-1,
         )
-        prediction = self.network(network_input)
-        delta_centers = torch.tanh(prediction[:, :3]) * self.max_translation
-        delta_log_scales = torch.tanh(prediction[:, 3:]) * self.max_log_scale
-        return delta_centers, delta_log_scales, gates
+        return network_input, gates
 
+    def decode_context(self, network_input: Tensor) -> tuple[Tensor, Tensor]:
+        """Predict ungated residuals, including a leading batch dimension if provided."""
+        prediction = self.network(network_input)
+        delta_centers = torch.tanh(prediction[..., :3]) * self.max_translation
+        delta_log_scales = torch.tanh(prediction[..., 3:]) * self.max_log_scale
+        return delta_centers, delta_log_scales
+
+    def forward(
+        self,
+        gaussians: GaussianSet,
+        contacts: ContactGeometry,
+        contact_forces: ContactForces,
+        action: Tensor,
+        material_features: Tensor,
+    ) -> tuple[Tensor, Tensor, Tensor]:
+        network_input, gates = self.encode_context(
+            gaussians, contacts, contact_forces, action, material_features
+        )
+        if not torch.any(gates):
+            zeros3 = gaussians.centers.new_zeros((gaussians.num_gaussians, 3))
+            return zeros3, zeros3.clone(), gates
+        delta_centers, delta_log_scales = self.decode_context(network_input)
+        return delta_centers, delta_log_scales, gates
