@@ -11,8 +11,13 @@ import pytest
 import torch
 import yaml
 
+from contact_gwm.comparison import fit_model, make_model, prepare_pairs, validate_splits
 from contact_gwm.data.gaussian_pairs import GaussianPairDataset, file_sha256
-from contact_gwm.local_training import PinnedGaussianDeformation
+from contact_gwm.local_training import (
+    ConstantVelocityResidualDeformation,
+    PinnedGaussianDeformation,
+    constant_velocity_increment,
+)
 from contact_gwm.structures import ContactForces, ContactGeometry
 
 
@@ -84,12 +89,18 @@ def test_node_gaussians_and_increment_target(source):
     assert dataset.selection_counts["center_shallow"]["pairs"] == 3
 
 
-def test_future_state_action_and_force_do_not_enter_inputs(source):
+@pytest.mark.parametrize(
+    "model_class", [PinnedGaussianDeformation, ConstantVelocityResidualDeformation]
+)
+def test_future_state_action_and_force_do_not_enter_inputs(source, model_class):
     directory, config = source
     dataset = GaussianPairDataset(directory, config)
     pair = dataset[1]
-    model = PinnedGaussianDeformation(hidden_dim=16)
+    model = model_class(hidden_dim=16)
+    with torch.no_grad():
+        model.deformation.network[-1].weight.fill_(0.02)
     before = model.encode(pair.inputs)
+    prediction_before = model(pair.inputs)
     arrays = dataset.trajectories[pair.trajectory]
     future = pair.frame + 1
     arrays["node_position_world"][future] += 10
@@ -105,6 +116,7 @@ def test_future_state_action_and_force_do_not_enter_inputs(source):
     after = model.encode(after_pair.inputs)
     for a, b in zip(before, after, strict=True):
         assert torch.equal(a, b)
+    assert torch.equal(prediction_before, model(after_pair.inputs))
     assert not torch.equal(pair.target_delta, after_pair.target_delta)
 
 
@@ -171,3 +183,81 @@ def test_rejects_wrong_dt_or_node_order(source, field):
     (directory / "manifest.json").write_text(json.dumps(manifest))
     with pytest.raises(ValueError, match="times|IDs"):
         GaussianPairDataset(directory, config)
+
+
+def test_zero_residual_is_exactly_constant_velocity(source):
+    directory, config = source
+    inputs = GaussianPairDataset(directory, config)[1].inputs
+    model = ConstantVelocityResidualDeformation(hidden_dim=16)
+    expected = constant_velocity_increment(inputs.gaussians.velocities, inputs.pinned_mask)
+    assert torch.equal(model(inputs), expected)
+    context, gates = model.encode(inputs)
+    assert torch.count_nonzero(model.gated_residual(context, gates, inputs.pinned_mask)) == 0
+    assert sum(p.numel() for p in model.parameters()) == sum(
+        p.numel() for p in PinnedGaussianDeformation(hidden_dim=16).parameters()
+    )
+
+
+def test_total_residual_increment_keeps_fixed_nodes_even_with_nonzero_velocity(source):
+    directory, config = source
+    inputs = GaussianPairDataset(directory, config)[1].inputs
+    inputs = replace(inputs, gaussians=replace(inputs.gaussians, velocities=torch.ones((8, 3))))
+    model = ConstantVelocityResidualDeformation(hidden_dim=16)
+    with torch.no_grad():
+        model.deformation.network[-1].bias.fill_(0.5)
+    prediction = model(inputs)
+    assert torch.count_nonzero(prediction[inputs.pinned_mask]) == 0
+    assert torch.any(prediction[~inputs.pinned_mask] != 0.01)
+    after = model.next_gaussians(inputs)
+    assert torch.equal(after.centers[inputs.pinned_mask], inputs.rest_positions[inputs.pinned_mask])
+    assert torch.equal(after.log_scales, inputs.gaussians.log_scales)
+    assert torch.equal(after.rotations, inputs.gaussians.rotations)
+
+
+def test_no_contact_zeroes_only_learned_residual(source):
+    directory, config = source
+    inputs = GaussianPairDataset(directory, config)[1].inputs
+    inputs = replace(
+        inputs,
+        contacts=ContactGeometry.empty(torch.device("cpu"), torch.float32),
+        contact_forces=ContactForces.empty(torch.device("cpu"), torch.float32),
+    )
+    model = ConstantVelocityResidualDeformation(hidden_dim=16)
+    with torch.no_grad():
+        model.deformation.network[-1].bias.fill_(0.5)
+    context, gates = model.encode(inputs)
+    assert torch.count_nonzero(model.gated_residual(context, gates, inputs.pinned_mask)) == 0
+    assert torch.equal(
+        model(inputs), constant_velocity_increment(inputs.gaussians.velocities, inputs.pinned_mask)
+    )
+    assert torch.count_nonzero(model(inputs)[~inputs.pinned_mask]) > 0
+
+
+def test_whole_trajectory_split_rejects_overlap():
+    valid = {
+        "train": ["center_shallow", "center_deep"],
+        "validation": ["left_shallow", "left_deep"],
+        "test": ["right_shallow", "right_deep"],
+    }
+    validate_splits(valid)
+    valid["test"][0] = "center_shallow"
+    with pytest.raises(ValueError, match="overlap"):
+        validate_splits(valid)
+
+
+def test_checkpoint_selection_uses_validation_not_training_loss(source, tmp_path):
+    directory, config = source
+    config["model"]["hidden_dim"] = 16
+    config["training"]["epochs"] = 3
+    config["training"]["log_interval"] = 3
+    dataset = GaussianPairDataset(directory, config)
+    pack = prepare_pairs(dataset, make_model("direct", config))
+    # Deliberately conflicting validation targets: learning the train direction worsens validation.
+    validation = replace(pack, target=-100 * pack.target)
+    result = fit_model("direct", pack, validation, config, tmp_path / "selection_test")
+    assert result["selected_epoch"] == 0
+    assert (
+        result["selected_epoch"]
+        == min(result["history"], key=lambda row: row["validation_loss"])["epoch"]
+    )
+    assert result["history"][-1]["train_loss"] < result["history"][0]["train_loss"]

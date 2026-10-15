@@ -231,6 +231,24 @@ python -m pytest
 数据目录保持只读。输入、初始化规则、基线比较和实际运行结果见
 [首次 CPU 训练记录](docs/soft-local-training.md)。本轮成绩仅代表训练帧对上的一步拟合。
 
+## 恒速残差与完整轨迹划分比较
+
+在相同当前状态 / 接触真值条件下，比较静止、恒速、直接位移网络和恒速残差网络。
+中央两条训练，左侧两条验证，右侧两条测试；网络按验证损失选定后再评估测试集。
+原直接位移训练入口和 `outputs/soft_local_training/run_001/` 保留。
+
+```bash
+source .venv/bin/activate
+python scripts/compare_soft_models.py
+python scripts/compare_soft_models.py --evaluate-only outputs/soft_residual_comparison/run_001
+python -m pytest
+```
+
+新增配置 `configs/compare_soft_residual.yaml` 继承原归一化、网络规模及帧筛选规则。
+默认输出 `outputs/soft_residual_comparison/run_001/`；重跑时需指定其他 `--output-dir`。
+本轮测试集上恒速基线优于残差网络，完整实测结果见
+[恒速残差比较记录](docs/soft-residual-comparison.md)。本轮始终是提供真实当前状态的一步预测。
+
 ## 引用
 
 本项目仍在开发中。论文与引用信息将在正式发布后补充。

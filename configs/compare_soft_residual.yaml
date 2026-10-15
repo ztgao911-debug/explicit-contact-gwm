@@ -1,0 +1,9 @@
+# Inherit the existing normalization, MLP, selection, loss and training budget unchanged.
+base_config: train_soft_local.yaml
+splits:
+  train: [center_shallow, center_deep]
+  validation: [left_shallow, left_deep]
+  test: [right_shallow, right_deep]
+selection_metric: validation_balanced_coordinate_mse
+include_epoch_zero: true
+evaluation_protocol: teacher_forced_one_step_whole_trajectory_split_current_contacts

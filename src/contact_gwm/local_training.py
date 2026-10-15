@@ -51,3 +51,39 @@ class PinnedGaussianDeformation(nn.Module):
         )
         # Rotations, scales and opacity are copied unchanged; the network learns centers only.
         return replace(inputs.gaussians, centers=centers, velocities=delta / 0.01)
+
+
+def constant_velocity_increment(velocity: Tensor, pinned_mask: Tensor, dt: float = 0.01) -> Tensor:
+    """Current instantaneous velocity extrapolation, with a hard boundary constraint."""
+    if abs(dt - 0.01) > 1e-12:
+        raise ValueError("This comparison requires dt=0.01 s")
+    return torch.where(pinned_mask[..., None], 0.0, velocity * dt)
+
+
+class ConstantVelocityResidualDeformation(PinnedGaussianDeformation):
+    """Identical MLP capacity; learn a gated correction to current velocity * dt."""
+
+    def __init__(
+        self,
+        hidden_dim: int = 128,
+        contact_sigma: float = 0.02,
+        max_translation: float = 0.001,
+        dt: float = 0.01,
+    ) -> None:
+        super().__init__(hidden_dim, contact_sigma, max_translation)
+        if abs(dt - 0.01) > 1e-12:
+            raise ValueError("This comparison requires dt=0.01 s")
+        self.dt = dt
+
+    def gated_residual(self, context: Tensor, gates: Tensor, pinned_mask: Tensor) -> Tensor:
+        return super().predict_encoded(context, gates, pinned_mask)
+
+    def predict_encoded(
+        self, context: Tensor, gates: Tensor, pinned_mask: Tensor, current_velocity: Tensor
+    ) -> Tensor:
+        residual = self.gated_residual(context, gates, pinned_mask)
+        return torch.where(pinned_mask[..., None], 0.0, current_velocity * self.dt + residual)
+
+    def forward(self, inputs: GaussianFrameInputs) -> Tensor:
+        context, gates = self.encode(inputs)
+        return self.predict_encoded(context, gates, inputs.pinned_mask, inputs.gaussians.velocities)
