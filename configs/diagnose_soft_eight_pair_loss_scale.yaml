@@ -1,0 +1,7 @@
+# Reuse the ORIGINAL eight center pairs; only compare the preselected loss scales.
+base_config: diagnose_soft_residual.yaml
+protocol: fixed_eight_pairs
+reference_run: outputs/soft_residual_diagnostics/run_001
+loss_scale:
+  multipliers: [1.0, 100.0]
+  update_steps: [1, 2, 10, 100, 500, 1000, 2000]

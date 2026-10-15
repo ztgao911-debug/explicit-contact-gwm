@@ -1,0 +1,6 @@
+# Same frame, MLP, inputs, Adam, clipping and 2000-step schedule as the prior probe.
+base_config: diagnose_soft_optimization.yaml
+reference_run: outputs/soft_optimization_diagnostics/run_001
+loss_scale:
+  multipliers: [1.0, 100.0, 10000.0]
+  update_steps: [1, 2, 10, 100, 500, 1000, 2000]

@@ -249,6 +249,77 @@ python -m pytest
 本轮测试集上恒速基线优于残差网络，完整实测结果见
 [恒速残差比较记录](docs/soft-residual-comparison.md)。本轮始终是提供真实当前状态的一步预测。
 
+## 恒速残差诊断与小样本拟合
+
+只使用中央训练轨迹、左侧验证轨迹，统计恒速残差的大小和空间分布，
+再用固定 8 帧对检查原网络的拟合能力，并仅改变输出上限做一次对照。
+
+```bash
+source .venv/bin/activate
+python scripts/diagnose_soft_residual.py
+python scripts/diagnose_soft_residual.py \
+  --config configs/diagnose_soft_residual_scaled.yaml \
+  --output-dir outputs/soft_residual_diagnostics/run_002_output_scale \
+  --compare-to outputs/soft_residual_diagnostics/run_001
+python -m pytest
+```
+
+结果保存在独立的 `outputs/soft_residual_diagnostics/`，已有目录会拒绝覆盖。
+本次两种设置均未达到小样本误差降低 50% 的诊断标准，仅缩小输出上限没有改善。
+逐项实测结果、图表说明和新目录复现命令见
+[恒速残差诊断记录](docs/soft-residual-diagnostics.md)。本轮成绩不能作为泛化结果。
+
+## 单节点、单帧拟合与梯度检查
+
+使用一帧中央深按压数据，检查单节点与整帧拟合、逐层梯度、数值差分，
+并运行独立节点参数和 L-BFGS 两个诊断对照。原模型及历史输出均保留。
+
+```bash
+source .venv/bin/activate
+python scripts/diagnose_soft_optimization.py
+python scripts/diagnose_soft_optimization.py \
+  --verify-only outputs/soft_optimization_diagnostics/run_001
+python -m pytest
+```
+
+默认结果在 `outputs/soft_optimization_diagnostics/run_001/`，已有目录拒绝覆盖。
+本轮单节点和独立节点对照可拟合，原共享 MLP 的单帧拟合仍未达到 90% 误差降幅标准。
+梯度实测、各对照的用途及复现步骤见[优化诊断记录](docs/soft-optimization-diagnostics.md)。
+
+## 单帧损失尺度对照
+
+保持第 71 帧、原网络、Adam 和训练预算不变，只将原损失乘以 1、100、10000，
+记录梯度裁剪和实际参数更新，并用公共物理误差比较结果。
+
+```bash
+source .venv/bin/activate
+python scripts/diagnose_soft_loss_scale.py
+python scripts/diagnose_soft_loss_scale.py \
+  --verify-only outputs/soft_loss_scale_diagnostics/run_001
+python -m pytest
+```
+
+默认输出 `outputs/soft_loss_scale_diagnostics/run_001/`，已有目录拒绝覆盖。
+×100 在本帧有有限改善，×10000 更差；三组均未达到强拟合标准。
+实测指标、逐层更新分析及复现步骤见[损失尺度对照记录](docs/soft-loss-scale-diagnostics.md)。
+
+## 固定 8 帧对损失尺度复核
+
+复用原固定中央样本，在相同 2000 步预算下比较损失 ×1、×100，
+分别统计按压 / 保持和活动节点 / 接触邻域误差。
+
+```bash
+source .venv/bin/activate
+python scripts/diagnose_soft_loss_scale.py \
+  --config configs/diagnose_soft_eight_pair_loss_scale.yaml \
+  --output-dir outputs/soft_eight_pair_loss_scale/run_001
+python scripts/diagnose_soft_loss_scale.py \
+  --verify-only outputs/soft_eight_pair_loss_scale/run_001
+```
+
+×100 的有限改善在这批拟合样本上保持，但仍未达到原小样本拟合标准。
+完整实测与复现说明见[8 帧对复核记录](docs/soft-eight-pair-loss-scale.md)。
+
 ## 引用
 
 本项目仍在开发中。论文与引用信息将在正式发布后补充。

@@ -18,6 +18,11 @@ from contact_gwm.local_training import (
     PinnedGaussianDeformation,
     constant_velocity_increment,
 )
+from contact_gwm.residual_diagnostics import (
+    fixed_subset_indices,
+    gated_output_floor,
+    velocity_residual,
+)
 from contact_gwm.structures import ContactForces, ContactGeometry
 
 
@@ -261,3 +266,28 @@ def test_checkpoint_selection_uses_validation_not_training_loss(source, tmp_path
         == min(result["history"], key=lambda row: row["validation_loss"])["epoch"]
     )
     assert result["history"][-1]["train_loss"] < result["history"][0]["train_loss"]
+
+
+def test_diagnostic_selection_is_independent_of_future_labels(source):
+    directory, config = source
+    pack = prepare_pairs(GaussianPairDataset(directory, config), make_model("direct", config))
+    indices = fixed_subset_indices(pack, [0.0])
+    assert len(indices) == 4  # Both center trajectories, both current phases.
+    poisoned = replace(pack, target=torch.randn_like(pack.target) * 1e6)
+    assert torch.equal(indices, fixed_subset_indices(poisoned, [0.0]))
+    # Velocity * dt is rounded separately from float64 position differences -> float32.
+    torch.testing.assert_close(
+        velocity_residual(pack), torch.zeros_like(pack.target), atol=1e-10, rtol=0
+    )
+    with pytest.raises(ValueError, match="duplicate"):
+        fixed_subset_indices(pack, [0.0, 0.0])
+
+
+def test_gate_bound_floor_accounts_for_fixed_nodes_and_per_axis_limits():
+    residual = torch.tensor([[[0.3, -0.1, 0.0], [0.4, 0.0, 0.0]]])
+    gates = torch.tensor([[0.5, 1.0]])
+    pinned = torch.tensor([False, True])
+    # Free correction is bounded by 0.1 per axis; fixed node cannot be corrected at all.
+    floor = gated_output_floor(residual, gates, pinned, limit=0.2)
+    torch.testing.assert_close(floor, torch.tensor([[[0.2, 0.0, 0.0], [0.4, 0.0, 0.0]]]))
+    assert torch.equal(gated_output_floor(residual, gates * 0, pinned, 0.2), residual)

@@ -1,0 +1,11 @@
+# Inspect existing train/validation labels; never load the right-side test trajectories.
+base_config: train_soft_local.yaml
+diagnostic_splits:
+  train: [center_shallow, center_deep]
+  validation: [left_shallow, left_deep]
+subset_quantiles: [0.25, 0.75]
+overfit:
+  epochs: 2000
+  log_interval: 200
+  # A diagnostic criterion on the SAME eight fitted pairs, not a validation score.
+  required_rmse_reduction: 0.5

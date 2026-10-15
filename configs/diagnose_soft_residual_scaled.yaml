@@ -1,0 +1,14 @@
+# One controlled change, chosen from center-subset residual magnitudes only.
+# Required ungated per-axis subset maximum is ~74.75 um; 100 um does not clip it.
+base_config: train_soft_local.yaml
+diagnostic_splits:
+  train: [center_shallow, center_deep]
+  validation: [left_shallow, left_deep]
+subset_quantiles: [0.25, 0.75]
+overfit:
+  epochs: 2000
+  log_interval: 200
+  required_rmse_reduction: 0.5
+model_overrides:
+  max_translation: 0.0001
+model_directory: smaller_output_model
