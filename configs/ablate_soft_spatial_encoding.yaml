@@ -1,0 +1,8 @@
+# Fixed eight-pair protocol; no frequency or training-parameter search.
+base_config: diagnose_soft_eight_pair_loss_scale.yaml
+reference_a_run: outputs/soft_eight_pair_loss_scale/run_001
+spatial_ablation:
+  frequencies: [0.5, 1.0, 2.0]
+  coordinate_scale_m: 0.03
+  hidden_dim: 128
+  loss_multiplier: 100.0

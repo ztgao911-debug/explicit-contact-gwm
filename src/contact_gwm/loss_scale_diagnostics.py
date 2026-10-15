@@ -119,13 +119,24 @@ def measured_update_rows(model, before, raw_gradients, optimizer, step, multipli
 
 
 def fit_loss_scale(
-    batch: ProbeBatch, config: dict, multiplier: float, update_steps: list[int], output: Path
+    batch: ProbeBatch,
+    config: dict,
+    multiplier: float,
+    update_steps: list[int],
+    output: Path,
+    *,
+    model_factory=None,
 ) -> dict:
     """Only multiply the original balanced objective; never change inputs or targets."""
     if not math.isfinite(multiplier) or multiplier <= 0:
         raise ValueError("Loss multiplier must be finite and positive")
+    if model_factory is None:
+
+        def model_factory():
+            return make_probe_model("mlp", batch, config)
+
     torch.manual_seed(config["seed"])
-    model = make_probe_model("mlp", batch, config)
+    model = model_factory()
     initial_hash = parameter_fingerprint(model)
     training, probe = config["training"], config["probe"]
     steps = probe["adam_steps"]
@@ -226,7 +237,7 @@ def fit_loss_scale(
     )
     model.load_state_dict(selected["model_state"])
     saved = torch.load(output / "checkpoint.pt", weights_only=True, map_location="cpu")
-    loaded = make_probe_model("mlp", batch, config)
+    loaded = model_factory()
     loaded.load_state_dict(saved["model_state"])
     with torch.no_grad():
         prediction = probe_predict(model, batch)

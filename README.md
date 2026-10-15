@@ -320,6 +320,22 @@ python scripts/diagnose_soft_loss_scale.py \
 ×100 的有限改善在这批拟合样本上保持，但仍未达到原小样本拟合标准。
 完整实测与复现说明见[8 帧对复核记录](docs/soft-eight-pair-loss-scale.md)。
 
+## 固定 8 帧对空间编码消融
+
+在相同损失 ×100 和 2000 步预算下，比较原 MLP、追加固定静止坐标正弦 / 余弦编码的 MLP，
+以及参数量接近的加宽原 MLP。频率固定为 0.5、1、2，不搜索频率或学习节点编号嵌入。
+
+```bash
+source .venv/bin/activate
+python scripts/ablate_soft_spatial_encoding.py
+python scripts/ablate_soft_spatial_encoding.py \
+  --verify-only outputs/soft_spatial_encoding_ablation/run_001
+```
+
+默认输出 `outputs/soft_spatial_encoding_ablation/run_001/`，已有目录拒绝覆盖。
+空间编码组本次总体拟合优于原模型和近参数量对照，但保持阶段活动节点误差退化，
+三组均未达到小样本诊断标准；完整数据和限制见[空间编码消融记录](docs/soft-spatial-encoding-ablation.md)。
+
 ## 引用
 
 本项目仍在开发中。论文与引用信息将在正式发布后补充。
