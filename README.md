@@ -355,6 +355,20 @@ ruff check .
 配置、完整指标、速度更新近似与唯一后续优先项见
 [固定边界接触管线实验记录](docs/contact-pipeline-validation.md)。
 
+## 自主恢复与位置—瞬时速度联合预测
+
+新增在无接触时仍工作的内部支路，接触支路保留门控；同时监督位移和瞬时速度增量。
+用同容量门控模型、冻结旧模型和恒速作对照，中央全阶段训练、左侧验证选模。
+
+```bash
+source .venv/bin/activate
+python scripts/train_joint_state.py
+```
+
+默认保存到新的 `outputs/joint_state_recovery/run_NNN/`。
+本次短时位置漂移明显减小，但振动被过度抑制，按压 / 保持指标存在退化；
+完整实测、速度定义和限制见[自主恢复联合状态实验](docs/joint-state-recovery.md)。
+
 ## 引用
 
 本项目仍在开发中。论文与引用信息将在正式发布后补充。

@@ -1,0 +1,35 @@
+# One fixed-seed pipeline experiment, no architecture/frequency/weight search.
+seed: 7
+cpu_threads: 1
+dt: 0.01
+data_directory: data/mujoco_soft_pilot/pilot_001
+legacy_pipeline_config: configs/validate_contact_pipeline.yaml
+output_root: outputs/joint_state_recovery
+splits:
+  train: [center_shallow, center_deep]
+  validation: [left_shallow, left_deep]
+  control: [no_contact]
+variants: [gated_joint, autonomous_joint]
+model:
+  hidden_dim: 128
+  contact_sigma: 0.02
+  max_position_residual: 0.001
+  max_velocity_increment: 0.1  # m/s; central max |dv|=0.081279, no validation tuning
+training:
+  updates: 2000
+  batch_size: 16
+  learning_rate: 0.001
+  minimum_learning_rate_fraction: 0.01
+  gradient_clip: 1.0
+  validation_interval: 50
+  position_loss_unit_m: 0.001
+  velocity_loss_unit_m_s: 0.1  # position loss unit / dt
+  neighborhood_weight: 0.5
+  velocity_weight: 0.5
+  loss_multiplier: 100.0
+  selection: validation_joint_normalized_mse_all_phases_including_step_zero
+contact_neighborhood_radius_m: 0.02
+rollout:
+  horizons: [5, 10, 20]
+  start_frames: [70, 110, 140, 150, 170, 210]
+  external_input: recorded_current_indenter_motion_and_command
