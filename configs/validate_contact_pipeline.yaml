@@ -1,0 +1,33 @@
+# Frozen existing spatial-B weights. No training or hyperparameter search.
+seed: 7
+cpu_threads: 1
+dt: 0.01
+data_directory: data/mujoco_soft_pilot/pilot_001
+checkpoint: outputs/soft_spatial_encoding_ablation/run_001/B/checkpoint.pt
+output_root: outputs/contact_pipeline_validation
+splits:
+  train: [center_shallow, center_deep]
+  validation: [left_shallow, left_deep]
+  control: [no_contact]
+calibration:
+  trajectories: [center_shallow, center_deep]
+  phase_ids: [1, 2]
+  objective: nonnegative_per_contact_normal_force_least_squares
+initial_material:
+  normal_stiffness: 800.0  # N/m; replaced by center-only calibration
+  normal_damping: 12.0    # N s/m; replaced by center-only calibration
+  tangent_damping: 4.0    # N s/m; fixed, no search
+  friction_coefficient: 0.3
+material_features: [1.0, 0.3, 0.2, 0.3]  # Existing training normalization, NOT stiffness
+sphere_radius_m: 0.012
+# Gaussian scale remains half nearest rest-node spacing = 0.005 m.
+# Iso-radius .2*.005 = .001 m matches the known MuJoCo collision skin.
+# Surface-node balls do not fill triangle faces; detection errors are measured.
+gaussian_surface_level: 0.2
+contact_neighborhood_radius_m: 0.02
+rollout:
+  horizons: [5, 10, 20]
+  # No data-driven window selection: pressing, hold, unload, separation, recovery.
+  start_frames: [70, 110, 140, 150, 170, 210]
+  update: constant_acceleration_from_displacement_residual
+  external_input: recorded_current_indenter_motion_and_command

@@ -336,6 +336,25 @@ python scripts/ablate_soft_spatial_encoding.py \
 空间编码组本次总体拟合优于原模型和近参数量对照，但保持阶段活动节点误差退化，
 三组均未达到小样本诊断标准；完整数据和限制见[空间编码消融记录](docs/soft-spatial-encoding-ablation.md)。
 
+## 固定边界接触管线与短时预测
+
+使用相同的既有局部网络，比较 MuJoCo 几何 + 原生力、MuJoCo 几何 + 解析力、
+高斯几何 + 解析力，并与恒速基线比较。软块底部固定，不执行自由刚体积分。
+5 / 10 / 20 步实验给定压头实际轨迹，软体位置、速度和接触只由预测状态递推。
+
+```bash
+source .venv/bin/activate
+python scripts/validate_contact_pipeline.py
+python -m pytest
+ruff check .
+```
+
+依赖已有试采数据及空间编码 B 检查点，默认写入新的
+`outputs/contact_pipeline_validation/run_NNN/`，不覆盖历史输出。
+本轮管线已实际运行，但整体预测未超过恒速；高斯几何有漏检，现有接触门控也无法表示无接触恢复。
+配置、完整指标、速度更新近似与唯一后续优先项见
+[固定边界接触管线实验记录](docs/contact-pipeline-validation.md)。
+
 ## 引用
 
 本项目仍在开发中。论文与引用信息将在正式发布后补充。
