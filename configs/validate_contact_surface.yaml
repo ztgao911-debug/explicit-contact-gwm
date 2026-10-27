@@ -1,0 +1,34 @@
+# Geometry-only pilot. No training, stiffness fitting, forces or state updates.
+experiment_date: "2026-10-27"
+seed: 7
+cpu_threads: 1
+data_directory: data/mujoco_soft_pilot/pilot_001
+output_root: outputs/contact_surface_validation
+sphere_radius_m: 0.012
+skin_radius_m: 0.001
+gaussian_surface_level: 0.2
+# Conservative definition: EVERY rest subtriangle edge <= 2 mm.
+# 10 mm square-grid axes have 14.142 mm triangle diagonals, so n=8,
+# giving 1.25 mm axial samples and max edge 1.768 mm. No density search.
+max_rest_edge_m: 0.002
+splits:
+  train: [center_shallow, center_deep]
+  validation: [left_shallow, left_deep]
+  control: [no_contact]
+static:
+  # All rest surface vertices, unique edge midpoints and triangle centroids.
+  # Also probe offsets that do not coincide with either sampling lattice.
+  offset_grid: {count_per_axis: 17, fractional_offset: 0.371}
+  penetration_depths_m: [-0.0005, -0.00005, 0.00005, 0.0001, 0.0005, 0.001]
+  onset_bracket_m: [-0.001, 0.004]
+  onset_bisection_iterations: 16
+benchmark:
+  trajectory: center_deep
+  frame: 110
+  warmup: 10
+  repetitions: 200
+acceptance:
+  # Predeclared geometry pilot criteria, not state/generalization criteria.
+  max_static_onset_delay_mm: 0.1
+  min_validation_recall: 0.95
+  max_validation_false_positive_frames: 0

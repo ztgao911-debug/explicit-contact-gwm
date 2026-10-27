@@ -460,6 +460,19 @@ python scripts/audit_contact_mechanism.py
 本次普通轨迹有有限收益，但高斯漏检严重，真实条件下的部分干预响应也不正确。
 协议、完整正负结果和后续优先项见[接触机制审计记录](docs/contact-mechanism-audit.md)。
 
+## 软块接触表面增密验证
+
+保留原 140 个动力学节点与球形压头，增加只用于碰撞查询的表面 Gaussian 代理。
+
+```bash
+source .venv/bin/activate
+python scripts/validate_contact_surface.py
+```
+
+默认写入新的 `outputs/contact_surface_validation/run_NNN/`，不依赖训练权重。
+已实测左侧接触召回从 7.65% 提升到 93.99%，但释放仍漏检、部分法向指标退化。
+完整协议、曲线与限制见[接触表面增密验证](docs/contact-surface-validation.md)。
+
 ## 引用
 
 本项目仍在开发中。论文与引用信息将在正式发布后补充。
