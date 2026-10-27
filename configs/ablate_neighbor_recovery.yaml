@@ -1,0 +1,16 @@
+# Only the internal branch receives new current-state information.
+base_config: train_joint_state.yaml
+reference_run: outputs/joint_state_recovery/run_001
+output_root: outputs/neighbor_recovery_ablation
+groups: [A, B, C]
+neighbor:
+  topology: mesh_edges_undirected_unique
+  aggregation: uniform_neighbor_mean_minus_self
+  channels: [relative_displacement_xyz, relative_velocity_xyz]
+  displacement_normalization_m: 0.01
+  velocity_normalization_m_s: 0.05
+  pinned_neighbors: keep_with_zero_displacement_and_velocity
+initialization:
+  contact_branch: identical_seed7_original_128_all_groups
+  B_common_internal_weights: copy_untrained_A_and_zero_six_new_input_columns
+  C_internal_width: nearest_total_parameter_count_to_B

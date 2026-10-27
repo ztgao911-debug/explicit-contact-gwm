@@ -154,7 +154,7 @@ def batch_loss(model, cache, indices, training):
     ), components
 
 
-def fit_variant(model, variant, initial_state, cache, samples, config, output):
+def fit_variant(model, variant, initial_state, cache, samples, config, output, architecture=None):
     settings = config["training"]
     model.load_state_dict(initial_state, strict=True)
     train_ids = torch.tensor([i for i, s in enumerate(samples) if s["split"] == "train"])
@@ -228,7 +228,9 @@ def fit_variant(model, variant, initial_state, cache, samples, config, output):
     torch.save(
         {
             "model_state": best_state,
-            "architecture": {
+            "architecture": architecture
+            if architecture is not None
+            else {
                 **config["model"],
                 "dt": config["dt"],
                 "autonomous": variant == "autonomous_joint",

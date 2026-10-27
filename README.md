@@ -369,6 +369,35 @@ python scripts/train_joint_state.py
 本次短时位置漂移明显减小，但振动被过度抑制，按压 / 保持指标存在退化；
 完整实测、速度定义和限制见[自主恢复联合状态实验](docs/joint-state-recovery.md)。
 
+## 自主恢复分支的邻域信息消融
+
+比较原自主模型 A、追加固定网格邻居相对形变 / 速度均值的 B，以及近参数量对照 C。
+接触分支保持一致，沿用全部阶段、原损失和验证选模规则。
+
+```bash
+source .venv/bin/activate
+python scripts/ablate_neighbor_recovery.py
+```
+
+默认保存到新的 `outputs/neighbor_recovery_ablation/run_NNN/`，需要已有数据和上一轮自主模型结果。
+本次邻域均值只改善部分指标，未稳定优于 A、C，也未恢复真实振动；
+完整实测、容量匹配和复现说明见[邻域信息消融记录](docs/neighbor-recovery-ablation.md)。
+
+## 固定恢复片段的一步 / 五步监督诊断
+
+保持邻域模型 B，在预先固定的中央无接触片段上比较一步和五步联合位置 / 瞬时速度监督。
+两组使用相同初始参数和监督端点，只检查训练片段内的可拟合性，不评价泛化。
+
+```bash
+source .venv/bin/activate
+python scripts/diagnose_recovery_multistep.py
+python scripts/analyze_recovery_multistep.py \
+  --run-dir outputs/recovery_multistep_diagnostic/run_001
+```
+
+短时振动可以拟合，五步监督延缓了偏差，但 20 步速度仍明显放大。
+完整协议、两区域指标和限制见[固定恢复片段诊断记录](docs/recovery-multistep-diagnostic.md)。
+
 ## 引用
 
 本项目仍在开发中。论文与引用信息将在正式发布后补充。

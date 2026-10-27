@@ -34,7 +34,7 @@ def _count_changes(velocity_mm_s):
     return int(np.count_nonzero(np.diff(np.sign(above))))
 
 
-def analyze(run_dir: Path) -> dict:
+def analyze(run_dir: Path, methods=METHODS) -> dict:
     run_dir = run_dir.resolve()
     output = run_dir / "analysis"
     output.mkdir(parents=True, exist_ok=True)
@@ -63,7 +63,7 @@ def analyze(run_dir: Path) -> dict:
                 "indenter_xy_m": xy.tolist(),
             }
         )
-        for method_index, method in enumerate(METHODS):
+        for method_index, method in enumerate(methods):
             prefix = f"left_deep__{start}__{method}"
             x, v = saved[f"{prefix}__position"], saved[f"{prefix}__velocity"]
             if x.shape != v.shape or not np.isfinite(x).all() or not np.isfinite(v).all():
@@ -132,7 +132,7 @@ def analyze(run_dir: Path) -> dict:
 
     for start in STARTS:
         fig, axes = plt.subplots(2, 1, figsize=(10, 7), sharex=True, layout="constrained")
-        for method_index, method in enumerate(METHODS):
+        for method_index, method in enumerate(methods):
             values = [row for row in rows if row["start"] == start and row["method"] == method]
             times = [row["time_s"] for row in values]
             for ax, quantity in zip(axes, ("displacement_z_um", "velocity_z_mm_s"), strict=True):
@@ -161,4 +161,6 @@ if __name__ == "__main__":
     parser.add_argument(
         "--run-dir", type=Path, default=ROOT / "outputs/joint_state_recovery/run_001"
     )
-    analyze(parser.parse_args().run_dir)
+    parser.add_argument("--methods", nargs="+", default=METHODS)
+    args = parser.parse_args()
+    analyze(args.run_dir, methods=tuple(args.methods))

@@ -1,0 +1,21 @@
+# Fixed training-window fitting diagnostic; no held-out/generalization claim.
+base_config: ablate_neighbor_recovery.yaml
+experiment_date: "2026-10-27"
+output_root: outputs/recovery_multistep_diagnostic
+window:
+  trajectory: center_deep
+  first_frame: 210
+  last_frame: 230
+  training_horizon: 5
+  selection: lowest_common_five_step_training_loss_including_step_zero
+  contact_mode: certified_no_contact_recovery
+  roi: original_reference_neighborhood_at_first_frame_fixed
+groups: [one_step, five_step]
+initialization: same_untrained_B_seed7
+probe:
+  selection: nearest_rest_top_node_to_initial_indenter_xy
+  velocity_sign_threshold_mm_s: 0.01
+evaluation:
+  horizons: [1, 5, 10, 20]
+  long_rollout_start: first_frame
+  positions_and_velocities: independent_endpoint_supervision
