@@ -1,0 +1,35 @@
+# Frozen full-trajectory model: mechanism audit, not another fitting experiment.
+experiment_date: "2026-10-27"
+seed: 7
+cpu_threads: 1
+dt: 0.01
+data_directory: data/mujoco_soft_pilot/pilot_001
+output_root: outputs/contact_mechanism_audit
+legacy_pipeline_config: configs/validate_contact_pipeline.yaml
+checkpoint: outputs/joint_state_recovery/run_001/autonomous_joint/checkpoint.pt
+calibration: outputs/contact_pipeline_validation/run_003/calibration.json
+splits:
+  train: [center_shallow, center_deep]
+  validation: [left_shallow, left_deep]
+  control: [no_contact]
+methods: [mujoco_force, analytic_force, gaussian_geometry, internal_only, constant_velocity]
+contact_neighborhood_radius_m: 0.02
+rollout:
+  horizons: [5, 10, 20]
+  start_frames: [70, 110, 140, 150, 170, 210]
+  external_input: prescribed_current_indenter_state_and_command
+interventions:
+  trajectory: left_deep
+  start_frames: [70, 110, 150]
+  steps: 20
+  horizons: [1, 5, 10, 20]
+  command_policy: hold_initial_command_plus_position_offset_constant
+  initial_solver_warmstart: reset_to_zero_for_all_cases
+  roi: union_of_initial_native_contacts_all_variants_plus_original_reference_roi
+  variants:
+    - {name: base, position_offset_m: [0.0, 0.0, 0.0], velocity_offset_m_s: [0.0, 0.0, 0.0]}
+    - {name: detach, position_offset_m: [0.0, 0.0, 0.006], velocity_offset_m_s: [0.0, 0.0, 0.0]}
+    - {name: shift_left, position_offset_m: [-0.006, 0.0, 0.0], velocity_offset_m_s: [0.0, 0.0, 0.0]}
+    - {name: shift_right, position_offset_m: [0.006, 0.0, 0.0], velocity_offset_m_s: [0.0, 0.0, 0.0]}
+    - {name: deeper, position_offset_m: [0.0, 0.0, -0.001], velocity_offset_m_s: [0.0, 0.0, 0.0]}
+    - {name: faster_down, position_offset_m: [0.0, 0.0, 0.0], velocity_offset_m_s: [0.0, 0.0, -0.01]}

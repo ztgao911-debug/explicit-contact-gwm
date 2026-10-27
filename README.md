@@ -9,6 +9,10 @@
 
 项目目前处于早期开发阶段，代码与实验结果将持续更新。
 
+原始研究目标同时包含**接触机制验证**与**显式表示的实际收益**。
+固定恢复片段的实验用于排障；当前主线与下一阶段验收见
+[研究目标与验证协议](docs/research-objectives-and-validation.md)。
+
 ## 研究动机
 
 现有视觉世界模型通常直接学习从当前状态和机器人动作到未来状态的映射：
@@ -397,6 +401,64 @@ python scripts/analyze_recovery_multistep.py \
 
 短时振动可以拟合，五步监督延缓了偏差，但 20 步速度仍明显放大。
 完整协议、两区域指标和限制见[固定恢复片段诊断记录](docs/recovery-multistep-diagnostic.md)。
+
+## 恢复片段的初始状态微扰诊断
+
+冻结上述一步 / 五步模型，在相同初始状态施加固定位置或速度微扰，
+与原生 MuJoCo 和恒速比较 20 步响应；不训练或更换权重。
+
+```bash
+source .venv/bin/activate
+python scripts/diagnose_recovery_stability.py
+```
+
+默认保存到新的 `outputs/recovery_stability_diagnostic/run_NNN/`。
+本次五步模型减轻了额外微扰放大，但仍远高于原生响应；
+完整两区域指标、幅度依赖、信息边界和限制见[初始状态微扰记录](docs/recovery-stability-diagnostic.md)。
+这些是固定训练片段的有限微扰结果，不是全局稳定性证明或泛化结果。
+
+## 原生局部微扰响应监督对照
+
+保持原 B 网络和固定恢复窗口，比较原五步训练与额外匹配 MuJoCo 正负微扰响应的训练。
+两组从相同种子 7 参数开始，各更新 2000 次，以原五步状态损失选权重。
+
+```bash
+source .venv/bin/activate
+python scripts/ablate_recovery_response.py
+```
+
+默认保存到新的 `outputs/recovery_response_ablation/run_NNN/`，增加的原生标签仅用于监督。
+本次 20 步速度误差和微扰放大明显减轻，但单步拟合退化，探针振幅偏低；
+完整正负结果及限制见[原生响应监督对照记录](docs/recovery-response-ablation.md)。
+本轮仍是同一训练片段内的诊断，不评价泛化或全局稳定性。
+
+## 较小响应权重与多步评价
+
+预先固定一个较小响应权重 3e-5，只新增一次 2000 步训练，
+复用原生标签和冻结的 0 / 1e-4 模型，统一比较 5 / 10 / 20 步预测、微扰响应和振动波形。
+
+```bash
+source .venv/bin/activate
+python scripts/ablate_recovery_response_weight.py
+```
+
+默认写入新的 `outputs/recovery_response_weight_ablation/run_NNN/`。
+本次较小权重改善了部分振幅与短时拟合，但后段速度误差和微扰放大反弹；
+完整结果与限制见[权重与多步预测对照](docs/recovery-response-weight-ablation.md)。
+
+## 冻结完整轨迹模型的接触机制审计
+
+比较真实几何 / 真实力、真实几何 / 解析力、高斯几何 / 解析力，
+以及删除接触输入和恒速对照；用独立 MuJoCo 生成相同软体初始状态下的 18 条压头干预轨迹。
+
+```bash
+source .venv/bin/activate
+python scripts/audit_contact_mechanism.py
+```
+
+默认写入新的 `outputs/contact_mechanism_audit/run_NNN/`，模型权重冻结。
+本次普通轨迹有有限收益，但高斯漏检严重，真实条件下的部分干预响应也不正确。
+协议、完整正负结果和后续优先项见[接触机制审计记录](docs/contact-mechanism-audit.md)。
 
 ## 引用
 

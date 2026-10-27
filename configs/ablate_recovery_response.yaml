@@ -1,0 +1,25 @@
+# One fixed coefficient; no hyperparameter search or architecture change.
+base_config: diagnose_recovery_multistep.yaml
+experiment_date: "2026-10-27"
+output_root: outputs/recovery_response_ablation
+groups: [five_step_control, five_step_response]
+reference_multistep_run: outputs/recovery_multistep_diagnostic/run_001
+reference_stability_run: outputs/recovery_stability_diagnostic/run_001
+response:
+  coefficient: 0.0001
+  supervision: paired_one_step_response_at_true_current_states
+  sampling: round_robin_one_of_twenty_current_frames_per_update
+  seed: 7
+  direction_count: 3
+  direction_distribution: gaussian_active_nodes_vector_rms_one
+  position_rms_m: [0.000001]
+  velocity_rms_m_s: [0.0001]
+  signs: [-1, 1]
+  normalization: initial_active_state_norm
+  position_unit_m: 0.001
+  velocity_unit_m_s: 0.1
+  selection: unchanged_lowest_five_step_state_training_loss_including_step_zero
+evaluation_response:
+  reuse_physical_reference_and_cases_from_previous_stability_run: true
+  small_amplitudes_used_in_response_training: false
+  no_weight_selection_from_twenty_step_results: true

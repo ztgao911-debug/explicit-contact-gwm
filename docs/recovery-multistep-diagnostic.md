@@ -1,5 +1,11 @@
 # 固定恢复片段的一步 / 五步监督诊断
 
+本页为内部动力学排障记录。研究主线已回到[接触机制审计](contact-mechanism-audit.md)，
+同时检验接触响应正确性与显式表示的实际收益。
+
+后续已冻结本轮两份权重完成[初始状态微扰诊断](recovery-stability-diagnostic.md)，
+将无扰动漂移与额外微扰响应分开，并与原生 MuJoCo 重放比较；本记录保留原实验结果。
+
 实验日期：**2026-10-27**。已在当前 Mac / CPU 实际完成两组各 2000 次更新、
 保存重载和完整预测分析。结果：`outputs/recovery_multistep_diagnostic/run_001/`。
 

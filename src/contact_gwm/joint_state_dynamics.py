@@ -142,11 +142,20 @@ class CurrentJointInputs:
 
 
 class JointStatePipeline:
-    """The same current-state native contact query for training AND deployment."""
+    """Current-state contact conditions; native default preserves prior training."""
 
-    def __init__(self, legacy: PinnedContactPipeline, model: JointStateDynamics) -> None:
+    def __init__(
+        self,
+        legacy: PinnedContactPipeline,
+        model: JointStateDynamics,
+        *,
+        contact_method: str = "mujoco_force",
+    ) -> None:
+        if contact_method not in ("mujoco_force", "analytic_force", "gaussian_geometry", "none"):
+            raise ValueError("Unknown joint-state contact condition")
         self.legacy = legacy
         self.model = model
+        self.contact_method = contact_method
         self.encoder = ConstantVelocityResidualDeformation(
             **legacy.training_config["model"]
         ).deformation
@@ -154,7 +163,11 @@ class JointStatePipeline:
     def current_inputs(self, state: GaussianSet, robot: IndenterInput) -> CurrentJointInputs:
         # No trajectory, current labels or future labels are accepted here.
         state = self.legacy.gaussian_state(state.centers.numpy(), state.velocities.numpy())
-        contacts, forces = self.legacy.condition(state, robot, "mujoco_force")
+        if self.contact_method == "none":
+            contacts = ContactGeometry.empty(state.device, state.dtype)
+            forces = ContactForces.empty(state.device, state.dtype)
+        else:
+            contacts, forces = self.legacy.condition(state, robot, self.contact_method)
         norm = self.legacy.training_config["normalization"]
         action = torch.cat(
             (

@@ -1,0 +1,29 @@
+# Frozen-checkpoint finite-perturbation diagnostic, not a training experiment.
+experiment_date: "2026-10-27"
+seed: 7
+cpu_threads: 1
+data_directory: data/mujoco_soft_pilot/pilot_001
+source_run: outputs/recovery_multistep_diagnostic/run_001
+output_root: outputs/recovery_stability_diagnostic
+window:
+  trajectory: center_deep
+  first_frame: 210
+  steps: 20
+  record_dt: 0.01
+  external_input: constant_recorded_command_at_initial_frame
+models: [one_step, five_step]
+perturbations:
+  direction_count: 3
+  direction_distribution: gaussian_active_nodes_vector_rms_one
+  position_rms_m: [0.0000001, 0.000001]
+  velocity_rms_m_s: [0.00001, 0.0001]
+  signs: [-1, 1]
+state_norm:
+  position_unit_m: 0.001
+  velocity_unit_m_s: 0.1
+evaluation:
+  horizons: [1, 5, 10, 20]
+  regions: [active, contact_neighborhood]
+  roi: same_initial_reference_mask_as_source_run
+  replay_position_tolerance_m: 0.0000000001
+  replay_velocity_tolerance_m_s: 0.00000001

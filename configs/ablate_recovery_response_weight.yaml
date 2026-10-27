@@ -1,0 +1,14 @@
+# A single predeclared smaller coefficient, NOT a search over multiple weights.
+base_config: ablate_recovery_response.yaml
+experiment_date: "2026-10-27"
+output_root: outputs/recovery_response_weight_ablation
+reference_response_run: outputs/recovery_response_ablation/run_001
+smaller_response_coefficient: 0.00003
+protocol:
+  new_training_runs: 1
+  initialization: identical_untrained_seed7_B
+  native_labels: reuse_exact_existing_response_labels_with_sha256
+  comparison_coefficients: [0.0, 0.00003, 0.0001]
+  checkpoint_selection: original_five_step_state_training_loss_including_step_zero
+  evaluation_horizons: [1, 5, 10, 20]
+  no_selection_using_twenty_step_results: true
