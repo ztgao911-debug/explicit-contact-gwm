@@ -520,6 +520,31 @@ python scripts/calibrate_elastic_area.py --config configs/calibrate_elastic_area
 面积模型按压较好，保持和释放较差，没有据此调整参数或接入状态预测。
 结果、有效参数的含义与复现见[弹性面积刚度标定记录](docs/elastic-area-calibration.md)。
 
+## 修正表面后的三路线主线验证
+
+```bash
+source .venv/bin/activate
+python scripts/validate_repaired_contact.py --config configs/validate_repaired_contact.yaml
+```
+
+已冻结联合状态网络，实际完成 M / F / G 三路线、面积力等对照、单步、5 / 10 / 20 步及 18 条独立干预。
+左侧修正表面接触召回 100%，20 步活动位置 RMSE 467.368 μm，接近原生几何解析分支；
+保持阶段和干预响应仍失败，真实接触条件下的局部状态映射是下一优先项。
+完整正负结果、面积输入适配与复现见[三路线主线实验](docs/repaired-contact-mainline.md)。
+
+## 成对接触响应训练与多步评价
+
+```bash
+source .venv/bin/activate
+python scripts/train_contact_response.py --config configs/train_contact_response.yaml
+python scripts/analyze_contact_response.py --run outputs/contact_response_training/run_001
+```
+
+已实际采集中央 108 条分支轨迹，完成“有 / 无响应监督 × 原 / 中央推导输出上限”四组训练。
+一步位置响应负方向计数从旧模型的 10/15 降至 3/15，但剩余速度干预仍错；
+扩大上限的响应监督组多步速度放大并出现网格翻转，没有通过物理有效性检查。
+完整结果、导出恢复记录与复现见[成对响应训练记录](docs/contact-response-training.md)。
+
 ## 引用
 
 本项目仍在开发中。论文与引用信息将在正式发布后补充。

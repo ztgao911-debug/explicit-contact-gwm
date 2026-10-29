@@ -161,6 +161,7 @@ class ClippedSurfaceQuadrature:
         active = torch.nonzero(radius - distances > roundoff, as_tuple=False).flatten()
         total = positions.new_zeros(9)
         diagnostics, error_total = [], positions.new_zeros(3)
+        face_values = []
         evaluated_samples = final_samples = unresolved = leaves = max_depth = 0
         evaluated_intervals = 0
         failure_components = torch.zeros(3, dtype=torch.long, device=x.device)
@@ -359,6 +360,7 @@ class ClippedSurfaceQuadrature:
                     face_samples += count
                     face_unresolved += failed
             total = total + face_value
+            face_values.append(face_value)
             error_total = error_total + face_error
             diagnostics.append(
                 [
@@ -394,4 +396,14 @@ class ClippedSurfaceQuadrature:
             "estimated_elastic_error_m3": error_total[1],
             "estimated_damping_error_m3_s": error_total[2],
             "face_diagnostics": diagnostics,
+            # Additional exports only: the existing totals, error control and
+            # summation order above are unchanged. These are loads on ORIGINAL
+            # material faces, never one independent spring per quadrature node.
+            "face_indices": active,
+            "face_elastic_vectors_m3": torch.stack(face_values)[:, 2:5]
+            if face_values
+            else positions.new_empty((0, 3)),
+            "face_contact_areas_m2": torch.stack(face_values)[:, 0]
+            if face_values
+            else positions.new_empty(0),
         }

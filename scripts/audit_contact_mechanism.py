@@ -131,7 +131,7 @@ def summarize_force_geometry(rows):
 
 
 @torch.no_grad()
-def force_geometry_audit(legacy, trajectories, splits, output):
+def force_geometry_audit(legacy, trajectories, splits, output, *, contact_methods=CONTACT_METHODS):
     rows, events = [], []
     min_normal, torque_error = 0.0, 0.0
     for name, arrays in trajectories.items():
@@ -157,7 +157,7 @@ def force_geometry_audit(legacy, trajectories, splits, output):
                 arrays["contact_force_on_block_world"][force_ids],
             ).sum(0)
             native_geometry = None
-            for method in CONTACT_METHODS:
+            for method in contact_methods:
                 contacts, force = legacy.condition(state, robot, method)
                 if method == "mujoco_force":
                     native_geometry = contacts
@@ -305,6 +305,7 @@ def external_inputs(native):
 
 
 def run_interventions(legacy, predictors, mesh, trajectories, config, output):
+    methods = tuple(predictors)
     settings = config["interventions"]
     arrays = trajectories[settings["trajectory"]]
     folder = output / "interventions"
@@ -414,7 +415,7 @@ def run_interventions(legacy, predictors, mesh, trajectories, config, output):
         )
         baseline = native_cases["base"]
         for variant, native in native_cases.items():
-            for method in METHODS:
+            for method in methods:
                 x, v = (
                     predictions[variant][f"{method}__position"],
                     predictions[variant][f"{method}__velocity"],
@@ -544,7 +545,7 @@ def run_interventions(legacy, predictors, mesh, trajectories, config, output):
             }
         )
     write_csv(folder / "response_summary.csv", summary)
-    intervention_plots(response_rows, representative, settings, folder)
+    intervention_plots(response_rows, representative, settings, folder, methods=methods)
     return {
         "native_internal_steps_including_repeat": total_steps,
         "native_cases": len(all_checks),
@@ -564,7 +565,7 @@ def run_interventions(legacy, predictors, mesh, trajectories, config, output):
     }
 
 
-def intervention_plots(rows, representative, settings, folder):
+def intervention_plots(rows, representative, settings, folder, *, methods=METHODS):
     os.environ.setdefault("MPLCONFIGDIR", str(folder.parent / "matplotlib"))
     import matplotlib
 
@@ -574,7 +575,7 @@ def intervention_plots(rows, representative, settings, folder):
     fig, axes = plt.subplots(1, 2, figsize=(12, 4), layout="constrained")
     variants = [v["name"] for v in settings["variants"] if v["name"] != "base"]
     for ax, key in zip(axes, ("position_response_rmse", "velocity_response_rmse"), strict=True):
-        for method in METHODS:
+        for method in methods:
             values = []
             for variant in variants:
                 selected = [
@@ -595,7 +596,9 @@ def intervention_plots(rows, representative, settings, folder):
     plt.close(fig)
     fig, axes = plt.subplots(1, 2, figsize=(12, 4), layout="constrained")
     for ax, prefix in zip(axes, ("position", "velocity"), strict=True):
-        for method in CONTACT_METHODS:
+        for method in methods:
+            if method in ("internal_only", "constant_velocity"):
+                continue
             gains = []
             for variant in variants:
                 selected = [
@@ -620,6 +623,9 @@ def intervention_plots(rows, representative, settings, folder):
     fig.savefig(folder / "one_step_projection_gains.png", dpi=150)
     plt.close(fig)
     if representative:
+        contact_methods = tuple(
+            m for m in methods if m not in ("internal_only", "constant_velocity")
+        )
         native, predicted = representative["native"], representative["predictions"]
         # Spatial first-step response to left/right relocation, independently scaled
         # only by a single common color limit for ALL methods and native labels.
@@ -628,18 +634,23 @@ def intervention_plots(rows, representative, settings, folder):
             fields[variant, "native"] = (
                 native[variant]["position"][1] - native["base"]["position"][1]
             )[:, 2] * 1e6
-            for method in CONTACT_METHODS:
+            for method in contact_methods:
                 fields[variant, method] = (
                     predicted[variant][f"{method}__position"][1]
                     - predicted["base"][f"{method}__position"][1]
                 )[:, 2] * 1e6
         limit = max(abs(value).max() for value in fields.values())
-        fig, axes = plt.subplots(2, 4, figsize=(13, 6), layout="constrained")
+        fig, axes = plt.subplots(
+            2,
+            1 + len(contact_methods),
+            figsize=(3.25 * (1 + len(contact_methods)), 6),
+            layout="constrained",
+        )
         xy = native["base"]["position"][0, :, :2]
         rest = representative["rest"]
         top = np.isclose(rest[:, 2], rest[:, 2].max())
         for row, variant in enumerate(("shift_left", "shift_right")):
-            for column, method in enumerate(("native", *CONTACT_METHODS)):
+            for column, method in enumerate(("native", *contact_methods)):
                 ax = axes[row, column]
                 art = ax.scatter(
                     xy[top, 0] * 1e3,

@@ -1,0 +1,40 @@
+experiment_date: "2026-10-29"
+seed: 7
+cpu_threads: 1
+dt: 0.01
+data_directory: data/mujoco_soft_pilot/pilot_001
+output_root: outputs/repaired_contact_mainline
+legacy_pipeline_config: configs/validate_contact_pipeline.yaml
+checkpoint: outputs/joint_state_recovery/run_001/autonomous_joint/checkpoint.pt
+point_calibration: outputs/elastic_area_calibration/run_002/matched_point_calibration.json
+area_material: outputs/elastic_area_calibration/run_002/material.json
+integration_config: configs/validate_adaptive_contact_integration.yaml
+historical_audit: outputs/contact_mechanism_audit/run_001
+splits:
+  train: [center_shallow, center_deep]
+  validation: [left_shallow, left_deep]
+  control: [no_contact]
+primary_methods: [mujoco_force, analytic_force, gaussian_geometry]
+methods: [mujoco_force, analytic_force, gaussian_geometry, area_geometry, sparse_geometry, internal_only, constant_velocity]
+point_force: elastic_normal_only_same_central_net_force_fit_for_F_G_sparse
+area_context_adapter: one_exact_resultant_per_original_face_then_unchanged_historical_encoder
+contact_neighborhood_radius_m: 0.02
+rollout:
+  horizons: [5, 10, 20]
+  start_frames: [70, 110, 140, 150, 170, 210]
+  external_input: prescribed_current_indenter_state_and_command
+interventions:
+  trajectory: left_deep
+  start_frames: [70, 110, 150]
+  steps: 20
+  horizons: [1, 5, 10, 20]
+  command_policy: hold_initial_command_plus_position_offset_constant
+  initial_solver_warmstart: reset_to_zero_for_all_cases
+  roi: union_of_initial_native_contacts_all_variants_plus_original_reference_roi
+  variants:
+    - {name: base, position_offset_m: [0.0, 0.0, 0.0], velocity_offset_m_s: [0.0, 0.0, 0.0]}
+    - {name: detach, position_offset_m: [0.0, 0.0, 0.006], velocity_offset_m_s: [0.0, 0.0, 0.0]}
+    - {name: shift_left, position_offset_m: [-0.006, 0.0, 0.0], velocity_offset_m_s: [0.0, 0.0, 0.0]}
+    - {name: shift_right, position_offset_m: [0.006, 0.0, 0.0], velocity_offset_m_s: [0.0, 0.0, 0.0]}
+    - {name: deeper, position_offset_m: [0.0, 0.0, -0.001], velocity_offset_m_s: [0.0, 0.0, 0.0]}
+    - {name: faster_down, position_offset_m: [0.0, 0.0, 0.0], velocity_offset_m_s: [0.0, 0.0, -0.01]}

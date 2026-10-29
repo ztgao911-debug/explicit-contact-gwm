@@ -191,3 +191,7 @@ python -m ruff check .
 `force_predictions.npz`、`per_frame_metrics.csv`、`split_metrics.csv`、`phase_metrics.csv`、
 `trajectory_metrics.csv`、`calibration_frame_metrics.csv`、两幅曲线、配置 / 源码快照、
 输入与历史哈希、检查与独立复核记录。
+
+**后续已完成：[修正表面后的三路线主线实验](repaired-contact-mainline.md)。**
+面积参数保持本页数值不变，已作为单列分支接入冻结网络；单步微小优势未转化为 20 步优势。
+真实接触条件下仍出现干预响应错误，当前优先检查局部状态映射，力平台低估继续作为独立局限保留。

@@ -1,0 +1,53 @@
+experiment_date: "2026-10-29"
+seed: 7
+cpu_threads: 1
+dt: 0.01
+data_directory: data/mujoco_soft_pilot/pilot_001
+output_root: outputs/contact_response_training
+mainline_config: configs/validate_repaired_contact.yaml
+ordinary_training_config: configs/train_joint_state.yaml
+reference_checkpoint: outputs/joint_state_recovery/run_001/autonomous_joint/checkpoint.pt
+validation_native_directory: outputs/repaired_contact_mainline/run_001/interventions
+splits:
+  train: [center_shallow, center_deep]
+  validation: [left_shallow, left_deep]
+  control: [no_contact]
+collection:
+  start_frames: [60, 75, 90, 105, 115, 125, 145, 155, 165]
+  steps: 20
+  variants_from: configs/validate_repaired_contact.yaml
+  initial_solver_warmstart: reset_zero_including_base
+  validation_frames: [70, 110, 150]
+training:
+  updates: 2000
+  batch_size: 16
+  learning_rate: 0.001
+  minimum_learning_rate_fraction: 0.01
+  gradient_clip: 1.0
+  validation_interval: 50
+  position_loss_unit_m: 0.001
+  velocity_loss_unit_m_s: 0.1
+  neighborhood_weight: 0.5
+  velocity_weight: 0.5
+  loss_multiplier: 100.0
+  branch_absolute_weight: 1.0
+  paired_response_weight: 1.0
+  selection: common_validation_ordinary_plus_branch_absolute_plus_initial_pair_response
+  initialization: same_fresh_seed_7_weights_zero_output_heads_all_four_variants
+  trainable: both_internal_and_contact_networks
+variants:
+  - {name: original_absolute, caps: original, response: false}
+  - {name: original_response, caps: original, response: true}
+  - {name: expanded_absolute, caps: central_derived, response: false}
+  - {name: expanded_response, caps: central_derived, response: true}
+cap_rule:
+  source: central_training_labels_only
+  slack: 1.25
+  rounding: original_cap_times_power_of_two_rounded_up
+  zero_gate_threshold: 1.0e-8
+contact_neighborhood_radius_m: 0.02
+rollout:
+  horizons: [5, 10, 20]
+  start_frames: [70, 110, 140, 150, 170, 210]
+  external_input: prescribed_indenter_soft_state_autoregression
+evaluation_conditions: [mujoco_force, analytic_force, gaussian_geometry]
