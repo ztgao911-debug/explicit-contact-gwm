@@ -1,0 +1,30 @@
+{
+  "operation": "Tracked report copies CRLF to LF only; parsed values identical; original outputs unchanged",
+  "files": [
+    "candidates.csv",
+    "final_routes/static_stability.csv",
+    "final_routes/response_physics_windows.csv",
+    "final_routes/ordinary_physics_windows.csv",
+    "final_routes/ordinary/one_step_per_trajectory.csv",
+    "final_routes/ordinary/rollout_per_trajectory.csv",
+    "final_routes/ordinary/one_step_metrics.csv",
+    "final_routes/ordinary/rollout_metrics.csv",
+    "final_routes/recovery/recovery_signed_waveforms.csv",
+    "final_routes/recovery/recovery_waveform_metrics.csv",
+    "final_routes/response_evaluation/summary.csv",
+    "final_routes/response_evaluation/per_case_response_metrics.csv",
+    "trials/S08_seed_7/attempt_01/training_curve.csv",
+    "trials/S08_seed_7/attempt_01/training_updates.csv",
+    "trials/S08_seed_7/attempt_01/evaluation/static_stability.csv",
+    "trials/S08_seed_7/attempt_01/evaluation/response_physics_windows.csv",
+    "trials/S08_seed_7/attempt_01/evaluation/ordinary_physics_windows.csv",
+    "trials/S08_seed_7/attempt_01/evaluation/ordinary/one_step_per_trajectory.csv",
+    "trials/S08_seed_7/attempt_01/evaluation/ordinary/rollout_per_trajectory.csv",
+    "trials/S08_seed_7/attempt_01/evaluation/ordinary/one_step_metrics.csv",
+    "trials/S08_seed_7/attempt_01/evaluation/ordinary/rollout_metrics.csv",
+    "trials/S08_seed_7/attempt_01/evaluation/recovery/recovery_signed_waveforms.csv",
+    "trials/S08_seed_7/attempt_01/evaluation/recovery/recovery_waveform_metrics.csv",
+    "trials/S08_seed_7/attempt_01/evaluation/response_evaluation/summary.csv",
+    "trials/S08_seed_7/attempt_01/evaluation/response_evaluation/per_case_response_metrics.csv"
+  ]
+}

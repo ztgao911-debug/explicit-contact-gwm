@@ -1,0 +1,8 @@
+{
+  "wall_start_epoch": 1793287447.722922,
+  "deadline_epoch": 1793288347.722922,
+  "budget_seconds": 900,
+  "maximum_configurations": 1,
+  "maximum_optimizer_updates": 200,
+  "basis": "New short experiment requested after original run_001 budget stop; original budget/evidence unchanged"
+}

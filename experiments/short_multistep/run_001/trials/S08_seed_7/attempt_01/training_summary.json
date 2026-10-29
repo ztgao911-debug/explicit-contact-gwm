@@ -1,0 +1,19 @@
+{
+  "candidate": {
+    "id": "S08",
+    "mode": "autoregressive",
+    "horizon": 3,
+    "learning_rate": 0.0001,
+    "velocity_weight": 0.5,
+    "mesh_weight": 0.001
+  },
+  "seed": 7,
+  "updates_completed": 200,
+  "selected_step": 50,
+  "selection_score": 0.22522995878028512,
+  "training_elapsed_seconds": 20.57134591700742,
+  "native_queries_training_and_selection": 10350,
+  "clipped_updates": 200,
+  "finite_gradients": true,
+  "conditional_gradient": "native current contacts stop-gradient; x/v/features/kernel attached"
+}

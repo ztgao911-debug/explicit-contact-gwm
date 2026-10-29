@@ -1,0 +1,202 @@
+{
+  "ignored_large_artifacts": {
+    "outputs/short_multistep/run_001/batch_schedules_seed_7.npz": {
+      "sha256": "bb4636c973ee9e3c0143603b045aa57171b76dc6d13cc20619b1e0d092a6a7eb",
+      "bytes": 28050
+    },
+    "outputs/short_multistep/run_001/final_routes/ordinary/rollout_predictions.npz": {
+      "sha256": "7d2969d43c660c104f6a3fcb1677ce53ccf5447e9f9fceac9d2d5be246a7052a",
+      "bytes": 10817880
+    },
+    "outputs/short_multistep/run_001/final_routes/ordinary/one_step_predictions.npz": {
+      "sha256": "1ab54ccd83294496c53b848682f56014c5fbb88d4d20d5434f420099be06891f",
+      "bytes": 31837455
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/70_base_predictions.npz": {
+      "sha256": "53b9000f9fada6199d1882ec50d9b1d36f440ca5a9088989668a369c439d0c86",
+      "bytes": 399234
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/110_shift_right_predictions.npz": {
+      "sha256": "941cf39ecf92881fba39e10d36b6c7cf8cbb3c98bcc274a46d344ec676781746",
+      "bytes": 392644
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/110_faster_down_predictions.npz": {
+      "sha256": "132c63545d3ba349aaa5061c40142da62d192ba2a7097b0afdba86756081694f",
+      "bytes": 399770
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/150_masks.npz": {
+      "sha256": "2ac34b78f6c1659f6a2ad02d0185218402c334d95ed071691b54a3ac31b4e4f4",
+      "bytes": 866
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/70_shift_left_predictions.npz": {
+      "sha256": "98217faed353e1d0c54b191f6363b0813f8b9f587fe435f83b02e86a30f59954",
+      "bytes": 400069
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/70_shift_right_predictions.npz": {
+      "sha256": "61568a545e845cf99e1d0cc13272519dbad9ef7a9c03225a3414305c78fd71cb",
+      "bytes": 401119
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/70_faster_down_predictions.npz": {
+      "sha256": "e33fd6538a6f93625949f9ab76fbffd28e92282dfbda02969ea571689d909590",
+      "bytes": 399155
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/150_detach_predictions.npz": {
+      "sha256": "1cd5033a5fc006ee4cbf33bf6a3742130de2e06a4bf796ec81e35d0f94f85fc6",
+      "bytes": 393309
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/150_base_predictions.npz": {
+      "sha256": "6d525c06e5666f62964c72d0a141234fb1f6bd63352ebc068d3dbd303c9f4e63",
+      "bytes": 405545
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/150_shift_right_predictions.npz": {
+      "sha256": "284d0b4373e9758453a22308c25e555acbea98c82472d574d4dc210ea942b2c4",
+      "bytes": 400564
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/150_faster_down_predictions.npz": {
+      "sha256": "0bf632267703f6fc7af922742cfa0c92aba90048ffc50466359368fd3cdf47e1",
+      "bytes": 405539
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/70_deeper_predictions.npz": {
+      "sha256": "371da91e87f452c25207d7fefe4d904bdfb0e3a6ddd0c85671d91c87978e9521",
+      "bytes": 400390
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/150_shift_left_predictions.npz": {
+      "sha256": "7536766101a6bf1cbea7c1512b453a31bb41de8c7b1206e818b9828e64f4a671",
+      "bytes": 402267
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/110_detach_predictions.npz": {
+      "sha256": "21f6aca8005af4df401e77a955597946a311cd9f45f265e565493c09e2f00194",
+      "bytes": 383249
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/150_deeper_predictions.npz": {
+      "sha256": "c8f884f859a55b92ab071b37996c288ccd5e43998b6f72b281426de9042f55b6",
+      "bytes": 401022
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/70_detach_predictions.npz": {
+      "sha256": "3b2debbe5641844c0e6dc4fba813c3eded5121f4f70cfa84f8b7737ff5d94c77",
+      "bytes": 395642
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/110_base_predictions.npz": {
+      "sha256": "d8ff784754e74c4849a2f159e9cfd4214952dfc9609c8bcb42192fde4f9fb164",
+      "bytes": 399700
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/110_masks.npz": {
+      "sha256": "f1e7f7b95d2d0e05cc264e34bbac1cc3f45131db4eeddce10106595bbc3d8acc",
+      "bytes": 866
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/70_masks.npz": {
+      "sha256": "23513a15e17cf851a200f194dacff0f06e2b663b940a889396e7fa8b0ae3a894",
+      "bytes": 865
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/110_shift_left_predictions.npz": {
+      "sha256": "5be3712d86aa3dc4cde15b1871a634fcb9098d8483b158f22a551c31d73c67f6",
+      "bytes": 396049
+    },
+    "outputs/short_multistep/run_001/final_routes/response_evaluation/110_deeper_predictions.npz": {
+      "sha256": "d82855c7a83e930e8ca4ff473f97f16210fb333e5323c7527957a3c4cbff432d",
+      "bytes": 395923
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/selected_weights.pt": {
+      "sha256": "299bc2d260b96c310e6716c1bce1e742567cf0871434edb7c6ce98dc808defb4",
+      "bytes": 203123
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/checkpoint.pt": {
+      "sha256": "4607079db80c6c7dc94e74c6f5b40220d6ba0afb071b6090ccd45408f28992a5",
+      "bytes": 203829
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/ordinary/rollout_predictions.npz": {
+      "sha256": "3d2d6de8da7dd4b2532511c41079fe95757cbdafa81764aa5342f7e1205b9f6e",
+      "bytes": 2325251
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/ordinary/one_step_predictions.npz": {
+      "sha256": "413c153f50a6c8a7997d2d03ba7bc7dc48b5ab7af52f14253c5e59c633a64648",
+      "bytes": 6374244
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/70_base_predictions.npz": {
+      "sha256": "854caf933b0d19ad82773b69423d886c9efd1688da2e136437ffac52baefef62",
+      "bytes": 86853
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/110_shift_right_predictions.npz": {
+      "sha256": "0b96fcfe998ed05461b18c3477eeca9a079377cd5d8770d7cc067d5a7dd1453b",
+      "bytes": 85792
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/110_faster_down_predictions.npz": {
+      "sha256": "032e7ba17a7d02e58963dde9abbe68e18eaf2b5f470ecca2523e14be60926d35",
+      "bytes": 88191
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/150_masks.npz": {
+      "sha256": "2ac34b78f6c1659f6a2ad02d0185218402c334d95ed071691b54a3ac31b4e4f4",
+      "bytes": 866
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/70_shift_left_predictions.npz": {
+      "sha256": "54b9c4eb344b61a7de8d5105fff569c32dc7af00ab0cadd87da04c282be5c8d1",
+      "bytes": 87166
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/70_shift_right_predictions.npz": {
+      "sha256": "145981c37cf951b50483fb63e70268131b78d4f29bf2ec64626fe91b7676e44c",
+      "bytes": 87429
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/70_faster_down_predictions.npz": {
+      "sha256": "4bf5e86b7e4f1ae5f300b427353c7445c7702552d757356fee2acc895ea40b30",
+      "bytes": 86766
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/150_detach_predictions.npz": {
+      "sha256": "df3d78725bba56d061b54ef0baa2cafdfe207b98033233c5707564df2d2411c6",
+      "bytes": 85021
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/150_base_predictions.npz": {
+      "sha256": "56855df6de88624722a054cbdf0fba63a006644fe8de3fbaac4b82e23893cfcd",
+      "bytes": 89009
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/150_shift_right_predictions.npz": {
+      "sha256": "3c1ed306c980aa73deb3126c376b22b321325231ceb121056687cfcec7d47aec",
+      "bytes": 87397
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/150_faster_down_predictions.npz": {
+      "sha256": "2ae8263b90f75b41b3be22e9e415aa0360df3ff233a843cd33006e008a35ecce",
+      "bytes": 88995
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/70_deeper_predictions.npz": {
+      "sha256": "88f52cf7ba8eeb8a85521a885f0e8a094e63d91c71395e923f8c600510bd45cd",
+      "bytes": 87248
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/150_shift_left_predictions.npz": {
+      "sha256": "ffc42dce7eb9b9a273b9a9015fb5f883f1078f2603a640adda9ab2d449e08d6a",
+      "bytes": 88233
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/110_detach_predictions.npz": {
+      "sha256": "91ff3b675e22bdeffe7355cd4982d2d8eb7a464d9cf486a4a9d93fd4a6ee6fe2",
+      "bytes": 82795
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/150_deeper_predictions.npz": {
+      "sha256": "0a01b2c9a177effa6904e0c603477dc730752b4f4c5d68cee796ee582d8bb898",
+      "bytes": 87926
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/70_detach_predictions.npz": {
+      "sha256": "fb89fcdfe72db73ac870e28c7a5284f2ae33ea7aaddd0e5b2c65b7a414d52586",
+      "bytes": 85641
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/110_base_predictions.npz": {
+      "sha256": "90f78d69a3e17524c395ce07b52ab0455450f083f71b12defc0fd04f11091c00",
+      "bytes": 88171
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/110_masks.npz": {
+      "sha256": "f1e7f7b95d2d0e05cc264e34bbac1cc3f45131db4eeddce10106595bbc3d8acc",
+      "bytes": 866
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/70_masks.npz": {
+      "sha256": "23513a15e17cf851a200f194dacff0f06e2b663b940a889396e7fa8b0ae3a894",
+      "bytes": 865
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/110_shift_left_predictions.npz": {
+      "sha256": "4cda319ab8d8080fa885b13f4d1c0ad029b82efdd63abf8bd2c5ed512b5bb4e0",
+      "bytes": 87106
+    },
+    "outputs/short_multistep/run_001/trials/S08_seed_7/attempt_01/evaluation/response_evaluation/110_deeper_predictions.npz": {
+      "sha256": "fa2de9b03aeee561384767fa43e18a37c19f3739c355ac3cef139a2cfd1de9b5",
+      "bytes": 87030
+    }
+  },
+  "total_bytes": 60532985,
+  "weights_and_predictions_not_committed": true
+}

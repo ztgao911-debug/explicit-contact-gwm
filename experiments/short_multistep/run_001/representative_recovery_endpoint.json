@@ -1,0 +1,15 @@
+{
+  "trajectory": "left_deep",
+  "start": "170",
+  "method": "M",
+  "channel": "representative_node",
+  "representative_node": "31",
+  "node_count": "1",
+  "recorded_states": "21",
+  "horizon": "20",
+  "time_s": "1.8999999999998234",
+  "predicted_z_displacement_um": "172.35129706999822",
+  "reference_z_displacement_um": "-5.614060293736289",
+  "predicted_vz_mm_s": "0.0392618353469475",
+  "reference_vz_mm_s": "-0.462768467724809"
+}

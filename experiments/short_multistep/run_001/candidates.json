@@ -1,0 +1,10 @@
+[
+  {
+    "id": "S08",
+    "mode": "autoregressive",
+    "horizon": 3,
+    "learning_rate": 0.0001,
+    "velocity_weight": 0.5,
+    "mesh_weight": 0.001
+  }
+]

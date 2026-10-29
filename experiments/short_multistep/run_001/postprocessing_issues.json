@@ -1,0 +1,9 @@
+[
+  {
+    "stage": "postprocessing_only",
+    "issue": "A one-off inline analysis command had a SyntaxError before executing any statement",
+    "optimizer_updates_affected": 0,
+    "training_reruns": 0,
+    "resolution": "Use saved report_short_multistep.py; independently recompute saved predictions. No changes to training or scoring protocol."
+  }
+]

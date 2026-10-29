@@ -1,0 +1,18 @@
+{
+  "pytest": {
+    "command": ".venv/bin/python -m pytest -o addopts='' -q",
+    "exit_code": 0,
+    "passed": 228,
+    "elapsed_seconds": 5.71
+  },
+  "ruff": {
+    "command": ".venv/bin/python -m ruff check .",
+    "exit_code": 0
+  },
+  "new_model_save_reload": {
+    "bitwise_equal_position_velocity": true
+  },
+  "actual_updates_completed": 200,
+  "actual_seed": 7,
+  "diagnostic_only_not_full_search": true
+}

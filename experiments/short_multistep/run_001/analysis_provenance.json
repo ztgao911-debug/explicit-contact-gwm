@@ -1,0 +1,5 @@
+{
+  "post_training_analysis_only": true,
+  "script_sha256": "9d88c301f581c0c986b9556a029b24fc0c41769b6f375b9a3e36caa1dc72384d",
+  "model_scoring_and_training_unchanged": true
+}

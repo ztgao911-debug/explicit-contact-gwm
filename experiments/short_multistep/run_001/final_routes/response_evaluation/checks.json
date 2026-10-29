@@ -1,0 +1,632 @@
+[
+  {
+    "frame": 70,
+    "variant": "base",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "base",
+    "method": "F",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "base",
+    "method": "G",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "base",
+    "method": "I",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "base",
+    "method": "CV",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "detach",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "detach",
+    "method": "F",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "detach",
+    "method": "G",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "detach",
+    "method": "I",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "detach",
+    "method": "CV",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "shift_left",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "shift_left",
+    "method": "F",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "shift_left",
+    "method": "G",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "shift_left",
+    "method": "I",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "shift_left",
+    "method": "CV",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "shift_right",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "shift_right",
+    "method": "F",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "shift_right",
+    "method": "G",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "shift_right",
+    "method": "I",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "shift_right",
+    "method": "CV",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "deeper",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "deeper",
+    "method": "F",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "deeper",
+    "method": "G",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "deeper",
+    "method": "I",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "deeper",
+    "method": "CV",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "faster_down",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "faster_down",
+    "method": "F",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "faster_down",
+    "method": "G",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "faster_down",
+    "method": "I",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "faster_down",
+    "method": "CV",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "base",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "base",
+    "method": "F",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "base",
+    "method": "G",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "base",
+    "method": "I",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "base",
+    "method": "CV",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "detach",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "detach",
+    "method": "F",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "detach",
+    "method": "G",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "detach",
+    "method": "I",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "detach",
+    "method": "CV",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "shift_left",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "shift_left",
+    "method": "F",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "shift_left",
+    "method": "G",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "shift_left",
+    "method": "I",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "shift_left",
+    "method": "CV",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "shift_right",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "shift_right",
+    "method": "F",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "shift_right",
+    "method": "G",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "shift_right",
+    "method": "I",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "shift_right",
+    "method": "CV",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "deeper",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "deeper",
+    "method": "F",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "deeper",
+    "method": "G",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "deeper",
+    "method": "I",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "deeper",
+    "method": "CV",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "faster_down",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "faster_down",
+    "method": "F",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "faster_down",
+    "method": "G",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "faster_down",
+    "method": "I",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "faster_down",
+    "method": "CV",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "base",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "base",
+    "method": "F",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "base",
+    "method": "G",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "base",
+    "method": "I",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "base",
+    "method": "CV",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "detach",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "detach",
+    "method": "F",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "detach",
+    "method": "G",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "detach",
+    "method": "I",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "detach",
+    "method": "CV",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "shift_left",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "shift_left",
+    "method": "F",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "shift_left",
+    "method": "G",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "shift_left",
+    "method": "I",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "shift_left",
+    "method": "CV",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "shift_right",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "shift_right",
+    "method": "F",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "shift_right",
+    "method": "G",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "shift_right",
+    "method": "I",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "shift_right",
+    "method": "CV",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "deeper",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "deeper",
+    "method": "F",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "deeper",
+    "method": "G",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "deeper",
+    "method": "I",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "deeper",
+    "method": "CV",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "faster_down",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "faster_down",
+    "method": "F",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "faster_down",
+    "method": "G",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "faster_down",
+    "method": "I",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "faster_down",
+    "method": "CV",
+    "completed_steps": 20,
+    "inverted_states": 0
+  }
+]

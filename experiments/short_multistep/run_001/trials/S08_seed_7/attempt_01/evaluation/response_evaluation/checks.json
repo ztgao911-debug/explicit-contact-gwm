@@ -1,0 +1,128 @@
+[
+  {
+    "frame": 70,
+    "variant": "base",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "detach",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "shift_left",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "shift_right",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "deeper",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 70,
+    "variant": "faster_down",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "base",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "detach",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "shift_left",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "shift_right",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "deeper",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 110,
+    "variant": "faster_down",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "base",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "detach",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "shift_left",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "shift_right",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "deeper",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  },
+  {
+    "frame": 150,
+    "variant": "faster_down",
+    "method": "M",
+    "completed_steps": 20,
+    "inverted_states": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "training_status": "complete_valid",
+  "routes_status": "complete",
+  "wall_elapsed_seconds": 107.79071879386902,
+  "completed_epoch": 1793287555.513642,
+  "search_configurations_started": 1,
+  "replication_trainings_started": 0,
+  "independent_test_verified": false
+}

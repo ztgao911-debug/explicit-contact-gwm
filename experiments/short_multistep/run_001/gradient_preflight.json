@@ -1,0 +1,16 @@
+{
+  "terminal_loss": 0.0024549950956148582,
+  "terminal_to_first_x_gradient_norm": 4.693942419588155,
+  "terminal_to_first_v_gradient_norm": 0.19857932894123004,
+  "state_features_have_grad_fn": true,
+  "context_has_grad_fn": true,
+  "context_gradient_flags_by_step": [
+    true,
+    true,
+    false,
+    false,
+    false
+  ],
+  "native_solver_gradient": false,
+  "no_optimizer_updates": true
+}
