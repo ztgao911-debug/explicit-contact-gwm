@@ -1,0 +1,13 @@
+id,mode,horizon,learning_rate,velocity_weight,mesh_weight
+A,teacher_forcing,5,0.001,0.5,0.0
+B,autoregressive,5,0.001,0.5,0.0
+C,autoregressive,5,0.001,0.5,0.01
+S01,autoregressive,5,0.001,0.75,0.0
+S02,autoregressive,5,0.0003,0.75,0.01
+S03,autoregressive,5,0.0001,0.75,0.1
+S04,autoregressive,10,0.0003,0.25,0.001
+S05,autoregressive,5,0.001,0.75,0.01
+S06,autoregressive,3,0.001,0.5,0.1
+S07,autoregressive,5,0.001,0.25,0.01
+S08,autoregressive,3,0.0001,0.5,0.001
+S09,autoregressive,10,0.0003,0.75,0.0

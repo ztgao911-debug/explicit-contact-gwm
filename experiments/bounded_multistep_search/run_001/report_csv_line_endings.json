@@ -1,0 +1,85 @@
+{
+  "operation": "Normalize only tracked report copies from CRLF to LF; parsed CSV rows identical; original ignored outputs untouched",
+  "files": [
+    {
+      "file": "candidate_execution_status.csv",
+      "before_sha256": "2089322969ae97d5e762501927a3f9a54b63dff7bf2793bc2bf1c7e25f23c096",
+      "after_sha256": "bf4b521bc9309ff9265c28af4563f97287b07876c0fcc25a06f5a90aecc11382"
+    },
+    {
+      "file": "candidates.csv",
+      "before_sha256": "727c62fb07bcda6619536aa87a869a4c9b3311e1a072abf1ffa35dc3c09c4df6",
+      "after_sha256": "00562dff1edd416f130d99b589828d43893790053379da5bb575f93b1919a965"
+    },
+    {
+      "file": "preflight_existing_E0/static_stability.csv",
+      "before_sha256": "5d35cb526098d087b1a0ce8a8fc28262b3f86a7e3d3eec631860777bb6e6b6a6",
+      "after_sha256": "d4ac6b374de855596dbea03ae1a6874b6df0e1b20a99af1d92226cd11f817cf6"
+    },
+    {
+      "file": "preflight_existing_E0/response_physics_windows.csv",
+      "before_sha256": "3adcb3e0429700e459f54e0abfbcab298eef655669c5e046f937547ec4a964ce",
+      "after_sha256": "9e07a11de846583b843ebb4f329c4658504e529d29c8f2339975dc12ea51e794"
+    },
+    {
+      "file": "preflight_existing_E0/ordinary_physics_windows.csv",
+      "before_sha256": "907e4cc94c0b2dc0f8b1e8f918d2c5a6bce30efa1ab78d70485c10101abdb59c",
+      "after_sha256": "c313004053de13ad632ef9823a25fe99889a62faea44fcca8262c12dcca12b85"
+    },
+    {
+      "file": "preflight_existing_E0/ordinary/one_step_per_trajectory.csv",
+      "before_sha256": "66addcd01712a5e0dc8a4b79f84221877f7b3bff6f933926ae70bde6be5dd351",
+      "after_sha256": "ceb1e8ad76d98c46f4cb7e4974111e3dbce8e24f41741825d9bb9aa8d03468bc"
+    },
+    {
+      "file": "preflight_existing_E0/ordinary/rollout_per_trajectory.csv",
+      "before_sha256": "68a498f21ad536d29d723c724da06ca0276b3aa74a35a0a188f720f5c130f3c4",
+      "after_sha256": "c351555a290b7f8cfb31763d4d85117d808475fa17653c490885206a828f2b2c"
+    },
+    {
+      "file": "preflight_existing_E0/ordinary/one_step_metrics.csv",
+      "before_sha256": "05fc222b968efb0384126327c654a918ead25b8fcc7d130b8bbdfe86dc1435d4",
+      "after_sha256": "12c94710b800c7223dcce3a0f4fe2f3cd939b17e40a1befe52a19d88f9317696"
+    },
+    {
+      "file": "preflight_existing_E0/ordinary/one_step_per_frame.csv",
+      "before_sha256": "59e927288e7eef58337cbac58a4523b91fcff0641efcbcd4b53b4f4aafea3aac",
+      "after_sha256": "81b2b6684d2f8ebe9d7f4366db64d1dd209cc2e4e034f94850401cdee95055b8"
+    },
+    {
+      "file": "preflight_existing_E0/ordinary/rollout_per_window.csv",
+      "before_sha256": "c2c616b34e301866c2a22262598f9b552ebd66c4a4bb11ef8a3a2441fc28a63c",
+      "after_sha256": "45805e31dbe59702f201a56bb3feacd1a8dd784c5a2c0676e27d9b8d9f544fb8"
+    },
+    {
+      "file": "preflight_existing_E0/ordinary/rollout_metrics.csv",
+      "before_sha256": "16540d1d6bebd6c2ee8afc5ab9816d7f330b324171ab63f2c2a57c9c9ebe3182",
+      "after_sha256": "87619d90ec78733cb8f9aa1a48d5f7652058cec8b760d619d34eb3cac264a19b"
+    },
+    {
+      "file": "preflight_existing_E0/recovery/recovery_signed_waveforms.csv",
+      "before_sha256": "d8579620e243180a921c638da01e874d18ffe1273a8fbfd1ce79d2478611f32a",
+      "after_sha256": "da53cf0ca86224ffb3661e5aa028db0b401102e9971dc940453e1714219d8b55"
+    },
+    {
+      "file": "preflight_existing_E0/recovery/recovery_waveform_metrics.csv",
+      "before_sha256": "e9a95925b86a864176d41a1e8e5746bfab1d66e4707dac581d2515518d507f7e",
+      "after_sha256": "2cbc6312e73a39723dda5914a5de7974686dff2a721ca9f8096a33476df27e80"
+    },
+    {
+      "file": "preflight_existing_E0/response_evaluation/absolute_metrics.csv",
+      "before_sha256": "aeb6d0ba0dfbdb005af19acf7180edff6137fe2c7e3bca35ee8e23c87e72ff46",
+      "after_sha256": "6817e8a04767e4b420f0ea32c7ea134b1c41ba0ec81dad0c22cf43b36dcb128b"
+    },
+    {
+      "file": "preflight_existing_E0/response_evaluation/summary.csv",
+      "before_sha256": "2a338b551e48bf10fb61611820ef8b019736ea8fdcebeebda76068f620cb95b3",
+      "after_sha256": "b840ae04178d01559a79912cff0c3bf52ee1a3c73875d871fd5d6fbc2c0a1909"
+    },
+    {
+      "file": "preflight_existing_E0/response_evaluation/per_case_response_metrics.csv",
+      "before_sha256": "66da5d4487591ff94ff3c8a66e560d381b1ba69769ecca527b15b8b60685edd2",
+      "after_sha256": "6c8b39bcc95287ff21a024ff11412a061c3be7ff3eac9e5811fba55de1922793"
+    }
+  ]
+}

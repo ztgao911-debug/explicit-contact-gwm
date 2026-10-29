@@ -1,0 +1,8 @@
+{
+  "waveforms": 30,
+  "samples": 630,
+  "missing": [],
+  "representative_rule": "rest_top_active_node_nearest_initial_indenter_xy",
+  "phase_proxy_minimum_upward_crossings_each_signal": 3,
+  "phase_unverified_waveforms": 20
+}

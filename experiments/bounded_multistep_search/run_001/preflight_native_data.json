@@ -1,0 +1,987 @@
+{
+  "scope": "read-only audit; only this NEW audit JSON written",
+  "reference_commit": "94763a0",
+  "actual_head": "94763a09698346914212e448493781c74397a40f",
+  "applicable_AGENTS_files": [],
+  "AGENTS_paths_checked": [
+    "/AGENTS.md",
+    "/Users/AGENTS.md",
+    "/Users/jabish/AGENTS.md",
+    "/Users/jabish/Desktop/AGENTS.md",
+    "/Users/jabish/Desktop/explicit-contact-gwm/AGENTS.md",
+    "/Users/jabish/Desktop/explicit-contact-gwm/explicit-contact-gwm/AGENTS.md"
+  ],
+  "right_trajectory_arrays_loaded": false,
+  "native_volume_threshold": 0.1,
+  "central_ordinary": {
+    "files": 2,
+    "states": 602,
+    "minimum_volume_ratio": 0.604938123088074,
+    "minimum_witness": {
+      "file": "data/mujoco_soft_pilot/pilot_001/center_deep.npz",
+      "states": 301,
+      "minimum_volume_ratio": 0.604938123088074,
+      "minimum_state_index": 108,
+      "minimum_tetrahedron_index": 246
+    },
+    "tetrahedra_below_point1": 0,
+    "inverted_tetrahedra": 0,
+    "records": [
+      {
+        "file": "data/mujoco_soft_pilot/pilot_001/center_shallow.npz",
+        "states": 301,
+        "minimum_volume_ratio": 0.8549526347316838,
+        "minimum_state_index": 137,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "data/mujoco_soft_pilot/pilot_001/center_deep.npz",
+        "states": 301,
+        "minimum_volume_ratio": 0.604938123088074,
+        "minimum_state_index": 108,
+        "minimum_tetrahedron_index": 246
+      }
+    ]
+  },
+  "central_branches": {
+    "files": 108,
+    "states": 2268,
+    "minimum_volume_ratio": 0.4845023442775325,
+    "minimum_witness": {
+      "file": "outputs/contact_response_training/run_001/central_native/center_deep_105_deeper.npz",
+      "states": 21,
+      "minimum_volume_ratio": 0.4845023442775325,
+      "minimum_state_index": 18,
+      "minimum_tetrahedron_index": 246
+    },
+    "tetrahedra_below_point1": 0,
+    "inverted_tetrahedra": 0,
+    "records": [
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_105_base.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.604938123088074,
+        "minimum_state_index": 3,
+        "minimum_tetrahedron_index": 246
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_105_deeper.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.4845023442775325,
+        "minimum_state_index": 18,
+        "minimum_tetrahedron_index": 246
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_105_detach.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6053654564781111,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_105_faster_down.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6052571522023761,
+        "minimum_state_index": 7,
+        "minimum_tetrahedron_index": 246
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_105_shift_left.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6053654564781111,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_105_shift_right.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6053654564781111,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_115_base.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6057816918259632,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 246
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_115_deeper.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.48639436710279543,
+        "minimum_state_index": 18,
+        "minimum_tetrahedron_index": 246
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_115_detach.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6057816918259632,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 246
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_115_faster_down.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6057816918259632,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 246
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_115_shift_left.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6057816918259632,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 246
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_115_shift_right.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6057816918259632,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 246
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_125_base.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6065486113016625,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 246
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_125_deeper.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.4871029361775596,
+        "minimum_state_index": 18,
+        "minimum_tetrahedron_index": 246
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_125_detach.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6065486113016625,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 246
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_125_faster_down.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6065486113016625,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 246
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_125_shift_left.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6065486113016625,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 246
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_125_shift_right.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6065486113016625,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 246
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_145_base.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6256201195423061,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_145_deeper.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.5469175236609042,
+        "minimum_state_index": 18,
+        "minimum_tetrahedron_index": 246
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_145_detach.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6256201195423061,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_145_faster_down.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6256201195423061,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_145_shift_left.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6256201195423061,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_145_shift_right.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6256201195423061,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_155_base.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9060553060870091,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_155_deeper.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8856210866961375,
+        "minimum_state_index": 16,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_155_detach.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9060553060870091,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_155_faster_down.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9060553060870091,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_155_shift_left.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9060553060870091,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_155_shift_right.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9060553060870091,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_165_base.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9946888998617712,
+        "minimum_state_index": 8,
+        "minimum_tetrahedron_index": 54
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_165_deeper.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9946888998617712,
+        "minimum_state_index": 8,
+        "minimum_tetrahedron_index": 54
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_165_detach.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9946888998617712,
+        "minimum_state_index": 8,
+        "minimum_tetrahedron_index": 54
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_165_faster_down.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9946888998617712,
+        "minimum_state_index": 8,
+        "minimum_tetrahedron_index": 54
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_165_shift_left.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9946888998617712,
+        "minimum_state_index": 8,
+        "minimum_tetrahedron_index": 54
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_165_shift_right.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9946888998617712,
+        "minimum_state_index": 8,
+        "minimum_tetrahedron_index": 54
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_60_base.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9999999999882175,
+        "minimum_state_index": 11,
+        "minimum_tetrahedron_index": 190
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_60_deeper.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9594467832360961,
+        "minimum_state_index": 13,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_60_detach.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9999999999999967,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 345
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_60_faster_down.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.999999999978959,
+        "minimum_state_index": 10,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_60_shift_left.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9999999999987281,
+        "minimum_state_index": 12,
+        "minimum_tetrahedron_index": 124
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_60_shift_right.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.999999999998714,
+        "minimum_state_index": 12,
+        "minimum_tetrahedron_index": 269
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_75_base.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8530365881954739,
+        "minimum_state_index": 20,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_75_deeper.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.7848004586187198,
+        "minimum_state_index": 19,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_75_detach.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8759845974015921,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_75_faster_down.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8530249264894962,
+        "minimum_state_index": 20,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_75_shift_left.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8626633095644047,
+        "minimum_state_index": 11,
+        "minimum_tetrahedron_index": 174
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_75_shift_right.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8753322420109727,
+        "minimum_state_index": 8,
+        "minimum_tetrahedron_index": 196
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_90_base.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6615433584992139,
+        "minimum_state_index": 12,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_90_deeper.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.5429144592376917,
+        "minimum_state_index": 14,
+        "minimum_tetrahedron_index": 246
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_90_detach.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6894539456076879,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_90_faster_down.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6615710393729505,
+        "minimum_state_index": 12,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_90_shift_left.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6705929490181239,
+        "minimum_state_index": 17,
+        "minimum_tetrahedron_index": 124
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_deep_90_shift_right.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.6894539456076879,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_105_base.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8550037756520886,
+        "minimum_state_index": 20,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_105_deeper.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.7871338770936478,
+        "minimum_state_index": 16,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_105_detach.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8555512352881768,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_105_faster_down.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8549916485438194,
+        "minimum_state_index": 20,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_105_shift_left.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8555512352881768,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_105_shift_right.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8555512352881768,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_115_base.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8549686816993047,
+        "minimum_state_index": 11,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_115_deeper.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.787053815948587,
+        "minimum_state_index": 16,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_115_detach.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8551582428573103,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_115_faster_down.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8549398888109065,
+        "minimum_state_index": 17,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_115_shift_left.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8551582428573103,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_115_shift_right.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8551582428573103,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_125_base.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8549215349566319,
+        "minimum_state_index": 19,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_125_deeper.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.787041900826427,
+        "minimum_state_index": 16,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_125_detach.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8550037756520886,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_125_faster_down.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.854930499818303,
+        "minimum_state_index": 17,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_125_shift_left.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8550037756520886,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_125_shift_right.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8550037756520886,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_145_base.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8710136975644054,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_145_deeper.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8207645586622376,
+        "minimum_state_index": 16,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_145_detach.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8710136975644054,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_145_faster_down.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8710136975644054,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_145_shift_left.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8710136975644054,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_145_shift_right.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8710136975644054,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_155_base.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9953215543359845,
+        "minimum_state_index": 3,
+        "minimum_tetrahedron_index": 54
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_155_deeper.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9953215543359845,
+        "minimum_state_index": 3,
+        "minimum_tetrahedron_index": 54
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_155_detach.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9953215543359845,
+        "minimum_state_index": 3,
+        "minimum_tetrahedron_index": 54
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_155_faster_down.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9953215543359845,
+        "minimum_state_index": 3,
+        "minimum_tetrahedron_index": 54
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_155_shift_left.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9953215543359845,
+        "minimum_state_index": 3,
+        "minimum_tetrahedron_index": 54
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_155_shift_right.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9953215543359845,
+        "minimum_state_index": 3,
+        "minimum_tetrahedron_index": 54
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_165_base.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9970702864868817,
+        "minimum_state_index": 3,
+        "minimum_tetrahedron_index": 54
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_165_deeper.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9970702864868817,
+        "minimum_state_index": 3,
+        "minimum_tetrahedron_index": 54
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_165_detach.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9970702864868817,
+        "minimum_state_index": 3,
+        "minimum_tetrahedron_index": 54
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_165_faster_down.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9970702864868817,
+        "minimum_state_index": 3,
+        "minimum_tetrahedron_index": 54
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_165_shift_left.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9970702864868817,
+        "minimum_state_index": 3,
+        "minimum_tetrahedron_index": 54
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_165_shift_right.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9970702864868817,
+        "minimum_state_index": 3,
+        "minimum_tetrahedron_index": 54
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_60_base.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9999999999999967,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 345
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_60_deeper.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9906891167616522,
+        "minimum_state_index": 13,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_60_detach.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9999999999999967,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 345
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_60_faster_down.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9999999999999967,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 345
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_60_shift_left.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9999999999999967,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 345
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_60_shift_right.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9999999999999967,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 345
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_75_base.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.953041013992751,
+        "minimum_state_index": 18,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_75_deeper.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9039348048410388,
+        "minimum_state_index": 19,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_75_detach.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9609463822309791,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_75_faster_down.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9530573550657803,
+        "minimum_state_index": 18,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_75_shift_left.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.957050056671926,
+        "minimum_state_index": 11,
+        "minimum_tetrahedron_index": 124
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_75_shift_right.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.9575523558919953,
+        "minimum_state_index": 7,
+        "minimum_tetrahedron_index": 269
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_90_base.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8752074785844877,
+        "minimum_state_index": 20,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_90_deeper.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8115220447036634,
+        "minimum_state_index": 19,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_90_detach.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8837923326692784,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_90_faster_down.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8751966687274867,
+        "minimum_state_index": 20,
+        "minimum_tetrahedron_index": 248
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_90_shift_left.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8834432316547377,
+        "minimum_state_index": 11,
+        "minimum_tetrahedron_index": 174
+      },
+      {
+        "file": "outputs/contact_response_training/run_001/central_native/center_shallow_90_shift_right.npz",
+        "states": 21,
+        "minimum_volume_ratio": 0.8837923326692784,
+        "minimum_state_index": 0,
+        "minimum_tetrahedron_index": 248
+      }
+    ]
+  },
+  "existing_left_native_files": 18,
+  "file_sha256": {
+    "outputs/contact_response_training/run_001/central_native/center_deep_105_base.npz": "3452bc814b60520fb5f7f2c910cf1a0985dc1fd5c9740defac17b065f7c731ee",
+    "outputs/contact_response_training/run_001/central_native/center_deep_105_deeper.npz": "00d4104641ebf782d61106dd472aa35053db54591623cda273701b34a20efd51",
+    "outputs/contact_response_training/run_001/central_native/center_deep_105_detach.npz": "464034b089fd8555edfa8793a3f2e6cb526339da6170d3cff711260a57e62c0e",
+    "outputs/contact_response_training/run_001/central_native/center_deep_105_faster_down.npz": "9a6fb942e34e6429cacc007a8d62931958744024d551a5d57b6e2fe755d92ed7",
+    "outputs/contact_response_training/run_001/central_native/center_deep_105_shift_left.npz": "0f5b96e54277911c310d17d2d6a57b705ee6497ad8bf363d93a259f566debee2",
+    "outputs/contact_response_training/run_001/central_native/center_deep_105_shift_right.npz": "2959ac518ccc52841542101edbc0f3c2c6d6b857f9c956da8aba360daa46e957",
+    "outputs/contact_response_training/run_001/central_native/center_deep_115_base.npz": "74756890d1de85998b04abde73e9bc778f879724471d325fa325ac6182812a86",
+    "outputs/contact_response_training/run_001/central_native/center_deep_115_deeper.npz": "a23e7d8a6f00a1f5f8c7ccd30df087a4928df7cd9e7529002d015998c6047810",
+    "outputs/contact_response_training/run_001/central_native/center_deep_115_detach.npz": "3abc06e52ff2f962207afddc5c3d85ea38bd829194580db2b5dc6adc5a0162e9",
+    "outputs/contact_response_training/run_001/central_native/center_deep_115_faster_down.npz": "fbf8e5224c286e78fe84f361d9257da192ddaccc15e19e327b24e19bf284a480",
+    "outputs/contact_response_training/run_001/central_native/center_deep_115_shift_left.npz": "ac4fe28e6dd6fd44644576b6795f8ec43c1b9a408a7aa3e375d081111e25dcf4",
+    "outputs/contact_response_training/run_001/central_native/center_deep_115_shift_right.npz": "4aa1db52266a0bd6fab0172d57deb251dbffdfd74a31a228f4e0ce33d25489da",
+    "outputs/contact_response_training/run_001/central_native/center_deep_125_base.npz": "963fb55d38b577579f0430b3ec812d2b30d4c6f818427b8cea8d3139d589478f",
+    "outputs/contact_response_training/run_001/central_native/center_deep_125_deeper.npz": "3d192551bec1957b3c32f8c85d7eb273db2033fd41ec3de66fc2ee2e9c4dae7b",
+    "outputs/contact_response_training/run_001/central_native/center_deep_125_detach.npz": "5aaf8bb276824998a0c005235fd47dc08ccf75e5185b571e3ca4700cba096950",
+    "outputs/contact_response_training/run_001/central_native/center_deep_125_faster_down.npz": "c5f80e685246e269f509db98d8ede4a5f92f61a447bf707f546c21d44f17aae6",
+    "outputs/contact_response_training/run_001/central_native/center_deep_125_shift_left.npz": "2dd676e026384dacdafe8053d9f279bf8b7cd991e63af5d7f0b2a43d65b2692c",
+    "outputs/contact_response_training/run_001/central_native/center_deep_125_shift_right.npz": "031f1137aec66866df11aedead91f8a66839cfdc924aafa11400ac5f8e194e40",
+    "outputs/contact_response_training/run_001/central_native/center_deep_145_base.npz": "81b71ce9110c9a7aa4752f0ee9b4c79f3ce4793ac3c8b51224c5215af9187ac7",
+    "outputs/contact_response_training/run_001/central_native/center_deep_145_deeper.npz": "d396cd60142f67e9100779f788a5d62f2d1f22827e34b9a61660adaf37706f3a",
+    "outputs/contact_response_training/run_001/central_native/center_deep_145_detach.npz": "afed279a98d55957c3d1806451a6e6bf8ce4f06f1909bdb75077fe4c026e96d2",
+    "outputs/contact_response_training/run_001/central_native/center_deep_145_faster_down.npz": "168131a1ed1ad98789cd06d00467d263da8d47abc1cb7d505f87aaf94f276186",
+    "outputs/contact_response_training/run_001/central_native/center_deep_145_shift_left.npz": "53b72917cd0bdd89e2d9daa0128324118c8986e061e4608d1499cb264ad5b85a",
+    "outputs/contact_response_training/run_001/central_native/center_deep_145_shift_right.npz": "c39bb304c214dafb09b2a661d8a0ccbc92ca116fce1a55f87dd9be9bc371fc64",
+    "outputs/contact_response_training/run_001/central_native/center_deep_155_base.npz": "3b0f8050e1b459b2cc04426d261f8da55e3c6e5b4f62086be8c1e043f93810ce",
+    "outputs/contact_response_training/run_001/central_native/center_deep_155_deeper.npz": "5e88afeca0f90a9375016f090b8227ea23a9770f443554d50336f2a55da21748",
+    "outputs/contact_response_training/run_001/central_native/center_deep_155_detach.npz": "cae9d2e5429b2cd4d05814f3c6e526541774304f7329f588b54fe35d4e680a23",
+    "outputs/contact_response_training/run_001/central_native/center_deep_155_faster_down.npz": "4610d7c62345ee589263d15b388aeb3a30c36dbe41ddcf3bb7a2d0936a549e03",
+    "outputs/contact_response_training/run_001/central_native/center_deep_155_shift_left.npz": "7e88d3492fa23f1d97c0a1801474df1fa7479b76dba92111f252bb65346e9ae2",
+    "outputs/contact_response_training/run_001/central_native/center_deep_155_shift_right.npz": "c130ece99d5a906fa421b324971fc9414737e039f39d04ae10c2d45d0e2b3487",
+    "outputs/contact_response_training/run_001/central_native/center_deep_165_base.npz": "33587b16c8f5359ffc047b11c5c38be72d59c32e3c6e886308c68e0d92112323",
+    "outputs/contact_response_training/run_001/central_native/center_deep_165_deeper.npz": "9b9916431bbafe5aec2eaddfec83609cba3381f95323296b188dee92de228fc4",
+    "outputs/contact_response_training/run_001/central_native/center_deep_165_detach.npz": "e28dee5039fcf189ce0afe59ddcd1feac851b82c3a2a24fb0ef649b076f54a97",
+    "outputs/contact_response_training/run_001/central_native/center_deep_165_faster_down.npz": "5bb9603a0713cc3897732580ac0ae0cf32858fa809a8fef1413ea213926904d6",
+    "outputs/contact_response_training/run_001/central_native/center_deep_165_shift_left.npz": "4e9aa123df62b86f60bcf916da39b5fb23be4b04d56aca0fbd57a6c2724799e2",
+    "outputs/contact_response_training/run_001/central_native/center_deep_165_shift_right.npz": "845653404fa7177f87fe7cc1fa95a2c661ef6543047d0da2dfb5e8a9ddeaadb9",
+    "outputs/contact_response_training/run_001/central_native/center_deep_60_base.npz": "a329180f6867fbeda7fbb6a64923b230070ac00045bb61a107595609a064ee1d",
+    "outputs/contact_response_training/run_001/central_native/center_deep_60_deeper.npz": "3ca63ae273c85c78829588540e36e5fcc9c41dbd4e7d6bde5665dd9193187c9f",
+    "outputs/contact_response_training/run_001/central_native/center_deep_60_detach.npz": "c82b614e147a9b827f42ee23e163f62f58d2baef1e08285b6062b35662b81984",
+    "outputs/contact_response_training/run_001/central_native/center_deep_60_faster_down.npz": "54386ddab1340bb134a2daa665661ac37d8152a5b654daccd072ac4fe2c68671",
+    "outputs/contact_response_training/run_001/central_native/center_deep_60_shift_left.npz": "042923ea7b4fde6b3a76d689c60514d38033960366cf8bb457f69962a27af529",
+    "outputs/contact_response_training/run_001/central_native/center_deep_60_shift_right.npz": "654b103cab3be8c8be77ee8e7c3ace335751632bc1b8b1d21ab48d649ea871bd",
+    "outputs/contact_response_training/run_001/central_native/center_deep_75_base.npz": "2cfaa1b7c5373fa3ce5cf1aa835707dd6358801d943317aecffea1aaecc31436",
+    "outputs/contact_response_training/run_001/central_native/center_deep_75_deeper.npz": "97036127b01a3462065921ce8b8abd4eb106c3814b8e115a8a2891039e4f1c85",
+    "outputs/contact_response_training/run_001/central_native/center_deep_75_detach.npz": "59786bc3067462fef7db5ad9b7730abb60a67427dd6172299941377d91aef667",
+    "outputs/contact_response_training/run_001/central_native/center_deep_75_faster_down.npz": "4e68eb5eb353d08868195097a377468720e9801c2e870f933fc6ded6d8574a58",
+    "outputs/contact_response_training/run_001/central_native/center_deep_75_shift_left.npz": "9bc6ecac74767db5370c0a53764ce7198274fe82ff01629194810db6bec2df5e",
+    "outputs/contact_response_training/run_001/central_native/center_deep_75_shift_right.npz": "14205d3a6afff84f6f3e46fd99218631a71b0080f8bbeae5c874bdb691822fb0",
+    "outputs/contact_response_training/run_001/central_native/center_deep_90_base.npz": "b7fb472614bdc6dc9bfeb77f86a14ebfb6f6d661091133cb710fdecb922560a6",
+    "outputs/contact_response_training/run_001/central_native/center_deep_90_deeper.npz": "e660fdfad6d719de162b14bfdebd4844fbf56314fd7ed7678d2a3afc855749e6",
+    "outputs/contact_response_training/run_001/central_native/center_deep_90_detach.npz": "7e25a96b0e089bf36de5d89a84eb372f04e972ed122d08d1353134af1ce0cc8f",
+    "outputs/contact_response_training/run_001/central_native/center_deep_90_faster_down.npz": "77faee1c4ad2a62ffd6d9364333a8f38d6679a7f3864fedfcf5322b7607802a4",
+    "outputs/contact_response_training/run_001/central_native/center_deep_90_shift_left.npz": "923959e4ba89b2400bf0c7462924345cdef14230c4d71dde1d2700b4a2c66ae0",
+    "outputs/contact_response_training/run_001/central_native/center_deep_90_shift_right.npz": "cc9a4bf6a294322f44479935b45461d7157eb7bb39c2e6d4b1e89e931eedcf18",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_105_base.npz": "959a5179b14e59c90de6780b8e75ad0c3f4cb5d9e008dbd4835c43e6dae5097e",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_105_deeper.npz": "129a0dc895b7f13a387cfcaef248f175b851c97f171227fa0fa45357f3decd02",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_105_detach.npz": "42321a8572965f66859856f3cc684343240b2db625f2e4f50681552de11bddf5",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_105_faster_down.npz": "2d826287fb811beba5c9247a377653094a0fb20aa538702e68e13e038be4b3a7",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_105_shift_left.npz": "b51c5d8eb77983ce3dbfdcc8df50195823414ad35cd783d8e4cff762eb0f1910",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_105_shift_right.npz": "226b038319b3260df38ed5af5c9a9093e81025db2da0a5498cc2095c413ecbb4",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_115_base.npz": "974acc9ef0b0037f5d5f08cfda629f0a680938a7aed5f9375af8736f74a9d34e",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_115_deeper.npz": "464a5dde7973eab4c46ee19727bc8d29bee88e556e0f308fefd4a8f14c6ddcc9",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_115_detach.npz": "68824c0cc6ff7cc81ecad345ee39419b76b89eb7064054eb75b479db4c2a0873",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_115_faster_down.npz": "4b938e641a37ef775974ce16f57ad20ac5a5ec1f54b933e2f0153b67366ff1ce",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_115_shift_left.npz": "8d584c8b01bc026d598ba08db308573ae8b16c41ecf1ec5582b74e2bece9f388",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_115_shift_right.npz": "16e10974140a0a4735a48ad0217c66d4d35f27de11dfee51a9ceea8cd8742853",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_125_base.npz": "67d81a2ca7f52845d304a1de4fe607d1444a9e79838483fdda78d8e1df3499fd",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_125_deeper.npz": "989123319711b2283fbe14ec9dbc73f917eca7388dfbf81114c40692e20a2fa2",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_125_detach.npz": "805aed2b8f93fed6ac37c0e2dddf3faa0a749d3aef51f273133589e2917f1600",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_125_faster_down.npz": "7d0ff87385522a84adbe2e30c1bffd736648b46b0d1b14b049d5252c9ae1be91",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_125_shift_left.npz": "5e2955c31b606be5ea5abebb35088e98cd861b4fadadcbbd695f5519e641d006",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_125_shift_right.npz": "c3b98ea72cd1c742081cc77f4a23e442b6c222dd27f385ccb71322e0dbe505cb",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_145_base.npz": "c5417cb93b13dfe325f24435caf5ab071162703af806d46ed84297fa96a20bb1",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_145_deeper.npz": "10315e54f32e3420ad7417433931d44935b933251dad1478d2f62dc852091266",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_145_detach.npz": "b9e0368a73a9cd3c18a7c39da5440db55b3df8b19e372f1d0fca06bfc19f6c9d",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_145_faster_down.npz": "d137a42f7c976987a7bd34665abdc329ed602a8944c9ef0c3d38bde68fc0955a",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_145_shift_left.npz": "574e31a6a24b564ae080c22350187bd54bf2bfb74c5cac440f8ffeab88669aec",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_145_shift_right.npz": "241e1389be88782f6cad7ab3276db21eff30829d32073f2b82e4b70a2174a7a6",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_155_base.npz": "96801ab2bd713ded25c07c05cb9f503c4dabbcc98acce6ebc95a68fca27ceafa",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_155_deeper.npz": "235d154f304cbd5485120a5e7e0700e3fb8a2b836858eef39e66e74a715bda64",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_155_detach.npz": "62734f5ae93981c9644bb400225a60d1295d5868581b5629e4682cf7dc70ad33",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_155_faster_down.npz": "145813070a42e85b3384393d7171f9d10b6074c857958f91768e82fc3131df5b",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_155_shift_left.npz": "b14b364a65505778397d242098fabc7c782f2b5ba561e9914dea1afce34f8312",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_155_shift_right.npz": "44720f236f5966f8e06f13e40fca370b60e706eb6c24e4b8ff60a8525f7e67f9",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_165_base.npz": "070de60f0adf8f04b09b59b3098b043fcac202268795d45e96d9016ed38f5ec4",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_165_deeper.npz": "da84cdc1b02216103e73c2d2248a62da6453d3315ffea82f8342bfc06d67a648",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_165_detach.npz": "703522a25600e46829c5753ce08bfaf3705b9e8e86faeffb579de8e23872d681",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_165_faster_down.npz": "e4466782dab0659896637da406d8a3c940ef3d5b479f7f29205a53d01ac408ad",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_165_shift_left.npz": "28a923458c9c495fa2e08164fb9da8b0e8d4f05f13b000a4cb8391302d9971bd",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_165_shift_right.npz": "005a2f740fa2ab6065c99ba43106a17e92488dcb3cde8274531ab7c5b8708c80",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_60_base.npz": "45ac6501e2acccef74884ea5deccead50b090e5a047086f703a86642a24b1feb",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_60_deeper.npz": "c10898c3a216a0dd6298896b7a4a235e09646dff054dabb81ae10bab8bd4e6b2",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_60_detach.npz": "4ebd8ac1811e6ec7e54df2f2192a5d398c358f39129bf660a00506dfc10a0505",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_60_faster_down.npz": "adc1fe3ef12117b924fbb27e211b5c8fd0782627a7e3c083e504699cb723d8f0",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_60_shift_left.npz": "1f1545e7ecff2d6b55b5c2d8f60f947d6dc155346a853b8304cc39de8ca6a69f",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_60_shift_right.npz": "652031a0befe10e15043134a1ec471f3a7e0783b8a58b25b76eaf63f9051ff80",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_75_base.npz": "4d76f5f015e0e38bc03606450c053134e46bc630cc2417b99331405658878ef5",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_75_deeper.npz": "6303232a18e0424c3cfb4131a2bd6606a5bc99549b0be04b98f363be0ac8e965",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_75_detach.npz": "5e8ae3f352602c3378072ee1c9caeda7e9dbe8c0bf0994637e1a11df063767ce",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_75_faster_down.npz": "82399349f1448c07791522a93f9a4bb97b155195e7936f8d72ce5dc33d83cceb",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_75_shift_left.npz": "aabe32d86dbe1e809da131e346508a20508845ab1e6b7c59b58ad94257501ee2",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_75_shift_right.npz": "44fe50856b2e6c7a3754d7ae159a75d6ce4a5fdd487c145a8f92d58513b58b29",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_90_base.npz": "1b4a5c564e8f9bf99aa158bce793af1550b736eee7c698e2085b4db5de9e8a30",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_90_deeper.npz": "bf6f4cc8c306add5bc6e69aa935ea4dcc46a7a43cdcd97a30950f172ad5953ca",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_90_detach.npz": "cf3e5699319ea5787ce21c9daff82433550d001df548a0e84572c423ff4eceb6",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_90_faster_down.npz": "1ac614af1c778b43799a2f714686827360f09033693287e38b5775a0018ab474",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_90_shift_left.npz": "be059ded4b81c015de9ed8d9c309cb9d6022f237948e04a8e0eacd01bde2d482",
+    "outputs/contact_response_training/run_001/central_native/center_shallow_90_shift_right.npz": "865c0a6d2135f18f184edfcceb9183297882dbba7d1d217bab91fdb129280e1e",
+    "outputs/repaired_contact_mainline/run_001/interventions/110_base_native.npz": "b5f189407b3d6a472b568b9d39467274e610ebe5a68db7836ebf99ab807e15eb",
+    "outputs/repaired_contact_mainline/run_001/interventions/110_deeper_native.npz": "81dd0ca4c2efe2a5d2aa7efd1aa7aaba9c7210bae3c33f256421cc1447b07a19",
+    "outputs/repaired_contact_mainline/run_001/interventions/110_detach_native.npz": "393688c1db098ea66be083d223b759357ea0973ca6ce0bd2a4c4bcafec4b1cbe",
+    "outputs/repaired_contact_mainline/run_001/interventions/110_faster_down_native.npz": "15670e89c8bfe1693ecc8b303a9d5c60a14edac4094d9e58f14bd38f8bb72d36",
+    "outputs/repaired_contact_mainline/run_001/interventions/110_shift_left_native.npz": "27124e817ca7ef1f5f83b7b94ad0f035058b3cd6ece24e8c0136d7f8b2017ad9",
+    "outputs/repaired_contact_mainline/run_001/interventions/110_shift_right_native.npz": "f20d9a86bf38a8b6a4eb766771e0f05623acce23ebab0fda71f61c31e75e7dae",
+    "outputs/repaired_contact_mainline/run_001/interventions/150_base_native.npz": "079702593c5122ed1bfb30be176f635d74c98f4931646836fc7a73cdcb8a7bb5",
+    "outputs/repaired_contact_mainline/run_001/interventions/150_deeper_native.npz": "918058e9ba7b2a629bdf67700dd040817443f588f222ecdcc1219116bc7c3e0f",
+    "outputs/repaired_contact_mainline/run_001/interventions/150_detach_native.npz": "4ca150a512d60e879afc43a7a76f5d08f1b75ef977cc7c7ff4af2295b1b05c6c",
+    "outputs/repaired_contact_mainline/run_001/interventions/150_faster_down_native.npz": "e5c76c628b1d81219d808f69c9534348d6b60362366611a58a91fae7f36e27aa",
+    "outputs/repaired_contact_mainline/run_001/interventions/150_shift_left_native.npz": "f18db7c6ff8a9c41e0fcf43a22fd9fe84d707733a24581f90b00c92c48479112",
+    "outputs/repaired_contact_mainline/run_001/interventions/150_shift_right_native.npz": "90e4a57978083588e93173464f626ebdda9ee249573b7be616d572e33896ec57",
+    "outputs/repaired_contact_mainline/run_001/interventions/70_base_native.npz": "21e39023eb5a1d9b5e58d87af33e8c38aa92e008b14c12bce62a854b2d9bdbc8",
+    "outputs/repaired_contact_mainline/run_001/interventions/70_deeper_native.npz": "c07181ad8023161a62d9cf29d8d5058bc5f97ef50e85ea66c19c135e1b4568ff",
+    "outputs/repaired_contact_mainline/run_001/interventions/70_detach_native.npz": "6a0f8069d363531fcff37d1087619f4d16e5de650a8c340c120f6235f947e9dd",
+    "outputs/repaired_contact_mainline/run_001/interventions/70_faster_down_native.npz": "3a82ad97d73b12706d0a49975a4c510a1e90fbc0e56ec45b96c6702d0bdd0e0f",
+    "outputs/repaired_contact_mainline/run_001/interventions/70_shift_left_native.npz": "a5d6695412c18601fc141697417255e9cffa5932799f66078688cf5f6ad05c90",
+    "outputs/repaired_contact_mainline/run_001/interventions/70_shift_right_native.npz": "fbe63217f2aab4c621fbe4d6eadcb3c147d19cca54ccd6c32cb0e2926e8ef0d0",
+    "data/mujoco_soft_pilot/pilot_001/mesh.npz": "74323d7a20e7de00eaa9456985049bb066df78a43769c5d284a38ec47e2b7808",
+    "data/mujoco_soft_pilot/pilot_001/scene.xml": "ed099aa70210ea2e5321e6c52dcc68d9a1efffdb39d525f044ece39d676eebf1",
+    "data/mujoco_soft_pilot/pilot_001/manifest.json": "3afdf2002870323e2d6f6f40a9e593343998918d9115a9c0baccae21eed13165",
+    "data/mujoco_soft_pilot/pilot_001/center_shallow.npz": "6939163231c52d99dee819aa3303ce3a40d65505bda75b3c8a4b619e184db05c",
+    "data/mujoco_soft_pilot/pilot_001/center_deep.npz": "49a7bd7a1e131c607fc247320c71b9d3e7512539646e4aa0905a961131e8df14",
+    "data/mujoco_soft_pilot/pilot_001/left_shallow.npz": "cf7a343cee245da91add928e518ecab70249d80006453459d2cb4113688b5c1b",
+    "data/mujoco_soft_pilot/pilot_001/left_deep.npz": "baf5c6b55baf47c65caed534644fcb93fcbe90f6a9a7b432a7491d745d7849ba",
+    "data/mujoco_soft_pilot/pilot_001/no_contact.npz": "e50acf90b6738cb995556fc37c6ebdbc9067b452290e5e2147fc73a5a9ef9853",
+    "outputs/contact_response_training/run_001/train_branch_cache.npz": "f7f2b6b65d96f6cf7c5152a0c3134751b862577c45628b8dabc9aabe2984e300",
+    "outputs/contact_response_training/run_001/validation_branch_cache.npz": "4ab37cc69754866d5dd5d1b50b7ce85ed21176cfbc61743e3eaf8e01e7a7f896",
+    "outputs/contact_response_training/run_001/train_pair_labels.npz": "c222f385a72a95761afa0645ab453421cc5f609bf767227d3a7c589d17943658",
+    "outputs/contact_response_training/run_001/validation_pair_labels.npz": "fb73a9571ad5f4bcc1555372a81fc4421b7b4dd998ec67fbf85f9517cb68095d",
+    "outputs/contact_response_training/run_001/current_inputs_and_labels.npz": "7554dc0681b184c34dcbbead79cd84cce6f9144dadc5d6edb0031c436cacf375",
+    "outputs/contact_response_training/run_001/train_cache_samples.csv": "886ffcedb264598ef7c920ed1dfd453c5bc4e872bbc1b6cc6160e961ecfca088",
+    "outputs/contact_response_training/run_001/validation_cache_samples.csv": "fb78eb6112d3d70173e0d6882e90e130a7610b38ccc71547214cc7b8cbf1723a",
+    "outputs/contact_response_training/run_001/train_pair_samples.csv": "3c1551066bca276ef43081a85e164634df92e22e1a3e5b2aae6be1e382a6ffc3",
+    "outputs/contact_response_training/run_001/validation_pair_samples.csv": "7121605a303f643a936d403f9e20df019af457ca1e0f75cb00c09ad650b7e9ca",
+    "outputs/contact_response_training/run_001/samples.json": "96cc8f04ec625912bb87874d53b463e4856571711dba898a538bb618f691afb6",
+    "outputs/contact_response_training/run_001/resolved_config.json": "854cca458fdd7669734fede2ad3302a18a1e4633b4a2ecc149740c3e75631418"
+  },
+  "native_data_threshold_conflict": false,
+  "preserved_branch_training_mask_audit": {
+    "train": {
+      "rows": 2160,
+      "origin_groups": 18,
+      "same_ROI_all_variants_and_all20_steps_each_origin": true,
+      "pair_ROI_matches_base_and_variant": true,
+      "no_pinned_nodes_in_ROI": true,
+      "min_nodes": 20,
+      "max_nodes": 55
+    },
+    "validation": {
+      "rows": 360,
+      "origin_groups": 3,
+      "same_ROI_all_variants_and_all20_steps_each_origin": true,
+      "pair_ROI_matches_base_and_variant": true,
+      "no_pinned_nodes_in_ROI": true,
+      "min_nodes": 31,
+      "max_nodes": 48
+    }
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "stage": "gradient_preflight_before_search",
+    "type": "diagnostic_assertion",
+    "reason": "The last rollout step can have no contact, for which historical encoder intentionally returns a zero context with no grad_fn. Terminal x/v gradients and state feature gradients remained attached.",
+    "fix": "Check contextual graph exists at contact-bearing steps rather than requiring contact at final step; keep finite nonzero terminal-to-first-x/v assertions unchanged.",
+    "optimizer_updates": 0,
+    "search_configurations_consumed": 0
+  }
+]

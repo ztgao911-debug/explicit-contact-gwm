@@ -1,0 +1,98 @@
+[
+  {
+    "id": "A",
+    "mode": "teacher_forcing",
+    "horizon": 5,
+    "learning_rate": 0.001,
+    "velocity_weight": 0.5,
+    "mesh_weight": 0.0
+  },
+  {
+    "id": "B",
+    "mode": "autoregressive",
+    "horizon": 5,
+    "learning_rate": 0.001,
+    "velocity_weight": 0.5,
+    "mesh_weight": 0.0
+  },
+  {
+    "id": "C",
+    "mode": "autoregressive",
+    "horizon": 5,
+    "learning_rate": 0.001,
+    "velocity_weight": 0.5,
+    "mesh_weight": 0.01
+  },
+  {
+    "id": "S01",
+    "mode": "autoregressive",
+    "horizon": 5,
+    "learning_rate": 0.001,
+    "velocity_weight": 0.75,
+    "mesh_weight": 0.0
+  },
+  {
+    "id": "S02",
+    "mode": "autoregressive",
+    "horizon": 5,
+    "learning_rate": 0.0003,
+    "velocity_weight": 0.75,
+    "mesh_weight": 0.01
+  },
+  {
+    "id": "S03",
+    "mode": "autoregressive",
+    "horizon": 5,
+    "learning_rate": 0.0001,
+    "velocity_weight": 0.75,
+    "mesh_weight": 0.1
+  },
+  {
+    "id": "S04",
+    "mode": "autoregressive",
+    "horizon": 10,
+    "learning_rate": 0.0003,
+    "velocity_weight": 0.25,
+    "mesh_weight": 0.001
+  },
+  {
+    "id": "S05",
+    "mode": "autoregressive",
+    "horizon": 5,
+    "learning_rate": 0.001,
+    "velocity_weight": 0.75,
+    "mesh_weight": 0.01
+  },
+  {
+    "id": "S06",
+    "mode": "autoregressive",
+    "horizon": 3,
+    "learning_rate": 0.001,
+    "velocity_weight": 0.5,
+    "mesh_weight": 0.1
+  },
+  {
+    "id": "S07",
+    "mode": "autoregressive",
+    "horizon": 5,
+    "learning_rate": 0.001,
+    "velocity_weight": 0.25,
+    "mesh_weight": 0.01
+  },
+  {
+    "id": "S08",
+    "mode": "autoregressive",
+    "horizon": 3,
+    "learning_rate": 0.0001,
+    "velocity_weight": 0.5,
+    "mesh_weight": 0.001
+  },
+  {
+    "id": "S09",
+    "mode": "autoregressive",
+    "horizon": 10,
+    "learning_rate": 0.0003,
+    "velocity_weight": 0.75,
+    "mesh_weight": 0.0
+  }
+]

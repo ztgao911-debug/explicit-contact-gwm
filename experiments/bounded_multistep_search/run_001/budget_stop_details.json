@@ -1,0 +1,20 @@
+{
+  "reason": "original_total_wall_clock_deadline_exceeded_before_first_formal_training",
+  "wall_start_epoch": 1793264034,
+  "deadline_epoch": 1793285634,
+  "observed_epoch": 1793286734.247956,
+  "start_beijing": "2026-10-29T16:53:54+08:00",
+  "deadline_beijing": "2026-10-29T22:53:54+08:00",
+  "observed_beijing": "2026-10-29T23:12:14.247956+08:00",
+  "elapsed_seconds_at_observation": 22700.24795603752,
+  "formal_search_configurations_started": 0,
+  "formal_optimizer_updates": 0,
+  "replication_trainings_started": 0,
+  "algorithm_failures": 0,
+  "candidate_timeouts": 0,
+  "wall_budget_exceeded": true,
+  "wall_budget_reset": false,
+  "post_deadline_activity": "only software checks, preservation and reporting; no candidate training or new evaluation",
+  "time_accounting_limitation": "Wall clock includes implementation and periods without experiment progress. No complete process-level active-time ledger exists; do not describe all wall time as training compute.",
+  "scientific_conclusion": "Search incomplete; no evidence that the frozen 12 configurations all fail."
+}

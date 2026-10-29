@@ -1,0 +1,177 @@
+[
+  {
+    "trajectory": "center_shallow",
+    "start": 20,
+    "steps": 20
+  },
+  {
+    "trajectory": "center_shallow",
+    "start": 70,
+    "steps": 20
+  },
+  {
+    "trajectory": "center_shallow",
+    "start": 110,
+    "steps": 20
+  },
+  {
+    "trajectory": "center_shallow",
+    "start": 140,
+    "steps": 20
+  },
+  {
+    "trajectory": "center_shallow",
+    "start": 150,
+    "steps": 20
+  },
+  {
+    "trajectory": "center_shallow",
+    "start": 170,
+    "steps": 20
+  },
+  {
+    "trajectory": "center_shallow",
+    "start": 210,
+    "steps": 20
+  },
+  {
+    "trajectory": "center_deep",
+    "start": 20,
+    "steps": 20
+  },
+  {
+    "trajectory": "center_deep",
+    "start": 70,
+    "steps": 20
+  },
+  {
+    "trajectory": "center_deep",
+    "start": 110,
+    "steps": 20
+  },
+  {
+    "trajectory": "center_deep",
+    "start": 140,
+    "steps": 20
+  },
+  {
+    "trajectory": "center_deep",
+    "start": 150,
+    "steps": 20
+  },
+  {
+    "trajectory": "center_deep",
+    "start": 170,
+    "steps": 20
+  },
+  {
+    "trajectory": "center_deep",
+    "start": 210,
+    "steps": 20
+  },
+  {
+    "trajectory": "left_shallow",
+    "start": 20,
+    "steps": 20
+  },
+  {
+    "trajectory": "left_shallow",
+    "start": 70,
+    "steps": 20
+  },
+  {
+    "trajectory": "left_shallow",
+    "start": 110,
+    "steps": 20
+  },
+  {
+    "trajectory": "left_shallow",
+    "start": 140,
+    "steps": 20
+  },
+  {
+    "trajectory": "left_shallow",
+    "start": 150,
+    "steps": 20
+  },
+  {
+    "trajectory": "left_shallow",
+    "start": 170,
+    "steps": 20
+  },
+  {
+    "trajectory": "left_shallow",
+    "start": 210,
+    "steps": 20
+  },
+  {
+    "trajectory": "left_deep",
+    "start": 20,
+    "steps": 20
+  },
+  {
+    "trajectory": "left_deep",
+    "start": 70,
+    "steps": 20
+  },
+  {
+    "trajectory": "left_deep",
+    "start": 110,
+    "steps": 20
+  },
+  {
+    "trajectory": "left_deep",
+    "start": 140,
+    "steps": 20
+  },
+  {
+    "trajectory": "left_deep",
+    "start": 150,
+    "steps": 20
+  },
+  {
+    "trajectory": "left_deep",
+    "start": 170,
+    "steps": 20
+  },
+  {
+    "trajectory": "left_deep",
+    "start": 210,
+    "steps": 20
+  },
+  {
+    "trajectory": "no_contact",
+    "start": 20,
+    "steps": 20
+  },
+  {
+    "trajectory": "no_contact",
+    "start": 70,
+    "steps": 20
+  },
+  {
+    "trajectory": "no_contact",
+    "start": 110,
+    "steps": 20
+  },
+  {
+    "trajectory": "no_contact",
+    "start": 140,
+    "steps": 20
+  },
+  {
+    "trajectory": "no_contact",
+    "start": 150,
+    "steps": 20
+  },
+  {
+    "trajectory": "no_contact",
+    "start": 170,
+    "steps": 20
+  },
+  {
+    "trajectory": "no_contact",
+    "start": 210,
+    "steps": 20
+  }
+]

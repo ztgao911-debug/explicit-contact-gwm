@@ -1,0 +1,54 @@
+reference_commit: 94763a0
+report_directory: experiments/bounded_multistep_search/run_001
+output_directory: outputs/bounded_multistep_search/run_001
+base_protocol_config: configs/train_contact_response.yaml
+data_directory: data/mujoco_soft_pilot/pilot_001
+pilot_directory: outputs/contact_response_training/run_001
+reference_checkpoint: outputs/contact_response_training/run_001/expanded_absolute/checkpoint.pt
+seed: 7
+replication_seeds: [17, 27]
+maximum_configurations: 12
+maximum_replication_candidates: 2
+wall_clock_budget_seconds: 21600
+cpu_threads: 1
+model:
+  hidden_dim: 128
+  dt: 0.01
+  contact_sigma: 0.02
+  max_position_residual: 0.016
+  max_velocity_increment: 1.6
+  autonomous: true
+training:
+  updates: 2000
+  batch_size: 16
+  validation_interval: 250
+  minimum_learning_rate_fraction: 0.01
+  gradient_clip: 1.0
+  loss_multiplier: 100.0
+  position_loss_unit_m: 0.001
+  velocity_loss_unit_m_s: 0.1
+  neighborhood_weight: 0.5
+  branch_absolute_weight: 1.0
+  paired_response_weight: 1.0
+validation:
+  horizon: 5
+  ordinary_left_starts: [70, 110, 140, 150, 170, 210]
+  branch_starts: [0]
+  fixed_position_velocity_weights: [0.5, 0.5]
+  fixed_phase_weights: equal_press_hold_release_recover
+  fixed_region_weights: equal_active_ROI
+  temporal_reduction: pool_all_five_endpoints
+  checkpoint_mesh_penalty: 0.0
+evaluation:
+  horizons: [5, 10, 20]
+  ordinary_starts: [20, 70, 110, 140, 150, 170, 210]
+  ranking_phases: [press, hold, release, recover]
+  approach_start: 20
+  physical_gate: all_ordinary_control_and_all_18_left_branch_windows
+  inversion_threshold: 0.0
+  mesh_training_margin: 0.1
+technical_fault_policy:
+  maximum_retries_per_configuration_seed: 1
+  preserve_every_attempt: true
+  algorithm_failures_are_not_retried: true
+  timeout_distinct_from_algorithm_failure: true

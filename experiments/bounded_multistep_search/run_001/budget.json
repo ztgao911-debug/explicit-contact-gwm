@@ -1,0 +1,10 @@
+{
+  "wall_start_epoch": 1793264034,
+  "deadline_epoch": 1793285634,
+  "budget_seconds": 21600,
+  "start_basis": "branch checkout reflog timestamp minus 60 seconds setup allowance",
+  "current_elapsed_seconds": 777.4342739582062,
+  "maximum_search_configurations": 12,
+  "maximum_replication_trainings": 4,
+  "reference_head": "94763a09698346914212e448493781c74397a40f"
+}

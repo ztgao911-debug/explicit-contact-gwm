@@ -1,0 +1,5 @@
+{
+  "reason": "Budget expired; reuse existing successful no-optimizer probe",
+  "original_probe_sha256": "002d70582570d930658a4a1ae0d5cb2e844498459c67e6e986be1b042b593391",
+  "new_probe_executed": false
+}

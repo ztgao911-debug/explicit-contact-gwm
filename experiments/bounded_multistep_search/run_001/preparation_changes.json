@@ -1,0 +1,40 @@
+[
+  {
+    "version": 1,
+    "changed_files": {
+      "scripts/bounded_search_evaluation.py": {
+        "old_sha256": "4790a07849fe58ddaf007588a2808781dd0a724a34297d282ff7ff813cea2c9d",
+        "new_sha256": "b1b663bdd9a01ac16157d6207ee81167c02433d6ea3958c1ec541aba5f34e97b"
+      },
+      "scripts/report_bounded_search.py": {
+        "old_sha256": null,
+        "new_sha256": "fa133478789ac6e87bd93520538092ff790028835e28a76f967033849b811361"
+      },
+      "scripts/run_bounded_search.py": {
+        "old_sha256": "65d68830c5ac71d17300d99814cf1757e9f5b45f12043d5c75b01e6eaad1abd4",
+        "new_sha256": "c7aeac23d7bf3627c90a678502fd92e4a5f54a816d64c64ad6c2f8c81d0cbd7e"
+      },
+      "scripts/verify_bounded_search.py": {
+        "old_sha256": null,
+        "new_sha256": "9e005337b6144fe788dcbe24e2da05ababc854a62c484a951c345fcfc71a591c"
+      }
+    },
+    "reason": "Technical preparation before any optimizer updates",
+    "formal_training_attempts": 0
+  },
+  {
+    "version": 2,
+    "changed_files": {
+      "scripts/report_bounded_search.py": {
+        "old_sha256": "fa133478789ac6e87bd93520538092ff790028835e28a76f967033849b811361",
+        "new_sha256": "eaf80b76b57e751e91743a30eb5ba62d11717afa52e9a98d8b3a2b0d9b06ec03"
+      },
+      "scripts/verify_bounded_search.py": {
+        "old_sha256": "9e005337b6144fe788dcbe24e2da05ababc854a62c484a951c345fcfc71a591c",
+        "new_sha256": "344e15b386b971641d3f9ba0f0786bf912612a75db2998a3032fcc2583071295"
+      }
+    },
+    "reason": "Technical preparation before any optimizer updates",
+    "formal_training_attempts": 0
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "status": "budget_stop",
+  "search_configurations_started": 0,
+  "replication_trainings_started": 0,
+  "training_attempts_including_technical_retries": 0,
+  "technical_retry_attempts": 0,
+  "technical_failures_recorded": 0,
+  "selected_candidate_ids": [],
+  "final_route_evaluations_completed": 0,
+  "final_route_evaluation_failures": [],
+  "wall_elapsed_seconds": 22738.675483942032,
+  "completed_epoch": 1793286772.6754858,
+  "independent_test_verified": false
+}
