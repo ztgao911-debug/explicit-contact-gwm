@@ -1,0 +1,22 @@
+experiment_date: "2026-10-29"
+seed: 7
+cpu_threads: 1
+base_config: configs/validate_contact_surface.yaml
+baseline_run: outputs/contact_surface_validation/run_003
+output_root: outputs/contact_surface_correction
+methods: [dense_balls, continuous_patch]
+# Same density, metric skin, samples and splits; additional near-zero probes
+# are diagnostic only, not used to choose a margin or tune a parameter.
+critical_depths_m: [-0.000025, -0.000001, -0.0000001, 0.0000001, 0.000001, 0.00001, 0.000025]
+critical_feature_kind: offset_grid
+onset_bracket_m: [-0.0001, 0.0001]
+onset_bisection_iterations: 20
+normal_comparison: same_frames_one_closest_witness_for_both_methods_nearest_native_candidate
+candidate_set_metrics: retain_all_face_candidates_as_a_separate_diagnostic
+representative_policy: one_global_closest_witness_per_sphere
+contact_margin_m: 0.0
+acceptance:
+  min_validation_recall: 0.95
+  max_validation_false_positive_frames: 0
+  max_gap_rmse_vs_mesh_mm: 0.001
+  common_frame_normal_not_worse: true

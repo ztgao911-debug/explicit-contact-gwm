@@ -473,6 +473,19 @@ python scripts/validate_contact_surface.py
 已实测左侧接触召回从 7.65% 提升到 93.99%，但释放仍漏检、部分法向指标退化。
 完整协议、曲线与限制见[接触表面增密验证](docs/contact-surface-validation.md)。
 
+## 临界接触距离与法向修正
+
+新增初始拓扑辅助的连续接触面分支，保留原 Gaussian 球并集对照。
+
+```bash
+source .venv/bin/activate
+python scripts/correct_contact_surface.py
+```
+
+左侧召回实测达到 100%，释放漏检消除，完整面片候选的法向与原生几何接近数值一致。
+该分支依赖已知拓扑，不代表纯 Gaussian 表面解析已解决；力和状态预测尚未接入。
+完整正负结果与复现说明见[临界距离与法向修正记录](docs/contact-surface-correction.md)。
+
 ## 引用
 
 本项目仍在开发中。论文与引用信息将在正式发布后补充。
