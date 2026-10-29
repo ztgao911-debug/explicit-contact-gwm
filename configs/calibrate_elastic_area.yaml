@@ -1,0 +1,27 @@
+experiment_date: "2026-10-29"
+seed: 7
+cpu_threads: 1
+data_directory: data/mujoco_soft_pilot/pilot_001
+basis_run: outputs/adaptive_contact_integration/run_002
+output_root: outputs/elastic_area_calibration
+old_point_calibration: outputs/contact_pipeline_validation/run_003/calibration.json
+splits:
+  train: [center_shallow, center_deep]
+  validation: [left_shallow, left_deep]
+  control: [no_contact]
+fit:
+  phase_ids: [1, 2]
+  target: current_native_net_normal_force_world
+  objective: equal_frame_weight_vector_squared_error
+  intercept: false
+  nonnegative: true
+  numerical_basis_scale_m3: 1.0e-9
+  parameters: [elastic_area_stiffness_N_m3]
+evaluation:
+  frame_stop_exclusive: 300
+  force_contact_threshold_N: 1.0e-8
+  methods: [zero_force, historical_point_elastic, matched_point_elastic, area_elastic]
+  phases: [approach, press, hold, release, recover]
+replay_frames: [70, 110, 150]
+# Cached current-state elastic bases are frozen; no damping/friction fitting,
+# no torque fitting, no right-side arrays, no validation-based selection.

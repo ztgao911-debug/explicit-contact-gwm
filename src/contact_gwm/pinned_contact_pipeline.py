@@ -103,6 +103,7 @@ class NativeCurrentContact:
         self.rest = mesh["rest_positions_world"]
         self.tets = mesh["tetrahedra"]
         self.pinned = mesh["pinned_mask"]
+        self.surface_triangles = mesh["surface_triangles"]
         self.sphere = self.model.geom("sphere").id
         self.node_dofs = {}
         for i, body in enumerate(mesh["vertex_body_ids"]):
@@ -121,11 +122,29 @@ class NativeCurrentContact:
         self.robot_v = np.array([self.model.joint(f"p{a}").dofadr[0] for a in "xyz"])
 
     def query(
-        self, state: GaussianSet, robot: IndenterInput, *, with_force: bool
+        self,
+        state: GaussianSet,
+        robot: IndenterInput,
+        *,
+        with_force: bool,
+        velocity_mode: str = "legacy_midpoint_tetra",
     ) -> tuple[ContactGeometry, np.ndarray | None]:
+        """Query current geometry with an explicit contact-velocity convention.
+
+        The default preserves historical midpoint/tetrahedron interpolation.
+        ``material_surface`` recovers a material point from the collision skin,
+        projects onto the known current surface and interpolates instantaneous
+        nodal velocity there. It changes only returned velocity conditioning,
+        not the simulator state, contact geometry or native force calculation.
+        """
         mj, model, data = self.mj, self.model, self.data
+        if velocity_mode not in ("legacy_midpoint_tetra", "material_surface"):
+            raise ValueError("Unknown contact velocity convention")
         x = state.centers.detach().cpu().numpy()
         v = state.velocities.detach().cpu().numpy()
+        if velocity_mode == "material_surface":
+            x = np.where(self.pinned[:, None], self.rest, x)
+            v = np.where(self.pinned[:, None], 0.0, v)
         mj.mj_resetData(model, data)  # No true qacc_warmstart/integration state.
         for node, (q, dof) in self.node_dofs.items():
             data.qpos[q] = x[node] - self.rest[node]
@@ -161,6 +180,19 @@ class NativeCurrentContact:
                 weights = np.maximum(np.r_[1 - weights.sum(), weights], 0.0)
                 weights /= max(weights.sum(), 1e-30)
                 soft_velocity = weights @ v[ids]
+            if velocity_mode == "material_surface":
+                from .contact_sampling import material_samples
+
+                # Recover the underlying material point from the collision
+                # midpoint, skin and signed gap, then project for CCD roundoff.
+                material_point = c.pos + (model.flex_radius[0] + 0.5 * c.dist) * normal
+                samples = material_samples(
+                    state.centers.new_tensor(x),
+                    state.centers.new_tensor(v),
+                    torch.as_tensor(self.surface_triangles, device=state.device),
+                    state.centers.new_tensor(material_point)[None],
+                )
+                soft_velocity = samples.velocities[0].detach().cpu().numpy()
             points.append(c.pos.copy())
             normals.append(normal.copy())
             gaps.append(float(c.dist))

@@ -1,0 +1,31 @@
+experiment_date: "2026-10-29"
+seed: 7
+cpu_threads: 1
+base_config: configs/validate_contact_surface.yaml
+sampling_config: configs/audit_contact_sampling.yaml
+baseline_run: outputs/contact_sampling_audit/run_001
+output_root: outputs/adaptive_contact_integration
+integration:
+  orders: [4, 8, 16, 32]
+  relative_tolerance: 0.0001
+  area_absolute_tolerance_m2: 1.0e-18
+  elastic_absolute_tolerance_m3: 1.0e-26
+  damping_absolute_tolerance_m3_s: 1.0e-22
+  max_depth: 12
+  max_intervals: 512
+reference_orders: [128, 256]
+reference_trajectory_frames: [70, 110, 150]
+flat_plane_depths_m: [0.00005, 0.0001, 0.0005, 0.001]
+flat_plane_robot_speed_m_s: 0.01
+stress_depths_m: [0.0000001, 0.000001, 0.00001, 0.00005]
+stress_regions: [top, edge, corner]
+benchmark:
+  trajectory: center_deep
+  frames: [70, 110, 150]
+  warmup: 2
+  repetitions: 10
+acceptance:
+  max_reference_relative_error: 0.001
+  max_reference_order_difference: 0.0001
+  max_closed_form_relative_error: 0.001
+# Accuracy/positivity checks, not force fitting or validation-based density search.

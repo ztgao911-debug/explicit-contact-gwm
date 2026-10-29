@@ -1,0 +1,23 @@
+experiment_date: "2026-10-29"
+seed: 7
+cpu_threads: 1
+base_config: configs/validate_contact_surface.yaml
+surface_run: outputs/contact_surface_correction/run_001
+output_root: outputs/contact_sampling_audit
+frozen_material: outputs/contact_pipeline_validation/run_003/calibration.json
+velocity_modes: [legacy_midpoint_tetra, material_surface]
+grouping:
+  point_tolerance_m: 1.0e-9
+  weight_tolerance: 1.0e-10
+  velocity_tolerance_m_s: 1.0e-9
+quadrature_subdivisions: [4, 8, 16, 32]
+# These are quadrature convergence probes, not a density/model search.
+flat_plane_depths_m: [0.0001, 0.0005, 0.001]
+flat_plane_subdivisions: [4, 8, 16, 32, 64]
+static_regions: [top, side_or_bottom, edge, corner]
+static_features_per_region: 3
+static_depths_m: [-0.00005, 0.00005, 0.0005, 0.001]
+static_reference_subdivisions: 64
+jacobian_frames: [70, 110, 150]
+# No stiffness fitting. Report integral bases and frozen OLD force differences;
+# do not call the new area integrals calibrated force predictions.

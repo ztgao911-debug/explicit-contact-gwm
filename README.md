@@ -486,6 +486,40 @@ python scripts/correct_contact_surface.py
 该分支依赖已知拓扑，不代表纯 Gaussian 表面解析已解决；力和状态预测尚未接入。
 完整正负结果与复现说明见[临界距离与法向修正记录](docs/contact-surface-correction.md)。
 
+## 接触候选聚合与速度口径审计
+
+```bash
+source .venv/bin/activate
+python scripts/audit_contact_sampling.py
+```
+
+已实际检查材料点瞬时速度、重复候选、面积积分的密度依赖与微小边角漏采。
+速度口径可统一；新面积积分尚未标定，固定积分仍有浅角点漏采。
+结果、限制与复现见[候选聚合与速度口径检查](docs/contact-sampling-audit.md)。
+
+## 微小接触区域的裁剪与自适应积分
+
+```bash
+source .venv/bin/activate
+python scripts/validate_adaptive_contact_integration.py
+```
+
+已恢复固定积分漏掉的 3 个浅角点，完成全帧与独立参照检查。
+面积 / 弹性检查通过，17 帧仍有阻尼局部标记；尚未标定面积力参数。
+结果与开销见[裁剪自适应积分记录](docs/adaptive-contact-integration.md)。
+
+## 中央轨迹弹性面积刚度标定
+
+```bash
+source .venv/bin/activate
+python scripts/calibrate_elastic_area.py --config configs/calibrate_elastic_area.yaml
+```
+
+已仅用中央按压 / 保持 200 帧标定 `k_A ≈ 6.38e7 N/m³`，保存参数后验证左侧全阶段。
+左侧法向合力 RMSE 为 0.08349 N，同协议点式为 0.07317 N；
+面积模型按压较好，保持和释放较差，没有据此调整参数或接入状态预测。
+结果、有效参数的含义与复现见[弹性面积刚度标定记录](docs/elastic-area-calibration.md)。
+
 ## 引用
 
 本项目仍在开发中。论文与引用信息将在正式发布后补充。

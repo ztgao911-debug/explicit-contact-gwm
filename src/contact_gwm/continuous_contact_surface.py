@@ -64,6 +64,10 @@ class ContinuousSurfaceQuery(SphereSurfaceQuery):
     material_velocity: Tensor
     face_candidates: ContactGeometry
     roundoff_tolerance_m: float
+    face_indices: Tensor
+    face_weights: Tensor
+    face_material_points: Tensor
+    face_material_velocities: Tensor
 
 
 class ContinuousContactSurface:
@@ -167,4 +171,8 @@ class ContinuousContactSurface:
             velocity[closest],
             contacts(active),
             roundoff,
+            active,
+            weights[active],
+            q[active],
+            velocity[active],
         )
