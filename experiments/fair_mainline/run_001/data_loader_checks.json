@@ -1,0 +1,12 @@
+{
+  "ordinary_training_pairs": 600,
+  "branch_training_cases": 108,
+  "branch_training_pairs": 2160,
+  "initial_response_pairs": 90,
+  "manifest_cache_native_order_verified": true,
+  "teacher_state_and_targets_match_native": true,
+  "node_ids_and_fixed_boundary_verified": true,
+  "central_native_minimum_volume_ratio": 0.4845023442775325,
+  "central_threshold_0_1_passed": true,
+  "right_trajectory_arrays_read": false
+}

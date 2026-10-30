@@ -1,0 +1,10 @@
+{
+  "wall_start_epoch": 1793335690.0,
+  "deadline_epoch": 1793337490.0,
+  "budget_seconds": 1800,
+  "maximum_trainings": 2,
+  "updates_each": 200,
+  "seed": 7,
+  "start_basis": "First repository inspection timestamp in this authorized turn",
+  "previous_runs_preserved": true
+}

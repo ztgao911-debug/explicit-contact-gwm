@@ -1,0 +1,2720 @@
+{
+  "per_method": {
+    "RAW": {
+      "scores": {
+        "coverage_complete": true,
+        "cells": [
+          {
+            "phase": "hold",
+            "region": "active",
+            "horizon": 5,
+            "position_mse_m2": 1.007132583398875e-08,
+            "velocity_mse_m2_s2": 5.924921436014211e-06,
+            "node_count": 210
+          },
+          {
+            "phase": "hold",
+            "region": "active",
+            "horizon": 10,
+            "position_mse_m2": 4.663444736762275e-08,
+            "velocity_mse_m2_s2": 5.25815457683935e-06,
+            "node_count": 210
+          },
+          {
+            "phase": "hold",
+            "region": "active",
+            "horizon": 20,
+            "position_mse_m2": 1.9278981205535535e-07,
+            "velocity_mse_m2_s2": 4.950026480679131e-06,
+            "node_count": 210
+          },
+          {
+            "phase": "hold",
+            "region": "contact_neighborhood",
+            "horizon": 5,
+            "position_mse_m2": 1.2733083960217236e-08,
+            "velocity_mse_m2_s2": 6.661495212008179e-06,
+            "node_count": 62
+          },
+          {
+            "phase": "hold",
+            "region": "contact_neighborhood",
+            "horizon": 10,
+            "position_mse_m2": 5.8916900747182896e-08,
+            "velocity_mse_m2_s2": 6.066865017576327e-06,
+            "node_count": 62
+          },
+          {
+            "phase": "hold",
+            "region": "contact_neighborhood",
+            "horizon": 20,
+            "position_mse_m2": 2.441278175588013e-07,
+            "velocity_mse_m2_s2": 5.65583327544446e-06,
+            "node_count": 62
+          },
+          {
+            "phase": "press",
+            "region": "active",
+            "horizon": 5,
+            "position_mse_m2": 3.674663443311417e-08,
+            "velocity_mse_m2_s2": 2.0968995874778858e-05,
+            "node_count": 210
+          },
+          {
+            "phase": "press",
+            "region": "active",
+            "horizon": 10,
+            "position_mse_m2": 1.6598172774994862e-07,
+            "velocity_mse_m2_s2": 2.0748527265370578e-05,
+            "node_count": 210
+          },
+          {
+            "phase": "press",
+            "region": "active",
+            "horizon": 20,
+            "position_mse_m2": 6.343532128179799e-07,
+            "velocity_mse_m2_s2": 1.2589597286935493e-05,
+            "node_count": 210
+          },
+          {
+            "phase": "press",
+            "region": "contact_neighborhood",
+            "horizon": 5,
+            "position_mse_m2": 9.132950900035421e-08,
+            "velocity_mse_m2_s2": 4.914628751133056e-05,
+            "node_count": 43
+          },
+          {
+            "phase": "press",
+            "region": "contact_neighborhood",
+            "horizon": 10,
+            "position_mse_m2": 4.32855340075585e-07,
+            "velocity_mse_m2_s2": 5.107558713397672e-05,
+            "node_count": 43
+          },
+          {
+            "phase": "press",
+            "region": "contact_neighborhood",
+            "horizon": 20,
+            "position_mse_m2": 1.6649074109361782e-06,
+            "velocity_mse_m2_s2": 2.7387666848220375e-05,
+            "node_count": 43
+          },
+          {
+            "phase": "recover",
+            "region": "active",
+            "horizon": 5,
+            "position_mse_m2": 3.635505678663982e-08,
+            "velocity_mse_m2_s2": 3.050703120122213e-05,
+            "node_count": 210
+          },
+          {
+            "phase": "recover",
+            "region": "active",
+            "horizon": 10,
+            "position_mse_m2": 1.5354284892385406e-07,
+            "velocity_mse_m2_s2": 2.7429956066752454e-05,
+            "node_count": 210
+          },
+          {
+            "phase": "recover",
+            "region": "active",
+            "horizon": 20,
+            "position_mse_m2": 6.215911544569442e-07,
+            "velocity_mse_m2_s2": 2.6545656245810776e-05,
+            "node_count": 210
+          },
+          {
+            "phase": "recover",
+            "region": "contact_neighborhood",
+            "horizon": 5,
+            "position_mse_m2": 4.403360178263101e-08,
+            "velocity_mse_m2_s2": 3.095001824242513e-05,
+            "node_count": 39
+          },
+          {
+            "phase": "recover",
+            "region": "contact_neighborhood",
+            "horizon": 10,
+            "position_mse_m2": 1.6852770155702137e-07,
+            "velocity_mse_m2_s2": 2.2983051658055675e-05,
+            "node_count": 39
+          },
+          {
+            "phase": "recover",
+            "region": "contact_neighborhood",
+            "horizon": 20,
+            "position_mse_m2": 6.824039475491128e-07,
+            "velocity_mse_m2_s2": 2.8425762586673994e-05,
+            "node_count": 39
+          },
+          {
+            "phase": "release",
+            "region": "active",
+            "horizon": 5,
+            "position_mse_m2": 1.8309102804956694e-07,
+            "velocity_mse_m2_s2": 0.00011651339904442481,
+            "node_count": 630
+          },
+          {
+            "phase": "release",
+            "region": "active",
+            "horizon": 10,
+            "position_mse_m2": 8.049241595926097e-07,
+            "velocity_mse_m2_s2": 0.00015918805963270534,
+            "node_count": 630
+          },
+          {
+            "phase": "release",
+            "region": "active",
+            "horizon": 20,
+            "position_mse_m2": 3.4626911318028666e-06,
+            "velocity_mse_m2_s2": 0.0001708626296301509,
+            "node_count": 630
+          },
+          {
+            "phase": "release",
+            "region": "contact_neighborhood",
+            "horizon": 5,
+            "position_mse_m2": 2.1808788181827055e-07,
+            "velocity_mse_m2_s2": 0.0001318569378262362,
+            "node_count": 154
+          },
+          {
+            "phase": "release",
+            "region": "contact_neighborhood",
+            "horizon": 10,
+            "position_mse_m2": 7.820161213273341e-07,
+            "velocity_mse_m2_s2": 0.00022252555347089653,
+            "node_count": 154
+          },
+          {
+            "phase": "release",
+            "region": "contact_neighborhood",
+            "horizon": 20,
+            "position_mse_m2": 2.7339838116810236e-06,
+            "velocity_mse_m2_s2": 0.00021719363595783134,
+            "node_count": 154
+          }
+        ],
+        "position_score": 0.5617789861610085,
+        "velocity_score": 0.0058392318728431635,
+        "joint_score": 0.28380910901692585
+      },
+      "scores_match": true,
+      "physics_windows": [
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 20,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7502548899221537
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 70,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8850762613848463
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 110,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8459169191203091
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 140,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8450065165434372
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 150,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9169772202518804
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 170,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9343870957390639
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 210,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9262246017361556
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 20,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7502548899221537
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 70,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8591363022286511
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 110,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6052462356038792
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 140,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6071347546961567
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 150,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7593312464761075
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 170,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9342805224511369
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 210,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9262892343628061
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 20,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7783104396707603
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 70,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9070481261621494
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 110,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8625500331832703
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 140,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8585013006111595
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 150,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9150744811862613
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 170,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9174028735012151
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 210,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9053695290058491
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 20,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7783104396707603
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 70,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8912433049270014
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 110,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6492514288824074
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 140,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6480166931253015
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 150,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7854859788797769
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 170,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9179843581371809
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 210,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9068292679361027
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 20,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9044686948308043
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 70,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9043918597359045
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 110,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9273150227747042
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 140,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.929271877917869
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 150,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9309103063380809
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 170,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9305763738165289
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 210,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9256247604505067
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 70,
+          "variant": "base",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9085391563695084
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 70,
+          "variant": "detach",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9077989577495166
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 70,
+          "variant": "shift_left",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9026734132837885
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 70,
+          "variant": "shift_right",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9144995528411347
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 70,
+          "variant": "deeper",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9086649307562239
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 70,
+          "variant": "faster_down",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9085117633265765
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 110,
+          "variant": "base",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6492514288824074
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 110,
+          "variant": "detach",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6492514288824074
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 110,
+          "variant": "shift_left",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6492514288824074
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 110,
+          "variant": "shift_right",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6492514288824074
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 110,
+          "variant": "deeper",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6492514288824074
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 110,
+          "variant": "faster_down",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6492514288824074
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 150,
+          "variant": "base",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7854859788797769
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 150,
+          "variant": "detach",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7854859788797769
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 150,
+          "variant": "shift_left",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7854859788797769
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 150,
+          "variant": "shift_right",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7854859788797769
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 150,
+          "variant": "deeper",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7854859788797769
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 150,
+          "variant": "faster_down",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7854859788797769
+          },
+          "matches": true
+        }
+      ],
+      "physics_match": true,
+      "passed": true
+    },
+    "G": {
+      "scores": {
+        "coverage_complete": true,
+        "cells": [
+          {
+            "phase": "hold",
+            "region": "active",
+            "horizon": 5,
+            "position_mse_m2": 1.7718132161020638e-08,
+            "velocity_mse_m2_s2": 1.3611556052273938e-06,
+            "node_count": 210
+          },
+          {
+            "phase": "hold",
+            "region": "active",
+            "horizon": 10,
+            "position_mse_m2": 1.6641021487632927e-08,
+            "velocity_mse_m2_s2": 8.407294427977783e-07,
+            "node_count": 210
+          },
+          {
+            "phase": "hold",
+            "region": "active",
+            "horizon": 20,
+            "position_mse_m2": 5.099869659275384e-08,
+            "velocity_mse_m2_s2": 5.135198604000198e-07,
+            "node_count": 210
+          },
+          {
+            "phase": "hold",
+            "region": "contact_neighborhood",
+            "horizon": 5,
+            "position_mse_m2": 4.153168632540659e-08,
+            "velocity_mse_m2_s2": 2.705926796233905e-06,
+            "node_count": 62
+          },
+          {
+            "phase": "hold",
+            "region": "contact_neighborhood",
+            "horizon": 10,
+            "position_mse_m2": 3.613876467315533e-08,
+            "velocity_mse_m2_s2": 2.223779332881489e-06,
+            "node_count": 62
+          },
+          {
+            "phase": "hold",
+            "region": "contact_neighborhood",
+            "horizon": 20,
+            "position_mse_m2": 1.1141456532544368e-07,
+            "velocity_mse_m2_s2": 1.3639388395691561e-06,
+            "node_count": 62
+          },
+          {
+            "phase": "press",
+            "region": "active",
+            "horizon": 5,
+            "position_mse_m2": 3.092195739475793e-08,
+            "velocity_mse_m2_s2": 4.307368355044931e-05,
+            "node_count": 210
+          },
+          {
+            "phase": "press",
+            "region": "active",
+            "horizon": 10,
+            "position_mse_m2": 1.5747720556236746e-07,
+            "velocity_mse_m2_s2": 4.3711472086495474e-05,
+            "node_count": 210
+          },
+          {
+            "phase": "press",
+            "region": "active",
+            "horizon": 20,
+            "position_mse_m2": 6.719380426199962e-07,
+            "velocity_mse_m2_s2": 5.5183328753088625e-05,
+            "node_count": 210
+          },
+          {
+            "phase": "press",
+            "region": "contact_neighborhood",
+            "horizon": 5,
+            "position_mse_m2": 6.172372018375938e-08,
+            "velocity_mse_m2_s2": 8.39112314972361e-05,
+            "node_count": 43
+          },
+          {
+            "phase": "press",
+            "region": "contact_neighborhood",
+            "horizon": 10,
+            "position_mse_m2": 3.094064805362125e-07,
+            "velocity_mse_m2_s2": 8.368404966886353e-05,
+            "node_count": 43
+          },
+          {
+            "phase": "press",
+            "region": "contact_neighborhood",
+            "horizon": 20,
+            "position_mse_m2": 1.3049712502131496e-06,
+            "velocity_mse_m2_s2": 0.00011573188811045174,
+            "node_count": 43
+          },
+          {
+            "phase": "recover",
+            "region": "active",
+            "horizon": 5,
+            "position_mse_m2": 3.263061643147769e-09,
+            "velocity_mse_m2_s2": 9.702168083407157e-06,
+            "node_count": 210
+          },
+          {
+            "phase": "recover",
+            "region": "active",
+            "horizon": 10,
+            "position_mse_m2": 4.507892937443366e-09,
+            "velocity_mse_m2_s2": 8.471286159625005e-06,
+            "node_count": 210
+          },
+          {
+            "phase": "recover",
+            "region": "active",
+            "horizon": 20,
+            "position_mse_m2": 4.80435679467221e-09,
+            "velocity_mse_m2_s2": 6.5916601849397664e-06,
+            "node_count": 210
+          },
+          {
+            "phase": "recover",
+            "region": "contact_neighborhood",
+            "horizon": 5,
+            "position_mse_m2": 3.89997380335631e-09,
+            "velocity_mse_m2_s2": 1.2520329400331625e-05,
+            "node_count": 39
+          },
+          {
+            "phase": "recover",
+            "region": "contact_neighborhood",
+            "horizon": 10,
+            "position_mse_m2": 4.887005489582199e-09,
+            "velocity_mse_m2_s2": 1.0146246020829525e-05,
+            "node_count": 39
+          },
+          {
+            "phase": "recover",
+            "region": "contact_neighborhood",
+            "horizon": 20,
+            "position_mse_m2": 5.54838309608178e-09,
+            "velocity_mse_m2_s2": 9.246650283386378e-06,
+            "node_count": 39
+          },
+          {
+            "phase": "release",
+            "region": "active",
+            "horizon": 5,
+            "position_mse_m2": 8.062310123739318e-08,
+            "velocity_mse_m2_s2": 4.107836491574201e-05,
+            "node_count": 630
+          },
+          {
+            "phase": "release",
+            "region": "active",
+            "horizon": 10,
+            "position_mse_m2": 2.39812470565623e-07,
+            "velocity_mse_m2_s2": 5.127439517499189e-05,
+            "node_count": 630
+          },
+          {
+            "phase": "release",
+            "region": "active",
+            "horizon": 20,
+            "position_mse_m2": 5.621819558899261e-07,
+            "velocity_mse_m2_s2": 2.680399521840431e-05,
+            "node_count": 630
+          },
+          {
+            "phase": "release",
+            "region": "contact_neighborhood",
+            "horizon": 5,
+            "position_mse_m2": 2.621499913287042e-07,
+            "velocity_mse_m2_s2": 0.00011363452075783054,
+            "node_count": 154
+          },
+          {
+            "phase": "release",
+            "region": "contact_neighborhood",
+            "horizon": 10,
+            "position_mse_m2": 8.185637683561157e-07,
+            "velocity_mse_m2_s2": 0.00014819538579290075,
+            "node_count": 154
+          },
+          {
+            "phase": "release",
+            "region": "contact_neighborhood",
+            "horizon": 20,
+            "position_mse_m2": 1.984651287185708e-06,
+            "velocity_mse_m2_s2": 5.744676441160124e-05,
+            "node_count": 154
+          }
+        ],
+        "position_score": 0.2827406154751421,
+        "velocity_score": 0.003872568624782019,
+        "joint_score": 0.14330659204996207
+      },
+      "scores_match": true,
+      "physics_windows": [
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 20,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998312
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 70,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8847516663715775
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 110,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8514441139129302
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 140,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8511611100595387
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 150,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9367876798169705
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 170,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9939628866309089
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 210,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9982814107523242
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 20,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998312
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 70,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7694159971949938
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 110,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6016555004830032
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 140,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6035170573804503
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 150,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7593312464761075
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 170,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9898449455537528
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 210,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9949205985047859
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 20,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998312
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 70,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8870060328563644
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 110,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8662636468523586
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 140,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8663043410757104
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 150,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9435071593280725
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 170,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9935324198487953
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 210,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9977175506311011
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 20,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998312
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 70,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7884764044496015
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 110,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6467188761025522
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 140,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.645593303197275
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 150,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7854859788797769
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 170,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9852563960004928
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 210,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9983974417899186
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 20,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998312
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 70,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998315
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 110,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998226
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 140,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.999999999999849
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 150,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998367
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 170,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998401
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 210,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998117
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 70,
+          "variant": "base",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9233355198918892
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 70,
+          "variant": "detach",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.927227633581142
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 70,
+          "variant": "shift_left",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9141513964601861
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 70,
+          "variant": "shift_right",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8965207897186044
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 70,
+          "variant": "deeper",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8858736945118456
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 70,
+          "variant": "faster_down",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9233406035292524
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 110,
+          "variant": "base",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6467188761025522
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 110,
+          "variant": "detach",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6492514288824074
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 110,
+          "variant": "shift_left",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6474793971493447
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 110,
+          "variant": "shift_right",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6424671231512125
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 110,
+          "variant": "deeper",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6466230558151286
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 110,
+          "variant": "faster_down",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6466971471333651
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 150,
+          "variant": "base",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7854859788797769
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 150,
+          "variant": "detach",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7854859788797769
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 150,
+          "variant": "shift_left",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7854859788797769
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 150,
+          "variant": "shift_right",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7854859788797769
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 150,
+          "variant": "deeper",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7854859788797769
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 150,
+          "variant": "faster_down",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7854859788797769
+          },
+          "matches": true
+        }
+      ],
+      "physics_match": true,
+      "passed": true
+    },
+    "CV": {
+      "scores": {
+        "coverage_complete": true,
+        "cells": [
+          {
+            "phase": "hold",
+            "region": "active",
+            "horizon": 5,
+            "position_mse_m2": 3.0041967016251314e-10,
+            "velocity_mse_m2_s2": 1.4167335659386967e-07,
+            "node_count": 210
+          },
+          {
+            "phase": "hold",
+            "region": "active",
+            "horizon": 10,
+            "position_mse_m2": 1.1671485705646478e-09,
+            "velocity_mse_m2_s2": 7.392794565171566e-08,
+            "node_count": 210
+          },
+          {
+            "phase": "hold",
+            "region": "active",
+            "horizon": 20,
+            "position_mse_m2": 4.862796599291666e-09,
+            "velocity_mse_m2_s2": 1.1647884644545058e-07,
+            "node_count": 210
+          },
+          {
+            "phase": "hold",
+            "region": "contact_neighborhood",
+            "horizon": 5,
+            "position_mse_m2": 3.008812058566248e-10,
+            "velocity_mse_m2_s2": 5.4587793740140085e-08,
+            "node_count": 62
+          },
+          {
+            "phase": "hold",
+            "region": "contact_neighborhood",
+            "horizon": 10,
+            "position_mse_m2": 1.0626545421014761e-09,
+            "velocity_mse_m2_s2": 8.183674837267924e-08,
+            "node_count": 62
+          },
+          {
+            "phase": "hold",
+            "region": "contact_neighborhood",
+            "horizon": 20,
+            "position_mse_m2": 4.333087140037336e-09,
+            "velocity_mse_m2_s2": 8.481493574881515e-08,
+            "node_count": 62
+          },
+          {
+            "phase": "press",
+            "region": "active",
+            "horizon": 5,
+            "position_mse_m2": 3.4913516377870162e-09,
+            "velocity_mse_m2_s2": 1.3913038325887828e-06,
+            "node_count": 210
+          },
+          {
+            "phase": "press",
+            "region": "active",
+            "horizon": 10,
+            "position_mse_m2": 1.232915678988478e-08,
+            "velocity_mse_m2_s2": 1.1276165246832075e-06,
+            "node_count": 210
+          },
+          {
+            "phase": "press",
+            "region": "active",
+            "horizon": 20,
+            "position_mse_m2": 5.313091031705921e-08,
+            "velocity_mse_m2_s2": 3.115479295254428e-06,
+            "node_count": 210
+          },
+          {
+            "phase": "press",
+            "region": "contact_neighborhood",
+            "horizon": 5,
+            "position_mse_m2": 2.7433831866454352e-09,
+            "velocity_mse_m2_s2": 9.423061704297911e-07,
+            "node_count": 43
+          },
+          {
+            "phase": "press",
+            "region": "contact_neighborhood",
+            "horizon": 10,
+            "position_mse_m2": 1.161526300698099e-08,
+            "velocity_mse_m2_s2": 1.7303076862094167e-06,
+            "node_count": 43
+          },
+          {
+            "phase": "press",
+            "region": "contact_neighborhood",
+            "horizon": 20,
+            "position_mse_m2": 6.417213968976332e-08,
+            "velocity_mse_m2_s2": 7.3619114468549e-06,
+            "node_count": 43
+          },
+          {
+            "phase": "recover",
+            "region": "active",
+            "horizon": 5,
+            "position_mse_m2": 2.2643488955683084e-08,
+            "velocity_mse_m2_s2": 2.58104993240869e-05,
+            "node_count": 210
+          },
+          {
+            "phase": "recover",
+            "region": "active",
+            "horizon": 10,
+            "position_mse_m2": 9.48316203026027e-08,
+            "velocity_mse_m2_s2": 6.66362052235544e-06,
+            "node_count": 210
+          },
+          {
+            "phase": "recover",
+            "region": "active",
+            "horizon": 20,
+            "position_mse_m2": 3.682753816886525e-07,
+            "velocity_mse_m2_s2": 5.8149956113412675e-06,
+            "node_count": 210
+          },
+          {
+            "phase": "recover",
+            "region": "contact_neighborhood",
+            "horizon": 5,
+            "position_mse_m2": 2.1846202412514248e-08,
+            "velocity_mse_m2_s2": 3.080187229778898e-05,
+            "node_count": 39
+          },
+          {
+            "phase": "recover",
+            "region": "contact_neighborhood",
+            "horizon": 10,
+            "position_mse_m2": 9.223058054330287e-08,
+            "velocity_mse_m2_s2": 7.3697201761811535e-06,
+            "node_count": 39
+          },
+          {
+            "phase": "recover",
+            "region": "contact_neighborhood",
+            "horizon": 20,
+            "position_mse_m2": 3.60848325484357e-07,
+            "velocity_mse_m2_s2": 4.495984822678902e-06,
+            "node_count": 39
+          },
+          {
+            "phase": "release",
+            "region": "active",
+            "horizon": 5,
+            "position_mse_m2": 3.907857685025766e-08,
+            "velocity_mse_m2_s2": 4.243861784051384e-05,
+            "node_count": 630
+          },
+          {
+            "phase": "release",
+            "region": "active",
+            "horizon": 10,
+            "position_mse_m2": 2.2716203462730415e-07,
+            "velocity_mse_m2_s2": 0.0001069934259610671,
+            "node_count": 630
+          },
+          {
+            "phase": "release",
+            "region": "active",
+            "horizon": 20,
+            "position_mse_m2": 1.4605029151703802e-06,
+            "velocity_mse_m2_s2": 6.354571190820925e-05,
+            "node_count": 630
+          },
+          {
+            "phase": "release",
+            "region": "contact_neighborhood",
+            "horizon": 5,
+            "position_mse_m2": 5.98172952859941e-08,
+            "velocity_mse_m2_s2": 0.00010202414644181315,
+            "node_count": 154
+          },
+          {
+            "phase": "release",
+            "region": "contact_neighborhood",
+            "horizon": 10,
+            "position_mse_m2": 5.083849733015765e-07,
+            "velocity_mse_m2_s2": 0.0003368554780752063,
+            "node_count": 154
+          },
+          {
+            "phase": "release",
+            "region": "contact_neighborhood",
+            "horizon": 20,
+            "position_mse_m2": 4.110923096082072e-06,
+            "velocity_mse_m2_s2": 0.00016187435056673623,
+            "node_count": 154
+          }
+        ],
+        "position_score": 0.3135855701275347,
+        "velocity_score": 0.003795461117210632,
+        "joint_score": 0.15869051562237266
+      },
+      "scores_match": true,
+      "physics_windows": [
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 20,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998312
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 70,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.873539442822433
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 110,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8539427038474643
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 140,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8549586075291806
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 150,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9303436907817264
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 170,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9497346758762841
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_shallow",
+          "start": 210,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9865010053686887
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 20,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998312
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 70,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7015396323088438
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 110,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6051368783814774
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 140,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6071347546961567
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 150,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7593312464761075
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 170,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9312978450073051
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "center_deep",
+          "start": 210,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9749288881605528
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 20,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998312
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 70,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8838069052174844
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 110,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8685333112002159
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 140,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8686409480362725
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 150,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.8883113089946083
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 170,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9379825709437366
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_shallow",
+          "start": 210,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.978995003711181
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 20,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998312
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 70,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7410519673064805
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 110,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6424311793497953
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 140,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6449414760301503
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 150,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6516303348876673
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 170,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9162578593197832
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "left_deep",
+          "start": 210,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9758028891088161
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 20,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998312
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 70,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998315
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 110,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998226
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 140,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.999999999999849
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 150,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998367
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 170,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998401
+          },
+          "matches": true
+        },
+        {
+          "kind": "ordinary",
+          "trajectory": "no_contact",
+          "start": 210,
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.9999999999998117
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 70,
+          "variant": "base",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7410519673064805
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 70,
+          "variant": "detach",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7410519673064805
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 70,
+          "variant": "shift_left",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7410519673064805
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 70,
+          "variant": "shift_right",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7410519673064805
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 70,
+          "variant": "deeper",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7410519673064805
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 70,
+          "variant": "faster_down",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.7410519673064805
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 110,
+          "variant": "base",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6424311793497953
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 110,
+          "variant": "detach",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6424311793497953
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 110,
+          "variant": "shift_left",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6424311793497953
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 110,
+          "variant": "shift_right",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6424311793497953
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 110,
+          "variant": "deeper",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6424311793497953
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 110,
+          "variant": "faster_down",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6424311793497953
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 150,
+          "variant": "base",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6516303348876673
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 150,
+          "variant": "detach",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6516303348876673
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 150,
+          "variant": "shift_left",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6516303348876673
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 150,
+          "variant": "shift_right",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6516303348876673
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 150,
+          "variant": "deeper",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6516303348876673
+          },
+          "matches": true
+        },
+        {
+          "kind": "intervention",
+          "frame": 150,
+          "variant": "faster_down",
+          "independent": {
+            "eligible": true,
+            "inverted_states": 0,
+            "nonfinite_states": 0,
+            "fixed_boundary_violating_states": 0,
+            "minimum_volume_ratio": 0.6516303348876673
+          },
+          "matches": true
+        }
+      ],
+      "physics_match": true,
+      "passed": true
+    }
+  },
+  "checkpoint_zero_and_common_minimum": {
+    "RAW": true,
+    "G": true
+  },
+  "changed_frozen_files": {
+    "source_hashes": [],
+    "data_hashes": []
+  },
+  "input_permissions": {
+    "native_contact_or_force_query_calls": 0,
+    "native_queries_forbidden_during_caching_training_and_evaluation": true,
+    "same_initial_weights": true,
+    "same_parameter_count": true,
+    "raw_receives_tool_state_and_commands": true,
+    "G_reencoded_for_training_and_recomputed_during_rollout": true,
+    "historical_M_contexts_and_gates_replaced": true,
+    "query_counter_note": "Legacy native_queries fields count conditioner calls here; actual native queries=0"
+  },
+  "both_twenty_step_reload_checks": [
+    {
+      "twenty_step_position_velocity_bitwise_equal": true
+    },
+    {
+      "twenty_step_position_velocity_bitwise_equal": true
+    }
+  ],
+  "audit_passed": true,
+  "independent_test_verified": false
+}

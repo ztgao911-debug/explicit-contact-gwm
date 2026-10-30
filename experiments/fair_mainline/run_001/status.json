@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "trainings_started": 2,
+  "successful_trainings": 2,
+  "wall_elapsed_seconds": 433.4134340286255,
+  "completed_epoch": 1793336123.413434,
+  "independent_test_verified": false
+}

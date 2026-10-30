@@ -1,0 +1,28 @@
+{
+  "ordinary_train": {
+    "rows": 600,
+    "same_shared_state_targets_masks": {
+      "features": true,
+      "velocity": true,
+      "target_dx": true,
+      "target_dv": true,
+      "neighborhood": true,
+      "pinned": true
+    },
+    "RAW_gate_is_constant_one": true,
+    "RAW_and_G_contexts_differ": true
+  },
+  "branch_cache": {
+    "rows": 2160,
+    "same_shared_state_targets_masks": {
+      "features": true,
+      "velocity": true,
+      "target_dx": true,
+      "target_dv": true,
+      "neighborhood": true,
+      "pinned": true
+    },
+    "RAW_gate_is_constant_one": true,
+    "RAW_and_G_contexts_differ": true
+  }
+}

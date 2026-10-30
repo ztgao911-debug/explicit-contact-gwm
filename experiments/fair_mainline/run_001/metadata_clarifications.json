@@ -1,0 +1,12 @@
+{
+  "original_protocol_unchanged": true,
+  "inherited_fixed_training_condition": "M_current_native_geometry_and_force",
+  "actual_training_conditions": {
+    "RAW": "36 raw state/kinematic channels, gate=1; no contact queries",
+    "G": "Existing topology-assisted surface + calibrated point force + contact gate; no native query"
+  },
+  "superseded_template_description": "The fixed.training_condition M description is inherited and inapplicable here; frozen RAW_condition/G_condition and executable paths define this experiment.",
+  "legacy_training_summary_fields": "The legacy native_queries counter counts conditioner calls, not native queries; RAW gradients follow current kinematics, G geometry/force are stop-gradient.",
+  "actual_native_contact_or_force_queries": 0,
+  "no_changes_to_training_selection_or_scores": true
+}

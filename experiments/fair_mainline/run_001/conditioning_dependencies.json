@@ -1,0 +1,26 @@
+{
+  "recorded_after_run_for_completeness": true,
+  "read_only_dependencies": {
+    "legacy_pipeline_config": {
+      "path": "configs/validate_contact_pipeline.yaml",
+      "sha256": "61848306918a8521043c0b455d4e980e583a1fc79b5250837c443c43d9b81613",
+      "text": "# Frozen existing spatial-B weights. No training or hyperparameter search.\nseed: 7\ncpu_threads: 1\ndt: 0.01\ndata_directory: data/mujoco_soft_pilot/pilot_001\ncheckpoint: outputs/soft_spatial_encoding_ablation/run_001/B/checkpoint.pt\noutput_root: outputs/contact_pipeline_validation\nsplits:\n  train: [center_shallow, center_deep]\n  validation: [left_shallow, left_deep]\n  control: [no_contact]\ncalibration:\n  trajectories: [center_shallow, center_deep]\n  phase_ids: [1, 2]\n  objective: nonnegative_per_contact_normal_force_least_squares\ninitial_material:\n  normal_stiffness: 800.0  # N/m; replaced by center-only calibration\n  normal_damping: 12.0    # N s/m; replaced by center-only calibration\n  tangent_damping: 4.0    # N s/m; fixed, no search\n  friction_coefficient: 0.3\nmaterial_features: [1.0, 0.3, 0.2, 0.3]  # Existing training normalization, NOT stiffness\nsphere_radius_m: 0.012\n# Gaussian scale remains half nearest rest-node spacing = 0.005 m.\n# Iso-radius .2*.005 = .001 m matches the known MuJoCo collision skin.\n# Surface-node balls do not fill triangle faces; detection errors are measured.\ngaussian_surface_level: 0.2\ncontact_neighborhood_radius_m: 0.02\nrollout:\n  horizons: [5, 10, 20]\n  # No data-driven window selection: pressing, hold, unload, separation, recovery.\n  start_frames: [70, 110, 140, 150, 170, 210]\n  update: constant_acceleration_from_displacement_residual\n  external_input: recorded_current_indenter_motion_and_command\n"
+    },
+    "point_calibration": {
+      "path": "outputs/elastic_area_calibration/run_002/matched_point_calibration.json",
+      "sha256": "2ef974071c8cab9c7e1b815ecae606c52b56d458079fb8f34faa9b258be37b32",
+      "text": "{\n  \"stiffness_N_m\": 519.5968946439034,\n  \"unit\": \"N/m\",\n  \"fit_frames\": 200,\n  \"objective\": \"equal_frame_weight_vector_squared_error\",\n  \"intercept_N\": 0.0,\n  \"normal_force_only\": true,\n  \"torque_used_for_fitting\": false,\n  \"vector_rmse_N\": 0.11949743027905457,\n  \"training_trajectories\": [\n    \"center_shallow\",\n    \"center_deep\"\n  ],\n  \"fit_phase_ids\": [\n    1,\n    2\n  ],\n  \"validation_targets_loaded_before_freezing\": false\n}\n"
+    },
+    "integration_config": {
+      "path": "configs/validate_adaptive_contact_integration.yaml",
+      "sha256": "da475b3ac94e86457ce5bdc4f0585af08e2a5a293d5cfa834a90a2e3825cf299",
+      "text": "experiment_date: \"2026-10-29\"\nseed: 7\ncpu_threads: 1\nbase_config: configs/validate_contact_surface.yaml\nsampling_config: configs/audit_contact_sampling.yaml\nbaseline_run: outputs/contact_sampling_audit/run_001\noutput_root: outputs/adaptive_contact_integration\nintegration:\n  orders: [4, 8, 16, 32]\n  relative_tolerance: 0.0001\n  area_absolute_tolerance_m2: 1.0e-18\n  elastic_absolute_tolerance_m3: 1.0e-26\n  damping_absolute_tolerance_m3_s: 1.0e-22\n  max_depth: 12\n  max_intervals: 512\nreference_orders: [128, 256]\nreference_trajectory_frames: [70, 110, 150]\nflat_plane_depths_m: [0.00005, 0.0001, 0.0005, 0.001]\nflat_plane_robot_speed_m_s: 0.01\nstress_depths_m: [0.0000001, 0.000001, 0.00001, 0.00005]\nstress_regions: [top, edge, corner]\nbenchmark:\n  trajectory: center_deep\n  frames: [70, 110, 150]\n  warmup: 2\n  repetitions: 10\nacceptance:\n  max_reference_relative_error: 0.001\n  max_reference_order_difference: 0.0001\n  max_closed_form_relative_error: 0.001\n# Accuracy/positivity checks, not force fitting or validation-based density search.\n"
+    },
+    "area_material": {
+      "path": "outputs/elastic_area_calibration/run_002/material.json",
+      "sha256": "0d692925722318903992ebea2fa8865573aaba120faa8fcba852c550f91f68b3",
+      "text": "{\n  \"schema_version\": 1,\n  \"stiffness_N_m3\": 63796521.10025896,\n  \"stiffness_unit\": \"N/m^3\",\n  \"damping_N_s_m3\": 0.0,\n  \"tangential_model\": \"none\",\n  \"intercept_N\": 0.0\n}\n"
+    }
+  },
+  "point_force_only_used_by_G": true
+}

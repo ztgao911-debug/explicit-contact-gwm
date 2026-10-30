@@ -170,8 +170,11 @@ def train_candidate(
     schedules,
     output,
     deadline,
+    *,
+    path=None,
 ):
-    path = DifferentiableContactRollout(legacy, model, conditions, encoder)
+    if path is None:
+        path = DifferentiableContactRollout(legacy, model, conditions, encoder)
     optimizer = torch.optim.Adam(model.parameters(), lr=candidate["learning_rate"])
     training_settings = {**settings, "velocity_weight": candidate["velocity_weight"]}
     best_score, selected_step, best_state = math.inf, None, None

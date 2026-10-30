@@ -1,0 +1,18 @@
+{
+  "RAW": {
+    "terminal_to_first_position_gradient_norm": 2.3504035522899525,
+    "terminal_to_first_velocity_gradient_norm": 0.0592416059530339,
+    "finite_nonzero_gradients": true,
+    "train_inference_one_step_bitwise_equal": true,
+    "optimizer_updates": 0,
+    "native_queries_allowed": false
+  },
+  "G": {
+    "terminal_to_first_position_gradient_norm": 2.351180389149375,
+    "terminal_to_first_velocity_gradient_norm": 0.05922843542752303,
+    "finite_nonzero_gradients": true,
+    "train_inference_one_step_bitwise_equal": true,
+    "optimizer_updates": 0,
+    "native_queries_allowed": false
+  }
+}

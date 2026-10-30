@@ -1,0 +1,10 @@
+{
+  "native_contact_or_force_query_calls": 0,
+  "native_queries_forbidden_during_caching_training_and_evaluation": true,
+  "same_initial_weights": true,
+  "same_parameter_count": true,
+  "raw_receives_tool_state_and_commands": true,
+  "G_reencoded_for_training_and_recomputed_during_rollout": true,
+  "historical_M_contexts_and_gates_replaced": true,
+  "query_counter_note": "Legacy native_queries fields count conditioner calls here; actual native queries=0"
+}

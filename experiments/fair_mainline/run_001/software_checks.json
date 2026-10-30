@@ -1,0 +1,18 @@
+{
+  "pytest": {
+    "command": ".venv/bin/python -m pytest -o addopts='' -q",
+    "passed": 233,
+    "elapsed_seconds": 6.25,
+    "exit_code": 0
+  },
+  "ruff": {
+    "command": ".venv/bin/python -m ruff check .",
+    "exit_code": 0
+  },
+  "formal_trainings": 2,
+  "updates_each": 200,
+  "formal_training_failures": 0,
+  "formal_training_timeouts": 0,
+  "right_arrays_loaded": false,
+  "independent_test_verified": false
+}

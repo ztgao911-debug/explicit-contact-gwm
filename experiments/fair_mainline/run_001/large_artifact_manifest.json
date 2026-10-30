@@ -1,0 +1,133 @@
+{
+  "ignored_large_artifacts": {
+    "outputs/fair_mainline/run_001/shared_batch_schedule.npz": {
+      "sha256": "bb4636c973ee9e3c0143603b045aa57171b76dc6d13cc20619b1e0d092a6a7eb",
+      "bytes": 28050
+    },
+    "outputs/fair_mainline/run_001/G/ordinary_train.npz": {
+      "sha256": "820d7e1eb57c2ce041b7a05885e67f767502ed53c9e18d492f752fa048c2552f",
+      "bytes": 5311474
+    },
+    "outputs/fair_mainline/run_001/G/selected_weights.pt": {
+      "sha256": "12a3a7e27a4765977161ff348a3766ef4cee9e3f4293a1f34c39598cc019c268",
+      "bytes": 203123
+    },
+    "outputs/fair_mainline/run_001/G/checkpoint.pt": {
+      "sha256": "e4a0041536185ea609a8318ec4561f1859cf1251f31395774df8bb7836e50591",
+      "bytes": 203637
+    },
+    "outputs/fair_mainline/run_001/G/branch_cache.npz": {
+      "sha256": "c79644a701921e3ee1662839843833653823f95194ab9fa1e6a23af9e16d1a11",
+      "bytes": 26149107
+    },
+    "outputs/fair_mainline/run_001/RAW/ordinary_train.npz": {
+      "sha256": "a4a76899cfaddc8b7f45c0e6d9d215a6dbf3ba22adaa2ddce04af87dadb53884",
+      "bytes": 7340855
+    },
+    "outputs/fair_mainline/run_001/RAW/selected_weights.pt": {
+      "sha256": "290b61ccf14bd56e19ce82d3c041b0e5e693954b6fa094ae52679f71dd645dc8",
+      "bytes": 203123
+    },
+    "outputs/fair_mainline/run_001/RAW/checkpoint.pt": {
+      "sha256": "a8393f3775eb99735412e3b242081f958c29e454eb82b38316243d0d5eea53a6",
+      "bytes": 203637
+    },
+    "outputs/fair_mainline/run_001/RAW/branch_cache.npz": {
+      "sha256": "27479c9e95a0e16071a8d053d89172a97a58ed960f9f1b15f53af0ccb2ce6b30",
+      "bytes": 29044352
+    },
+    "outputs/fair_mainline/run_001/evaluation/ordinary/rollout_predictions.npz": {
+      "sha256": "2ec26ae4226e7a3bebed8c2a2a5edfeccaca7fe64a4cb6f0de8253bfe8b7cf6f",
+      "bytes": 6748681
+    },
+    "outputs/fair_mainline/run_001/evaluation/ordinary/one_step_predictions.npz": {
+      "sha256": "82e45bc680eca1fb97335ad6e51c72d603ee811c65d73110c74d032c3a29d7b6",
+      "bytes": 19290278
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/70_base_predictions.npz": {
+      "sha256": "818a59e7c40d69e816e8837c50b407d0d7fc0171df403391a7ff06c73c0a1146",
+      "bytes": 221333
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/110_shift_right_predictions.npz": {
+      "sha256": "17c9bac3a19c00af9cba5c66bd722e3d7d4a9876619010f121a3c315cb4bc50c",
+      "bytes": 219158
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/110_faster_down_predictions.npz": {
+      "sha256": "45809d32ea5d25b5fb35a83bfee17928afafd8c71e53a6fe2d8554bad14d2cf1",
+      "bytes": 220663
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/150_masks.npz": {
+      "sha256": "2ac34b78f6c1659f6a2ad02d0185218402c334d95ed071691b54a3ac31b4e4f4",
+      "bytes": 866
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/70_shift_left_predictions.npz": {
+      "sha256": "e245f4f8a012ce00324d59f58bf752587c577ae0851197acc2f701b285f0a2c0",
+      "bytes": 222136
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/70_shift_right_predictions.npz": {
+      "sha256": "6ae55a43b89be926dabd79df32f203273d58df7e9058eb3fed1ea8f2c249f1b6",
+      "bytes": 221992
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/70_faster_down_predictions.npz": {
+      "sha256": "c162daf149bf253c1754fe48b2c808d859ee57659caead9aa330e690fc448410",
+      "bytes": 221438
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/150_detach_predictions.npz": {
+      "sha256": "ec76b72ced8b732eaf3b7442876b050229404c377729ad1d74ceb74da1c82bad",
+      "bytes": 219657
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/150_base_predictions.npz": {
+      "sha256": "98f85c12774927ecb233918f1a3b389665302adfca1fc198bef254f71493848a",
+      "bytes": 223738
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/150_shift_right_predictions.npz": {
+      "sha256": "9f05b4c70ca6c30225f26c2f4e0815996a5252bda9eb88ef43ca38195788ee54",
+      "bytes": 222963
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/150_faster_down_predictions.npz": {
+      "sha256": "243cff6346dccb9f000c5cbd5ad3ebe25f928a4c30a8fd8dee2dcd77b505579c",
+      "bytes": 223467
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/70_deeper_predictions.npz": {
+      "sha256": "d9d2265df9e053ed50e2df220ac1daedc0d48deb3f5798930c7f817da76dbcc3",
+      "bytes": 221648
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/150_shift_left_predictions.npz": {
+      "sha256": "eb1c86639281345fbc64aea4b118c6e0b8d47b42c4b2a67768dc350fbdc2644c",
+      "bytes": 223388
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/110_detach_predictions.npz": {
+      "sha256": "1ffc4c609157fd1b64a1ebf91e96ecf21f415e1fa6f56a69e6dd3a9e7bc080f4",
+      "bytes": 215623
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/150_deeper_predictions.npz": {
+      "sha256": "38139e1e180ed40dc7a1c26c308e04b4506f9c75d3efa9c4e1e9f4e3b53e4449",
+      "bytes": 221965
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/70_detach_predictions.npz": {
+      "sha256": "bac865bf4adbc20991d8756628f21825a2b216aaa4dedd6f5b8281841f689e4c",
+      "bytes": 220261
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/110_base_predictions.npz": {
+      "sha256": "423096137dfc33877d5f29c0cfdab7fd1210a4758a5ea8ff14b49ffdc59d3e66",
+      "bytes": 220503
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/110_masks.npz": {
+      "sha256": "f1e7f7b95d2d0e05cc264e34bbac1cc3f45131db4eeddce10106595bbc3d8acc",
+      "bytes": 866
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/70_masks.npz": {
+      "sha256": "23513a15e17cf851a200f194dacff0f06e2b663b940a889396e7fa8b0ae3a894",
+      "bytes": 865
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/110_shift_left_predictions.npz": {
+      "sha256": "4bcde7a3d7b3604deed42cbca6ff1e6cc400a916df675925eab3288f228750f9",
+      "bytes": 219603
+    },
+    "outputs/fair_mainline/run_001/evaluation/response_evaluation/110_deeper_predictions.npz": {
+      "sha256": "10a45aab5fb09551d25ea45c0992e510af4227bf16ea310278eb73eecf853866",
+      "bytes": 218726
+    }
+  },
+  "total_bytes": 98707176
+}
