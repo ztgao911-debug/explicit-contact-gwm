@@ -1,0 +1,10 @@
+{
+  "native_contact_or_force_query_calls": 0,
+  "original_caches_reused_read_only_and_hash_verified": true,
+  "same_model_initialization_within_each_seed": true,
+  "same_batch_schedule_within_each_seed": true,
+  "different_initialization_and_batch_order_across_seeds": true,
+  "G_recomputed_from_predicted_current_state_during_rollout": true,
+  "future_soft_state_only_supervision_or_scoring": true,
+  "independent_test_verified": false
+}

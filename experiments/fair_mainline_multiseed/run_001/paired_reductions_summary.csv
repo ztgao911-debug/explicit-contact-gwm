@@ -1,0 +1,7 @@
+reference,metric,expected_seeds,recorded_seeds,n_available,all_three_finite,missing_metric_seeds,mean,sample_std
+CV,joint_score_reduction_percent,"7,17,27","7,17,27",3,True,,-1.9406522882794983,10.077917999353119
+CV,position_rmse_um_reduction_percent,"7,17,27","7,17,27",3,True,,-0.8599611883547004,5.1146422398687275
+CV,velocity_rmse_mm_s_reduction_percent,"7,17,27","7,17,27",3,True,,-2.5287425828920997,2.332906994810226
+RAW,joint_score_reduction_percent,"7,17,27","7,17,27",3,True,,22.393346949754033,25.578309871207743
+RAW,position_rmse_um_reduction_percent,"7,17,27","7,17,27",3,True,,12.83373292276071,15.034621637899443
+RAW,velocity_rmse_mm_s_reduction_percent,"7,17,27","7,17,27",3,True,,6.084143244208954,11.07487194846517

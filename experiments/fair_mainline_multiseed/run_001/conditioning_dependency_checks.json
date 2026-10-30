@@ -1,0 +1,22 @@
+{
+  "unchanged_relative_to_seed7": true,
+  "dependencies": {
+    "legacy_pipeline_config": {
+      "path": "configs/validate_contact_pipeline.yaml",
+      "sha256": "61848306918a8521043c0b455d4e980e583a1fc79b5250837c443c43d9b81613"
+    },
+    "point_calibration": {
+      "path": "outputs/elastic_area_calibration/run_002/matched_point_calibration.json",
+      "sha256": "2ef974071c8cab9c7e1b815ecae606c52b56d458079fb8f34faa9b258be37b32"
+    },
+    "integration_config": {
+      "path": "configs/validate_adaptive_contact_integration.yaml",
+      "sha256": "da475b3ac94e86457ce5bdc4f0585af08e2a5a293d5cfa834a90a2e3825cf299"
+    },
+    "area_material": {
+      "path": "outputs/elastic_area_calibration/run_002/material.json",
+      "sha256": "0d692925722318903992ebea2fa8865573aaba120faa8fcba852c550f91f68b3"
+    }
+  },
+  "changed": []
+}

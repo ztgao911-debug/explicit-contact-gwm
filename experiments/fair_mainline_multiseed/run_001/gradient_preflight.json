@@ -1,0 +1,30 @@
+{
+  "17": {
+    "RAW": {
+      "position_gradient_norm": 2.3586526937113135,
+      "velocity_gradient_norm": 0.05942050089597584,
+      "probe_only_optimizer_updates": 0,
+      "seed": 17
+    },
+    "G": {
+      "position_gradient_norm": 2.3567601948338175,
+      "velocity_gradient_norm": 0.05937930387953108,
+      "probe_only_optimizer_updates": 0,
+      "seed": 17
+    }
+  },
+  "27": {
+    "RAW": {
+      "position_gradient_norm": 2.355381403131585,
+      "velocity_gradient_norm": 0.05937406899799958,
+      "probe_only_optimizer_updates": 0,
+      "seed": 27
+    },
+    "G": {
+      "position_gradient_norm": 2.355602855353412,
+      "velocity_gradient_norm": 0.05937163326529626,
+      "probe_only_optimizer_updates": 0,
+      "seed": 27
+    }
+  }
+}

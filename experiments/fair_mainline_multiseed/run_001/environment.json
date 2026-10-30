@@ -1,0 +1,8 @@
+{
+  "python": "3.13.5 (v3.13.5:6cb20a219a8, Jun 11 2025, 12:23:45) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+  "torch": "2.14.1",
+  "numpy": "2.5.4",
+  "mujoco": "3.3.7",
+  "cpu_threads": 1
+}

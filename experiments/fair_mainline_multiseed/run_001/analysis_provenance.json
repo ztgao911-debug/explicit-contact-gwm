@@ -1,0 +1,8 @@
+{
+  "analysis_only_not_new_training": true,
+  "report_script_sha256": "d25f546482a90b0e8740c6e8bbc7ac1461aa98549d07bab83836c60f3fb861a4",
+  "statistics_script_sha256": "0abf912b2c5ac7fb1f13aafd3c18e725c732d473de4e43f65625114a1648d357",
+  "official_summary_requires_all_three_finite_seeds": true,
+  "invalid_finite_metrics_not_removed_from_descriptive_statistics": true,
+  "no_statistical_significance_claim": true
+}

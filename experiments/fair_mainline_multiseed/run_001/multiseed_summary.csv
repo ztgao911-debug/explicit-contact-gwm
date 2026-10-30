@@ -1,0 +1,16 @@
+method,metric,expected_seeds,recorded_seeds,n_available,all_three_finite,missing_metric_seeds,mean,sample_std
+CV,joint_score,"7,17,27","7,17,27",3,True,,0.15869051562237269,0.0
+CV,position_rmse_um,"7,17,27","7,17,27",3,True,,559.9871160370877,0.0
+CV,velocity_rmse_mm_s,"7,17,27","7,17,27",3,True,,6.160731382888424,0.0
+CV,static_displacement_um,"7,17,27","7,17,27",3,True,,7.220602074198233e-10,0.0
+CV,static_velocity_mm_s,"7,17,27","7,17,27",3,True,,4.429275977893817e-12,0.0
+G,joint_score,"7,17,27","7,17,27",3,True,,0.1617701467450808,0.015992700037173367
+G,position_rmse_um,"7,17,27","7,17,27",3,True,,564.8027878947934,28.641337574655605
+G,velocity_rmse_mm_s,"7,17,27","7,17,27",3,True,,6.316520420785121,0.1437241333628729
+G,static_displacement_um,"7,17,27","7,17,27",3,True,,7.22060206166779e-10,0.0
+G,static_velocity_mm_s,"7,17,27","7,17,27",3,True,,4.429275977893817e-12,0.0
+RAW,joint_score,"7,17,27","7,17,27",3,True,,0.22124803614638214,0.05827805652973065
+RAW,position_rmse_um,"7,17,27","7,17,27",3,True,,657.909548267057,86.6294476942818
+RAW,velocity_rmse_mm_s,"7,17,27","7,17,27",3,True,,6.787160689858808,0.7883790039751275
+RAW,static_displacement_um,"7,17,27","7,17,27",3,True,,1515.8807461072345,281.1970131060248
+RAW,static_velocity_mm_s,"7,17,27","7,17,27",3,True,,9.360097969571212,1.3023234474116214

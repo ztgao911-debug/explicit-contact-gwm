@@ -1,0 +1,35 @@
+{
+  "seed": 27,
+  "variant": "RAW",
+  "status": "trained",
+  "initial_weight_sha256": "1fc29de78d5bc203c6c1bb838f957ba7fca201523aeeaaf008cd57a3639e70eb",
+  "started_epoch": 1793338387.432627,
+  "artifact_directory": "outputs/fair_mainline_multiseed/run_001/seed_27/RAW",
+  "training": {
+    "candidate": {
+      "id": "RAW",
+      "mode": "autoregressive",
+      "horizon": 3,
+      "learning_rate": 0.0001,
+      "velocity_weight": 0.5,
+      "mesh_weight": 0.001
+    },
+    "seed": 27,
+    "updates_completed": 200,
+    "selected_step": 100,
+    "selection_score": 0.22718938413847298,
+    "training_elapsed_seconds": 11.39028654199501,
+    "native_queries_training_and_selection": 10350,
+    "clipped_updates": 200,
+    "finite_gradients": true,
+    "conditional_gradient": "RAW current kinematics attached; no contact query",
+    "conditioner_calls_training_and_selection": 10350,
+    "actual_native_queries": 0
+  },
+  "reload": {
+    "twenty_step_position_velocity_bitwise_equal": true
+  },
+  "checkpoint_sha256": "11080b2eedb9418ccd0b06a7446dde7e070d7a8e9f876aae4629131a5999bd18",
+  "elapsed_seconds": 11.41778637500829,
+  "completed_epoch": 1793338398.851558
+}

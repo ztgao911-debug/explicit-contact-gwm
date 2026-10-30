@@ -1,0 +1,35 @@
+{
+  "seed": 17,
+  "variant": "G",
+  "status": "trained",
+  "initial_weight_sha256": "074e48741205147e74f2649ac1bb39eced0841d32f0dc9e005600eb3f64b4ac6",
+  "started_epoch": 1793338339.192971,
+  "artifact_directory": "outputs/fair_mainline_multiseed/run_001/seed_17/G",
+  "training": {
+    "candidate": {
+      "id": "G",
+      "mode": "autoregressive",
+      "horizon": 3,
+      "learning_rate": 0.0001,
+      "velocity_weight": 0.5,
+      "mesh_weight": 0.001
+    },
+    "seed": 17,
+    "updates_completed": 200,
+    "selected_step": 50,
+    "selection_score": 0.22353245299650099,
+    "training_elapsed_seconds": 25.573875000001863,
+    "native_queries_training_and_selection": 10350,
+    "clipped_updates": 200,
+    "finite_gradients": true,
+    "conditional_gradient": "G geometry/analytic force stop-gradient; state/features attached",
+    "conditioner_calls_training_and_selection": 10350,
+    "actual_native_queries": 0
+  },
+  "reload": {
+    "twenty_step_position_velocity_bitwise_equal": true
+  },
+  "checkpoint_sha256": "d858de898eb31088fd1f69ddb280ea3d836f4f4de4a53097a699d5a302d363c7",
+  "elapsed_seconds": 25.658014333006577,
+  "completed_epoch": 1793338364.850492
+}

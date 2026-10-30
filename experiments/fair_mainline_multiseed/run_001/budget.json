@@ -1,0 +1,13 @@
+{
+  "wall_start_epoch": 1793338078.0,
+  "deadline_epoch": 1793339878.0,
+  "budget_seconds": 1800,
+  "maximum_new_trainings": 4,
+  "new_seeds": [
+    17,
+    27
+  ],
+  "updates_per_training": 200,
+  "start_basis": "First repository inspection of this authorized replication turn",
+  "original_seed7_run_preserved": true
+}
