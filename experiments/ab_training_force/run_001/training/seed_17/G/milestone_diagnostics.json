@@ -1,0 +1,77 @@
+[
+  {
+    "update": 0,
+    "teacher_forced_central": {
+      "ordinary": 0.00017285184003412724,
+      "branch_absolute": 0.05176941305398941,
+      "paired_response": 0.13670995831489563
+    },
+    "central_fixed_AR_probe_loss": 0.07809100895629581,
+    "mesh_penalty": 0.0,
+    "training_window_minimum_volume_ratio": 0.6068233779446387,
+    "training_inverted_state_observations": 0,
+    "parameters_bitwise_unchanged": true,
+    "RNG_unchanged": true,
+    "elapsed_seconds": 0.764625875002821
+  },
+  {
+    "update": 200,
+    "teacher_forced_central": {
+      "ordinary": 0.005024301819503307,
+      "branch_absolute": 0.03044401854276657,
+      "paired_response": 0.10719587653875351
+    },
+    "central_fixed_AR_probe_loss": 0.020592417234268967,
+    "mesh_penalty": 0.0,
+    "training_window_minimum_volume_ratio": 0.6416797543160947,
+    "training_inverted_state_observations": 0,
+    "parameters_bitwise_unchanged": true,
+    "RNG_unchanged": true,
+    "elapsed_seconds": 0.7790427089930745
+  },
+  {
+    "update": 500,
+    "teacher_forced_central": {
+      "ordinary": 0.004503793548792601,
+      "branch_absolute": 0.025661377236247063,
+      "paired_response": 0.08600586652755737
+    },
+    "central_fixed_AR_probe_loss": 0.02535408173482677,
+    "mesh_penalty": 0.0,
+    "training_window_minimum_volume_ratio": 0.6565241544390502,
+    "training_inverted_state_observations": 0,
+    "parameters_bitwise_unchanged": true,
+    "RNG_unchanged": true,
+    "elapsed_seconds": 0.7764700830011861
+  },
+  {
+    "update": 1000,
+    "teacher_forced_central": {
+      "ordinary": 0.00570612121373415,
+      "branch_absolute": 0.030918456614017487,
+      "paired_response": 0.06583268940448761
+    },
+    "central_fixed_AR_probe_loss": 0.026276310985892587,
+    "mesh_penalty": 0.0,
+    "training_window_minimum_volume_ratio": 0.615345918496442,
+    "training_inverted_state_observations": 0,
+    "parameters_bitwise_unchanged": true,
+    "RNG_unchanged": true,
+    "elapsed_seconds": 0.8693442500079982
+  },
+  {
+    "update": 2000,
+    "teacher_forced_central": {
+      "ordinary": 0.0047634560614824295,
+      "branch_absolute": 0.02865995094180107,
+      "paired_response": 0.057795941829681396
+    },
+    "central_fixed_AR_probe_loss": 0.026563359201240044,
+    "mesh_penalty": 0.0,
+    "training_window_minimum_volume_ratio": 0.6019717630955848,
+    "training_inverted_state_observations": 0,
+    "parameters_bitwise_unchanged": true,
+    "RNG_unchanged": true,
+    "elapsed_seconds": 0.7612957080127671
+  }
+]

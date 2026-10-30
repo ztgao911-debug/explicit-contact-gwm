@@ -1,0 +1,7 @@
+{
+  "post_run_analysis_only": true,
+  "script_sha256": "2e30aaa242bee80c771c59f19b33be94d0caa1c6cf3ddef648b8f151ddefd43b",
+  "statistics": "Each seed evaluated first, mean/sample std ddof=1; failed seeds not deleted",
+  "selection_target_unchanged": true,
+  "no_independent_test": true
+}

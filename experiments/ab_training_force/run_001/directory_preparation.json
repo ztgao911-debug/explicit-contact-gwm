@@ -1,0 +1,22 @@
+{
+  "report_subdirectories_precreated": [
+    "experiments/ab_training_force/run_001/evaluation/seed_7/prefix_200",
+    "experiments/ab_training_force/run_001/evaluation/seed_7/prefix_500",
+    "experiments/ab_training_force/run_001/evaluation/seed_7/prefix_1000",
+    "experiments/ab_training_force/run_001/evaluation/seed_7/prefix_2000",
+    "experiments/ab_training_force/run_001/evaluation/seed_7/exact_2000",
+    "experiments/ab_training_force/run_001/evaluation/seed_17/prefix_200",
+    "experiments/ab_training_force/run_001/evaluation/seed_17/prefix_500",
+    "experiments/ab_training_force/run_001/evaluation/seed_17/prefix_1000",
+    "experiments/ab_training_force/run_001/evaluation/seed_17/prefix_2000",
+    "experiments/ab_training_force/run_001/evaluation/seed_17/exact_2000",
+    "experiments/ab_training_force/run_001/evaluation/seed_27/prefix_200",
+    "experiments/ab_training_force/run_001/evaluation/seed_27/prefix_500",
+    "experiments/ab_training_force/run_001/evaluation/seed_27/prefix_1000",
+    "experiments/ab_training_force/run_001/evaluation/seed_27/prefix_2000",
+    "experiments/ab_training_force/run_001/evaluation/seed_27/exact_2000"
+  ],
+  "reason": "Shared JSON writer expects its parent directory to exist; bootstrap only",
+  "scientific_source_or_protocol_changed": false,
+  "training_restarted": false
+}

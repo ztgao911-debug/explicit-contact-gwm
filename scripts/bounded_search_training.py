@@ -30,6 +30,23 @@ def check_deadline(deadline):
         raise SearchDeadline("Six-hour total wall-clock deadline reached")
 
 
+def save_milestone(output, step, model, best_state, selected_step, best_score, callback=None):
+    if selected_step is not None and selected_step > step:
+        raise ValueError("Prefix selection cannot use a future checkpoint")
+    torch.save({"model_state": model.state_dict(), "update": step}, output / f"exact_{step:04d}.pt")
+    torch.save(
+        {
+            "model_state": best_state,
+            "prefix_limit": step,
+            "selected_step": selected_step,
+            "selection_score": best_score,
+        },
+        output / f"prefix_{step:04d}.pt",
+    )
+    if callback is not None:
+        callback(step, model)
+
+
 def make_schedules(data, seed, updates, batch_size):
     generator = torch.Generator().manual_seed(seed)
     return {
@@ -172,6 +189,7 @@ def train_candidate(
     deadline,
     *,
     path=None,
+    milestone_callback=None,
 ):
     if path is None:
         path = DifferentiableContactRollout(legacy, model, conditions, encoder)
@@ -228,6 +246,10 @@ def train_candidate(
                     f"{candidate['id']} seed {settings['seed']} update {step}: "
                     f"fixed val={score}, selected={selected_step}",
                     flush=True,
+                )
+            if step in settings.get("milestone_updates", ()):
+                save_milestone(
+                    output, step, model, best_state, selected_step, best_score, milestone_callback
                 )
             if step == settings["updates"]:
                 break

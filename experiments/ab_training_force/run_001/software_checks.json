@@ -1,0 +1,35 @@
+{
+  "pytest": {
+    "command": "python -m pytest --junitxml=outputs/ab_training_force/run_001/pytest.xml",
+    "tests": 246,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "elapsed_seconds": 5.639,
+    "console_summary": "246 passed in 5.68s"
+  },
+  "ruff": {
+    "command": "ruff check .",
+    "exit_code": 0,
+    "result": "All checks passed!"
+  },
+  "trainings": 9,
+  "updates_each": [
+    2000,
+    2000,
+    2000,
+    2000,
+    2000,
+    2000,
+    2000,
+    2000,
+    2000
+  ],
+  "finite_training_gradients_all": true,
+  "actual_native_queries": 0,
+  "independent_method_evaluations": 60,
+  "all_available_audits_passed": true,
+  "all_prefix_selections_passed": true,
+  "all_reload_state_checks_passed": true,
+  "independent_test_verified": false
+}

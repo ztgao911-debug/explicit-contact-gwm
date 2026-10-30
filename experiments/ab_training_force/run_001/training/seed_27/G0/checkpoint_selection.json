@@ -1,0 +1,3405 @@
+[
+  {
+    "update": 0,
+    "scores": {
+      "joint_score": 0.22832607572584712,
+      "position_score": 0.28194708813261915,
+      "velocity_score": 0.1747050633190751,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0006735293689446489,
+        "velocity_rmse_m_s": 0.05716533289841063
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0009943652511606629,
+        "velocity_rmse_m_s": 0.07832700535099898
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00022961273258429317,
+        "velocity_rmse_m_s": 0.015242422509625105
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00039766270472018955,
+        "velocity_rmse_m_s": 0.02307999606015591
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 9.063062496277624e-05,
+        "velocity_rmse_m_s": 0.00428127920506091
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 9.10105587946876e-05,
+        "velocity_rmse_m_s": 0.004526060452490895
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.00040177434327475897,
+        "velocity_rmse_m_s": 0.034003270824702087
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0006514564858199178,
+        "velocity_rmse_m_s": 0.05112098736484278
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 50,
+    "scores": {
+      "joint_score": 0.22810175396166607,
+      "position_score": 0.28156676748674825,
+      "velocity_score": 0.1746367404365839,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0006773187940009377,
+        "velocity_rmse_m_s": 0.05745620993270246
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0009982958715451602,
+        "velocity_rmse_m_s": 0.07869947829832159
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00023135699426759913,
+        "velocity_rmse_m_s": 0.0164544095174169
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00038808391257901117,
+        "velocity_rmse_m_s": 0.024909709596297108
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 4.2894679095306924e-05,
+        "velocity_rmse_m_s": 0.002741275188772778
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 5.4420918854291486e-05,
+        "velocity_rmse_m_s": 0.0031765521020537075
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.00040118556846889286,
+        "velocity_rmse_m_s": 0.0332702224541715
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0006536758461137106,
+        "velocity_rmse_m_s": 0.04960202910024477
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 100,
+    "scores": {
+      "joint_score": 0.22590266371401685,
+      "position_score": 0.2743319887300112,
+      "velocity_score": 0.17747333869802254,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0006599099337915249,
+        "velocity_rmse_m_s": 0.057657386208731384
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0009695902221475342,
+        "velocity_rmse_m_s": 0.07890716048411567
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0002075935161910878,
+        "velocity_rmse_m_s": 0.016795122427587628
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00034081213167190267,
+        "velocity_rmse_m_s": 0.025063380502078802
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 4.052362391758138e-05,
+        "velocity_rmse_m_s": 0.002579565614426471
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 5.184570084162756e-05,
+        "velocity_rmse_m_s": 0.00302599488081186
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0004216828979717444,
+        "velocity_rmse_m_s": 0.033910530062688765
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0006911403663127359,
+        "velocity_rmse_m_s": 0.05070669485672499
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 150,
+    "scores": {
+      "joint_score": 0.21636547635392311,
+      "position_score": 0.2556781958828133,
+      "velocity_score": 0.1770527568250329,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0006393595364118619,
+        "velocity_rmse_m_s": 0.05755386381794795
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0009343225354282414,
+        "velocity_rmse_m_s": 0.07869527407793919
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00021184266627522828,
+        "velocity_rmse_m_s": 0.01674746067148355
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00034581870924086527,
+        "velocity_rmse_m_s": 0.025081491118162245
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 4.0597406616242105e-05,
+        "velocity_rmse_m_s": 0.002643507496102441
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 5.115032627032224e-05,
+        "velocity_rmse_m_s": 0.003069914811275191
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.00040407254287143954,
+        "velocity_rmse_m_s": 0.033972304709445005
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0006570230817352813,
+        "velocity_rmse_m_s": 0.050781281114901114
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 200,
+    "scores": {
+      "joint_score": 0.20947359038539562,
+      "position_score": 0.24174466613545265,
+      "velocity_score": 0.1772025146353386,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0006267048535707968,
+        "velocity_rmse_m_s": 0.05760515072351855
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.000909464466590495,
+        "velocity_rmse_m_s": 0.07866167119356728
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00022206235790152689,
+        "velocity_rmse_m_s": 0.017205364119979867
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.0003515880781497892,
+        "velocity_rmse_m_s": 0.025452423139662488
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 4.065855495666588e-05,
+        "velocity_rmse_m_s": 0.0026711813252607167
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 5.0703736488366264e-05,
+        "velocity_rmse_m_s": 0.0030950236193390563
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003875788776592788,
+        "velocity_rmse_m_s": 0.03395967900738075
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0006218564936680919,
+        "velocity_rmse_m_s": 0.05056050522532745
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 250,
+    "scores": {
+      "joint_score": 0.1984360567152145,
+      "position_score": 0.22046788399682626,
+      "velocity_score": 0.17640422943360273,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005933754018008923,
+        "velocity_rmse_m_s": 0.057344829697862316
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0008570333827762524,
+        "velocity_rmse_m_s": 0.07825188445547837
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00023056872723685516,
+        "velocity_rmse_m_s": 0.017555854595016095
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.0003760876598916775,
+        "velocity_rmse_m_s": 0.026554383035813305
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.8373404058960464e-05,
+        "velocity_rmse_m_s": 0.002639860457972568
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.7991047797514104e-05,
+        "velocity_rmse_m_s": 0.003050759437381681
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.00036773864829323625,
+        "velocity_rmse_m_s": 0.03378985427656271
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005861153872409424,
+        "velocity_rmse_m_s": 0.05029093261603059
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 300,
+    "scores": {
+      "joint_score": 0.19423130719686066,
+      "position_score": 0.21148044415947584,
+      "velocity_score": 0.17698217023424545,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005876751462306653,
+        "velocity_rmse_m_s": 0.05728975306174977
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0008436538141187583,
+        "velocity_rmse_m_s": 0.07809618864071988
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00023023279313862544,
+        "velocity_rmse_m_s": 0.01812033008057995
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00037099097164277223,
+        "velocity_rmse_m_s": 0.02734946355105329
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.8685771143890015e-05,
+        "velocity_rmse_m_s": 0.002671766401221986
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.776866123455033e-05,
+        "velocity_rmse_m_s": 0.0030745166618916407
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.00035695818200697437,
+        "velocity_rmse_m_s": 0.03388927757343186
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005593663379554765,
+        "velocity_rmse_m_s": 0.050359006056919384
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 350,
+    "scores": {
+      "joint_score": 0.18495469618389695,
+      "position_score": 0.19234668782025188,
+      "velocity_score": 0.17756270454754203,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005538926176397418,
+        "velocity_rmse_m_s": 0.05713802452376527
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0007922633513504121,
+        "velocity_rmse_m_s": 0.07792458814432676
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0002298178579678838,
+        "velocity_rmse_m_s": 0.01860115292896031
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00038006168466594303,
+        "velocity_rmse_m_s": 0.02880590071155544
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.89219214459339e-05,
+        "velocity_rmse_m_s": 0.002677069354998579
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.7795241668832534e-05,
+        "velocity_rmse_m_s": 0.0030684362427807624
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003423738459565185,
+        "velocity_rmse_m_s": 0.03380468911398307
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005348018037655434,
+        "velocity_rmse_m_s": 0.05032791736572183
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 400,
+    "scores": {
+      "joint_score": 0.17957294092647502,
+      "position_score": 0.18576620756358117,
+      "velocity_score": 0.1733796742893689,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005569012961520994,
+        "velocity_rmse_m_s": 0.05686954460194059
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.000797736853148868,
+        "velocity_rmse_m_s": 0.07757117579615745
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0001992822069086836,
+        "velocity_rmse_m_s": 0.0178579436489781
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.0003298630699665062,
+        "velocity_rmse_m_s": 0.027670151098217046
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.765961369237713e-05,
+        "velocity_rmse_m_s": 0.002648743966897602
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.600010787042428e-05,
+        "velocity_rmse_m_s": 0.003024005782569539
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.00033963717693984104,
+        "velocity_rmse_m_s": 0.03317392070501238
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005217238816419701,
+        "velocity_rmse_m_s": 0.04917040412517638
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 450,
+    "scores": {
+      "joint_score": 0.16533228352223023,
+      "position_score": 0.15745752444059166,
+      "velocity_score": 0.17320704260386882,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.000509374583297516,
+        "velocity_rmse_m_s": 0.05626414834920492
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.000721682001849616,
+        "velocity_rmse_m_s": 0.07662161827065572
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0001909298314716429,
+        "velocity_rmse_m_s": 0.018311660667497287
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.0003182728648739644,
+        "velocity_rmse_m_s": 0.02914733199380773
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.711370092911014e-05,
+        "velocity_rmse_m_s": 0.0026494591273144782
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.5177153945048926e-05,
+        "velocity_rmse_m_s": 0.0030055020747162954
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003169841847929744,
+        "velocity_rmse_m_s": 0.03347694902850516
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.00048756909778674326,
+        "velocity_rmse_m_s": 0.04998393703010699
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 500,
+    "scores": {
+      "joint_score": 0.16409196895562994,
+      "position_score": 0.1563096782895526,
+      "velocity_score": 0.17187425962170724,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005148710397910317,
+        "velocity_rmse_m_s": 0.05618241540571356
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0007200242863024066,
+        "velocity_rmse_m_s": 0.07645093313725887
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0001900585048282997,
+        "velocity_rmse_m_s": 0.01766785258134318
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00029147082551747605,
+        "velocity_rmse_m_s": 0.027641958945019647
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.754093773263865e-05,
+        "velocity_rmse_m_s": 0.0026597582987893343
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.560449340397919e-05,
+        "velocity_rmse_m_s": 0.0030191162742544972
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003234546626853313,
+        "velocity_rmse_m_s": 0.03362736366191798
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.00048760719622752103,
+        "velocity_rmse_m_s": 0.05025447162261523
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 550,
+    "scores": {
+      "joint_score": 0.16543694769559072,
+      "position_score": 0.15613314116861413,
+      "velocity_score": 0.17474075422256732,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005086857209145064,
+        "velocity_rmse_m_s": 0.0560434341522722
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0007011979006491595,
+        "velocity_rmse_m_s": 0.07615524592440724
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00021131352030027612,
+        "velocity_rmse_m_s": 0.01868680639676183
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.0003266296037911735,
+        "velocity_rmse_m_s": 0.029641109183685645
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.6291666231513854e-05,
+        "velocity_rmse_m_s": 0.0026275690216254082
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.406128068091983e-05,
+        "velocity_rmse_m_s": 0.002973913998941274
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.00032712147346378943,
+        "velocity_rmse_m_s": 0.03415890833167152
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0004868451796856124,
+        "velocity_rmse_m_s": 0.051267933014908035
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 600,
+    "scores": {
+      "joint_score": 0.1674901026928694,
+      "position_score": 0.1581618398603858,
+      "velocity_score": 0.17681836552535302,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005166285138891694,
+        "velocity_rmse_m_s": 0.05641327820322211
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0006969996598834571,
+        "velocity_rmse_m_s": 0.0766711916882146
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00022837149290434673,
+        "velocity_rmse_m_s": 0.01872598789944438
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.0003325269310737146,
+        "velocity_rmse_m_s": 0.029082429743858104
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.639389118835553e-05,
+        "velocity_rmse_m_s": 0.0026436411618309444
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.417754577980358e-05,
+        "velocity_rmse_m_s": 0.0030020721715401893
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003343867636672732,
+        "velocity_rmse_m_s": 0.03449256110840923
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0004845232650746581,
+        "velocity_rmse_m_s": 0.051791420709935865
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 650,
+    "scores": {
+      "joint_score": 0.18665864709717356,
+      "position_score": 0.1779583635961402,
+      "velocity_score": 0.19535893059820694,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005406216528013837,
+        "velocity_rmse_m_s": 0.058848628500170086
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0007348958677170477,
+        "velocity_rmse_m_s": 0.0807836203100567
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0002561399441928612,
+        "velocity_rmse_m_s": 0.019397277821324513
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.0003700579930698226,
+        "velocity_rmse_m_s": 0.029973385572823783
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.622501206278584e-05,
+        "velocity_rmse_m_s": 0.00266492432824677
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.386293271987978e-05,
+        "velocity_rmse_m_s": 0.003038885426093767
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.00034887778262840825,
+        "velocity_rmse_m_s": 0.03627790689295224
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005136347886196864,
+        "velocity_rmse_m_s": 0.055067945818682865
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 700,
+    "scores": {
+      "joint_score": 0.1905246307742784,
+      "position_score": 0.18676339869231406,
+      "velocity_score": 0.1942858628562427,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.000555497920468787,
+        "velocity_rmse_m_s": 0.05906654620760261
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0007469408205052347,
+        "velocity_rmse_m_s": 0.08101531589454461
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00027980540097800324,
+        "velocity_rmse_m_s": 0.01944893664949036
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00038224137034408837,
+        "velocity_rmse_m_s": 0.029393679633500043
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.6156844434362344e-05,
+        "velocity_rmse_m_s": 0.0026819334002190407
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.377187234620706e-05,
+        "velocity_rmse_m_s": 0.00306991976382413
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.00036112549955454867,
+        "velocity_rmse_m_s": 0.035974511505010326
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005192053662094404,
+        "velocity_rmse_m_s": 0.05419869506524429
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 750,
+    "scores": {
+      "joint_score": 0.19313685337321626,
+      "position_score": 0.18413961285530006,
+      "velocity_score": 0.20213409389113246,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005413831040238154,
+        "velocity_rmse_m_s": 0.059420088845522925
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0007366697445283135,
+        "velocity_rmse_m_s": 0.08164054492365826
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00026584238190437403,
+        "velocity_rmse_m_s": 0.02010173835034943
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.0003885600368766511,
+        "velocity_rmse_m_s": 0.030980318088732955
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.600888875025396e-05,
+        "velocity_rmse_m_s": 0.0026763052128005002
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.3413843135380394e-05,
+        "velocity_rmse_m_s": 0.0030657150056987922
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.000355877985337191,
+        "velocity_rmse_m_s": 0.03718079651093241
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005346562526052451,
+        "velocity_rmse_m_s": 0.05667423697402835
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 800,
+    "scores": {
+      "joint_score": 0.19326300572668498,
+      "position_score": 0.18713610949891035,
+      "velocity_score": 0.1993899019544596,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005471211725634655,
+        "velocity_rmse_m_s": 0.059191670713449794
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0007412414047348301,
+        "velocity_rmse_m_s": 0.08126152315000529
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00026937472410940624,
+        "velocity_rmse_m_s": 0.020085939172746693
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.0003884320409978487,
+        "velocity_rmse_m_s": 0.030867870112814614
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.590195559322222e-05,
+        "velocity_rmse_m_s": 0.0026737144192562528
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.334558376841842e-05,
+        "velocity_rmse_m_s": 0.0030569376327918576
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003636619369654492,
+        "velocity_rmse_m_s": 0.03680140732202076
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005380041742616122,
+        "velocity_rmse_m_s": 0.05583005977721838
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 850,
+    "scores": {
+      "joint_score": 0.19215413864771647,
+      "position_score": 0.17882577395618166,
+      "velocity_score": 0.20548250333925125,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005321483637252086,
+        "velocity_rmse_m_s": 0.05975854594307349
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0007247449720918889,
+        "velocity_rmse_m_s": 0.08216655660859322
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00025898172389008647,
+        "velocity_rmse_m_s": 0.02107187213958729
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.0003881988636396187,
+        "velocity_rmse_m_s": 0.032901647539398976
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.524495952632483e-05,
+        "velocity_rmse_m_s": 0.002651505166208213
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.25589167490903e-05,
+        "velocity_rmse_m_s": 0.0030233653716206423
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003518463568678931,
+        "velocity_rmse_m_s": 0.03714907671819701
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005268299703066581,
+        "velocity_rmse_m_s": 0.0565102300817413
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 900,
+    "scores": {
+      "joint_score": 0.1929472048886952,
+      "position_score": 0.18237942313960856,
+      "velocity_score": 0.20351498663778184,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005352241414577096,
+        "velocity_rmse_m_s": 0.05928401484154122
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0007273646661271103,
+        "velocity_rmse_m_s": 0.08142647594950755
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0002665102386797418,
+        "velocity_rmse_m_s": 0.020720050707060567
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00039414400351792,
+        "velocity_rmse_m_s": 0.03215989802616855
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.572150891753488e-05,
+        "velocity_rmse_m_s": 0.0026592646144033166
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.3132455816895065e-05,
+        "velocity_rmse_m_s": 0.003015641204133793
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.000357445553914247,
+        "velocity_rmse_m_s": 0.03743730071541049
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005350048450248388,
+        "velocity_rmse_m_s": 0.05705292913041761
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 950,
+    "scores": {
+      "joint_score": 0.19790346903461603,
+      "position_score": 0.18385594034213096,
+      "velocity_score": 0.21195099772710113,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005299758683426202,
+        "velocity_rmse_m_s": 0.060332370253940996
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0007312817183770005,
+        "velocity_rmse_m_s": 0.08315440384692524
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00026469478663151383,
+        "velocity_rmse_m_s": 0.021245915712739642
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.000401757643629434,
+        "velocity_rmse_m_s": 0.0329832711049253
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.534203751993572e-05,
+        "velocity_rmse_m_s": 0.0026437547845924994
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.2592395445124876e-05,
+        "velocity_rmse_m_s": 0.0029903719387408875
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003560480273254003,
+        "velocity_rmse_m_s": 0.038104663486709156
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005421201400671382,
+        "velocity_rmse_m_s": 0.05826017325918009
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1000,
+    "scores": {
+      "joint_score": 0.1925437665473289,
+      "position_score": 0.17555409969536923,
+      "velocity_score": 0.20953343339928857,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00051805754659693,
+        "velocity_rmse_m_s": 0.05980007237972699
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0007058477604265044,
+        "velocity_rmse_m_s": 0.0822053011385815
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0002646938200681343,
+        "velocity_rmse_m_s": 0.02148387422036484
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00040180577432289495,
+        "velocity_rmse_m_s": 0.033505073738710825
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.4309612966195745e-05,
+        "velocity_rmse_m_s": 0.0026041145861187788
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.15383412434193e-05,
+        "velocity_rmse_m_s": 0.0029259815523021114
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003502566909284523,
+        "velocity_rmse_m_s": 0.03805476294253461
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005298443955927384,
+        "velocity_rmse_m_s": 0.05814860186496464
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1050,
+    "scores": {
+      "joint_score": 0.19149460759351436,
+      "position_score": 0.17798365768056326,
+      "velocity_score": 0.20500555750646546,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005280795187101108,
+        "velocity_rmse_m_s": 0.05946888159968371
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0007135523980756554,
+        "velocity_rmse_m_s": 0.08160930013286477
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00026918047493362974,
+        "velocity_rmse_m_s": 0.021231988265685245
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.0003952733098407612,
+        "velocity_rmse_m_s": 0.03260552656858246
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.4376784286108114e-05,
+        "velocity_rmse_m_s": 0.0026149239287101152
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.149291998784597e-05,
+        "velocity_rmse_m_s": 0.0029327376167472582
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.00035707934535639106,
+        "velocity_rmse_m_s": 0.03760539264760731
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005260570847529766,
+        "velocity_rmse_m_s": 0.05709900902671571
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1100,
+    "scores": {
+      "joint_score": 0.19172417868388503,
+      "position_score": 0.1737231658735812,
+      "velocity_score": 0.2097251914941889,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005206109713475814,
+        "velocity_rmse_m_s": 0.060154176757992645
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.00070562998944263,
+        "velocity_rmse_m_s": 0.08269335753126891
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.000261024689946737,
+        "velocity_rmse_m_s": 0.021804358117183942
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00038951170835757083,
+        "velocity_rmse_m_s": 0.03363950532735183
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.407322420880408e-05,
+        "velocity_rmse_m_s": 0.002605015303386519
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.113349404769794e-05,
+        "velocity_rmse_m_s": 0.002918808170390348
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003505459216601019,
+        "velocity_rmse_m_s": 0.037702555586810745
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.000524640076297896,
+        "velocity_rmse_m_s": 0.057249142902708286
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1150,
+    "scores": {
+      "joint_score": 0.1935286831007348,
+      "position_score": 0.17463578077288877,
+      "velocity_score": 0.21242158542858078,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005135208004187119,
+        "velocity_rmse_m_s": 0.0602386003787614
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0006985492419581847,
+        "velocity_rmse_m_s": 0.08282760065154594
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0002740548958328269,
+        "velocity_rmse_m_s": 0.022207994621494212
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00041748938976753666,
+        "velocity_rmse_m_s": 0.034415750187047206
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.390146199342622e-05,
+        "velocity_rmse_m_s": 0.0026022123426027756
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.090985773781958e-05,
+        "velocity_rmse_m_s": 0.0029078097262334496
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.00034984792256960835,
+        "velocity_rmse_m_s": 0.03808909074417117
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005203764207474993,
+        "velocity_rmse_m_s": 0.05797397556455088
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1200,
+    "scores": {
+      "joint_score": 0.19385719473100918,
+      "position_score": 0.1746943994837436,
+      "velocity_score": 0.21301998997827476,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005151022995409019,
+        "velocity_rmse_m_s": 0.05984607778284341
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.000705146608743351,
+        "velocity_rmse_m_s": 0.08217521484290748
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00026256516942049123,
+        "velocity_rmse_m_s": 0.022210872716838966
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.0004022615774262737,
+        "velocity_rmse_m_s": 0.03455324691724251
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.420189589810611e-05,
+        "velocity_rmse_m_s": 0.0026053245326273676
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.117665364765631e-05,
+        "velocity_rmse_m_s": 0.0029080425659083254
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003503637110245115,
+        "velocity_rmse_m_s": 0.03871996205061154
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005278429839427428,
+        "velocity_rmse_m_s": 0.059207690461122064
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1250,
+    "scores": {
+      "joint_score": 0.19359443903404855,
+      "position_score": 0.17305001367639433,
+      "velocity_score": 0.21413886439170277,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005098496484719133,
+        "velocity_rmse_m_s": 0.06040750220503888
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0006963346822315561,
+        "velocity_rmse_m_s": 0.08310241074813875
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00026781731657077535,
+        "velocity_rmse_m_s": 0.02220858716876797
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.0004104442637236562,
+        "velocity_rmse_m_s": 0.03433303233006228
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.430799459952908e-05,
+        "velocity_rmse_m_s": 0.00260668102416282
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.124231241883465e-05,
+        "velocity_rmse_m_s": 0.002894447380531724
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003484655102105167,
+        "velocity_rmse_m_s": 0.03835562646093645
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005244756127538285,
+        "velocity_rmse_m_s": 0.05846132919042232
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1300,
+    "scores": {
+      "joint_score": 0.19148419790108206,
+      "position_score": 0.1736339335662992,
+      "velocity_score": 0.20933446223586497,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005119105976852511,
+        "velocity_rmse_m_s": 0.06000304710199752
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0006970664481000783,
+        "velocity_rmse_m_s": 0.08243650257251547
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.000269250232490586,
+        "velocity_rmse_m_s": 0.02174411120330704
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.0004098349247573589,
+        "velocity_rmse_m_s": 0.033369809046886856
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.420412151110979e-05,
+        "velocity_rmse_m_s": 0.002615540475191311
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.100923125173622e-05,
+        "velocity_rmse_m_s": 0.0028946355771558526
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003503465750271206,
+        "velocity_rmse_m_s": 0.03791333441913813
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005244641270711657,
+        "velocity_rmse_m_s": 0.0575467022446077
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1350,
+    "scores": {
+      "joint_score": 0.1918297105386629,
+      "position_score": 0.17072041660155013,
+      "velocity_score": 0.21293900447577568,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005072746363544354,
+        "velocity_rmse_m_s": 0.05994319600201093
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0006936038524802427,
+        "velocity_rmse_m_s": 0.08232277086378705
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00026260131356611063,
+        "velocity_rmse_m_s": 0.022314663652231878
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00040633213128123173,
+        "velocity_rmse_m_s": 0.03461428142072289
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.427676086158474e-05,
+        "velocity_rmse_m_s": 0.002607848192351451
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.110198316710646e-05,
+        "velocity_rmse_m_s": 0.002884649547253498
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003452997919325812,
+        "velocity_rmse_m_s": 0.03858737968896399
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005207571463610767,
+        "velocity_rmse_m_s": 0.058861654494115616
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1400,
+    "scores": {
+      "joint_score": 0.19022874979365628,
+      "position_score": 0.16646255639837146,
+      "velocity_score": 0.2139949431889411,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.000504858931675202,
+        "velocity_rmse_m_s": 0.060153808996057705
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0006901436151132119,
+        "velocity_rmse_m_s": 0.08266110954173955
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0002551016547427851,
+        "velocity_rmse_m_s": 0.022354221652414352
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.0003904665221378193,
+        "velocity_rmse_m_s": 0.03460342825157515
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.4200921088543726e-05,
+        "velocity_rmse_m_s": 0.002606933644786808
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.1044493873224775e-05,
+        "velocity_rmse_m_s": 0.002895808919872397
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.000342567873108043,
+        "velocity_rmse_m_s": 0.038600829402849264
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005126125637203196,
+        "velocity_rmse_m_s": 0.058872246197557675
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1450,
+    "scores": {
+      "joint_score": 0.18847249181818237,
+      "position_score": 0.16459131427782972,
+      "velocity_score": 0.21235366935853503,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0004998045378053661,
+        "velocity_rmse_m_s": 0.05998691461450654
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0006850066015104433,
+        "velocity_rmse_m_s": 0.08238693534326563
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00025470944924287943,
+        "velocity_rmse_m_s": 0.022327078855057473
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.0003967339689966213,
+        "velocity_rmse_m_s": 0.03461004755144147
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.397546026937023e-05,
+        "velocity_rmse_m_s": 0.0026007229744141377
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.069444206765797e-05,
+        "velocity_rmse_m_s": 0.002884424490606187
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003382054314160324,
+        "velocity_rmse_m_s": 0.038385994110490165
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005081573231337653,
+        "velocity_rmse_m_s": 0.05845797172554005
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1500,
+    "scores": {
+      "joint_score": 0.19146258389800908,
+      "position_score": 0.1686715978858235,
+      "velocity_score": 0.21425356991019462,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005037643264166373,
+        "velocity_rmse_m_s": 0.06016607805315063
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0006897907069169201,
+        "velocity_rmse_m_s": 0.08268136545106622
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00026309683402221993,
+        "velocity_rmse_m_s": 0.022524432506155316
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00041008915965910303,
+        "velocity_rmse_m_s": 0.03500249096860016
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.409466753034617e-05,
+        "velocity_rmse_m_s": 0.002606177152758251
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.074492422517778e-05,
+        "velocity_rmse_m_s": 0.0028829749648879607
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003413479172679901,
+        "velocity_rmse_m_s": 0.03854241072531856
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005128830357868112,
+        "velocity_rmse_m_s": 0.05874499884598543
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1550,
+    "scores": {
+      "joint_score": 0.19495968028572663,
+      "position_score": 0.1706614967876886,
+      "velocity_score": 0.2192578637837647,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005047169107644403,
+        "velocity_rmse_m_s": 0.060420401323081144
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0006926786544492011,
+        "velocity_rmse_m_s": 0.08311398892770486
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0002600516472081362,
+        "velocity_rmse_m_s": 0.022808999225603793
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00040632034177861024,
+        "velocity_rmse_m_s": 0.035625941352572695
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.417274562171284e-05,
+        "velocity_rmse_m_s": 0.002607124517251048
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.08837942151898e-05,
+        "velocity_rmse_m_s": 0.0028891995131046927
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.00034638324743151806,
+        "velocity_rmse_m_s": 0.039326854110281396
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005246002300110449,
+        "velocity_rmse_m_s": 0.06025665840359446
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1600,
+    "scores": {
+      "joint_score": 0.19012374369368787,
+      "position_score": 0.16490719905853224,
+      "velocity_score": 0.2153402883288435,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0004991847602532458,
+        "velocity_rmse_m_s": 0.060278709024325236
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0006839243969083193,
+        "velocity_rmse_m_s": 0.08287417577543126
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00025630113233475346,
+        "velocity_rmse_m_s": 0.022445709107438108
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00039778859386753815,
+        "velocity_rmse_m_s": 0.03485064626847057
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.407461564565414e-05,
+        "velocity_rmse_m_s": 0.0026070212412881797
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.075594397806435e-05,
+        "velocity_rmse_m_s": 0.0028808154651410946
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003389749300351736,
+        "velocity_rmse_m_s": 0.038720375918107806
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005105559924947273,
+        "velocity_rmse_m_s": 0.05910017531961338
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1650,
+    "scores": {
+      "joint_score": 0.19161794918310582,
+      "position_score": 0.1666575503008991,
+      "velocity_score": 0.21657834806531256,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.000500421432880831,
+        "velocity_rmse_m_s": 0.0602685309185499
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0006861724528503813,
+        "velocity_rmse_m_s": 0.08285850991792226
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0002581593830652067,
+        "velocity_rmse_m_s": 0.022687847196821063
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00040243519519850203,
+        "velocity_rmse_m_s": 0.03534099069517065
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.4057047098621304e-05,
+        "velocity_rmse_m_s": 0.002612708977279557
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.070775379960485e-05,
+        "velocity_rmse_m_s": 0.002877987376688708
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003408608526832403,
+        "velocity_rmse_m_s": 0.03891401645810063
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005142010102114567,
+        "velocity_rmse_m_s": 0.05945843581984204
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1700,
+    "scores": {
+      "joint_score": 0.19174382024398282,
+      "position_score": 0.16732762613738222,
+      "velocity_score": 0.2161600143505834,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005015416222434811,
+        "velocity_rmse_m_s": 0.06018782040619433
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.000686304387852432,
+        "velocity_rmse_m_s": 0.0827133933735798
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00025650411344711087,
+        "velocity_rmse_m_s": 0.022630866541927773
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00039666399806553506,
+        "velocity_rmse_m_s": 0.035140304056802664
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.401137543642355e-05,
+        "velocity_rmse_m_s": 0.0026082894757394476
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.068082414492185e-05,
+        "velocity_rmse_m_s": 0.0028754879419918655
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.00034601547177592526,
+        "velocity_rmse_m_s": 0.03898544836164137
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005199886537933373,
+        "velocity_rmse_m_s": 0.05955491668141875
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1750,
+    "scores": {
+      "joint_score": 0.19274540170097632,
+      "position_score": 0.16800328563154548,
+      "velocity_score": 0.21748751777040712,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0005000002689112048,
+        "velocity_rmse_m_s": 0.05997156258607542
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0006847971093321151,
+        "velocity_rmse_m_s": 0.08234818538017412
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00025372817214148384,
+        "velocity_rmse_m_s": 0.022965760475358386
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00039578213446023024,
+        "velocity_rmse_m_s": 0.035890924383681945
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.404354837862734e-05,
+        "velocity_rmse_m_s": 0.002605907721669894
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.070012299012527e-05,
+        "velocity_rmse_m_s": 0.0028771702094019663
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003491053223339153,
+        "velocity_rmse_m_s": 0.03937673679554199
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005285522326277937,
+        "velocity_rmse_m_s": 0.060332483752533014
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1800,
+    "scores": {
+      "joint_score": 0.18756406291171956,
+      "position_score": 0.16361655054325314,
+      "velocity_score": 0.211511575280186,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0004971811366571958,
+        "velocity_rmse_m_s": 0.05919196659039367
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0006770517956238294,
+        "velocity_rmse_m_s": 0.0810483245446516
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0002496350705274502,
+        "velocity_rmse_m_s": 0.022555206007837125
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.0003859696666449067,
+        "velocity_rmse_m_s": 0.03498759551554227
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.402370302144435e-05,
+        "velocity_rmse_m_s": 0.002606228784828759
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.063934474816688e-05,
+        "velocity_rmse_m_s": 0.002875904455880073
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.00034513027034783144,
+        "velocity_rmse_m_s": 0.03909444988409155
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005197401884734214,
+        "velocity_rmse_m_s": 0.059767029183390843
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1850,
+    "scores": {
+      "joint_score": 0.18371481130810785,
+      "position_score": 0.1607119687344614,
+      "velocity_score": 0.20671765388175428,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0004919967947430229,
+        "velocity_rmse_m_s": 0.058198890486038254
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0006636932894903406,
+        "velocity_rmse_m_s": 0.07944535143352631
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00024925900600720303,
+        "velocity_rmse_m_s": 0.022529553094052922
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.0003859054829369506,
+        "velocity_rmse_m_s": 0.034948805581467984
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.397202626581885e-05,
+        "velocity_rmse_m_s": 0.0026047793199300132
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.0573416375478474e-05,
+        "velocity_rmse_m_s": 0.002874289348345328
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.00034506607937210827,
+        "velocity_rmse_m_s": 0.0390761618872874
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005198289407767256,
+        "velocity_rmse_m_s": 0.059730603343210384
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1900,
+    "scores": {
+      "joint_score": 0.18980560876737806,
+      "position_score": 0.16517827191121956,
+      "velocity_score": 0.2144329456235366,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0004986974227233521,
+        "velocity_rmse_m_s": 0.05976561335914266
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0006828696097643939,
+        "velocity_rmse_m_s": 0.08200728058468387
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0002491240132943711,
+        "velocity_rmse_m_s": 0.022648346482229208
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.00038745522287198425,
+        "velocity_rmse_m_s": 0.03521637886949516
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.396627163226236e-05,
+        "velocity_rmse_m_s": 0.002603887452304295
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.057375676352058e-05,
+        "velocity_rmse_m_s": 0.002874260507418966
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.0003452989557362544,
+        "velocity_rmse_m_s": 0.0390522747709804
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005217283986993082,
+        "velocity_rmse_m_s": 0.05970134281251529
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 1950,
+    "scores": {
+      "joint_score": 0.18754636616410586,
+      "position_score": 0.16329628205994923,
+      "velocity_score": 0.21179645026826247,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0004954427475406814,
+        "velocity_rmse_m_s": 0.05922599278667161
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0006756121174436633,
+        "velocity_rmse_m_s": 0.0811123590728447
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00024875206211712246,
+        "velocity_rmse_m_s": 0.022646584238284084
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.0003867724658422644,
+        "velocity_rmse_m_s": 0.0352252426187851
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.396976434012544e-05,
+        "velocity_rmse_m_s": 0.0026043486073534386
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.056608942298977e-05,
+        "velocity_rmse_m_s": 0.002873939258355027
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.00034475943123790377,
+        "velocity_rmse_m_s": 0.039043964819331624
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005208894897030628,
+        "velocity_rmse_m_s": 0.059696098389890734
+      }
+    ],
+    "failures": []
+  },
+  {
+    "update": 2000,
+    "scores": {
+      "joint_score": 0.18752941757602293,
+      "position_score": 0.1626654084959497,
+      "velocity_score": 0.21239342665609615,
+      "coverage_complete": true,
+      "expected_cells": 8,
+      "observed_cells": 8,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "rows": [
+      {
+        "phase": "hold",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.0004951189519167684,
+        "velocity_rmse_m_s": 0.059214280602829454
+      },
+      {
+        "phase": "hold",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1750,
+        "position_rmse_m": 0.0006750448756291345,
+        "velocity_rmse_m_s": 0.08109294382518593
+      },
+      {
+        "phase": "press",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 4200,
+        "position_rmse_m": 0.00024815093374728635,
+        "velocity_rmse_m_s": 0.022642489212388806
+      },
+      {
+        "phase": "press",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 1145,
+        "position_rmse_m": 0.000385456059621005,
+        "velocity_rmse_m_s": 0.03521462420860377
+      },
+      {
+        "phase": "recover",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 1050,
+        "position_rmse_m": 3.3959187726540745e-05,
+        "velocity_rmse_m_s": 0.002603926237200665
+      },
+      {
+        "phase": "recover",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 195,
+        "position_rmse_m": 4.055066352349801e-05,
+        "velocity_rmse_m_s": 0.0028730246696706788
+      },
+      {
+        "phase": "release",
+        "region": "active",
+        "horizon": 5,
+        "node_count": 6300,
+        "position_rmse_m": 0.000343753687534084,
+        "velocity_rmse_m_s": 0.03921871952200817
+      },
+      {
+        "phase": "release",
+        "region": "contact_neighborhood",
+        "horizon": 5,
+        "node_count": 2030,
+        "position_rmse_m": 0.0005190139372430763,
+        "velocity_rmse_m_s": 0.06002651770266803
+      }
+    ],
+    "failures": []
+  }
+]

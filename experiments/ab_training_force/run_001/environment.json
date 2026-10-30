@@ -1,0 +1,12 @@
+{
+  "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+  "architecture": "arm64",
+  "python": "3.13.5 (v3.13.5:6cb20a219a8, Jun 11 2025, 12:23:45) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "pytorch": "2.14.1",
+  "numpy": "2.5.4",
+  "mujoco": "3.3.7",
+  "git": "git version 2.50.1 (Apple Git-155)",
+  "device": "cpu",
+  "worker_processes": 2,
+  "torch_threads_each_worker": 1
+}

@@ -1,0 +1,10 @@
+{
+  "csv_CRLF_to_LF_only_files": 183,
+  "csv_parsed_rows_unchanged": true,
+  "all_458_large_artifacts_ignored": true,
+  "budget_start_and_deadline_unchanged": true,
+  "final_checks_elapsed_since_start_seconds": 3635.9237110614777,
+  "within_7200_seconds": true,
+  "no_additional_training": true,
+  "frozen_source_data_history_checks_passed": true
+}

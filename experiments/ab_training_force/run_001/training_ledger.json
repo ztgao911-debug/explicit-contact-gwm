@@ -1,0 +1,281 @@
+[
+  {
+    "seed": 7,
+    "variant": "RAW",
+    "attempt": 1,
+    "status": "trained",
+    "artifact_directory": "outputs/ab_training_force/run_001/train/seed_7/RAW/attempt_01",
+    "started_epoch": 1793341913.827769,
+    "training": {
+      "candidate": {
+        "id": "RAW",
+        "mode": "autoregressive",
+        "horizon": 3,
+        "learning_rate": 0.0001,
+        "velocity_weight": 0.5,
+        "mesh_weight": 0.001
+      },
+      "seed": 7,
+      "updates_completed": 2000,
+      "selected_step": 500,
+      "selection_score": 0.22430060685537653,
+      "training_elapsed_seconds": 143.09414762498636,
+      "native_queries_training_and_selection": 102150,
+      "clipped_updates": 2000,
+      "finite_gradients": true,
+      "conditional_gradient": "Current state attached; G/G0 geometry/force stop-gradient; RAW kinematics attached",
+      "actual_native_queries": 0
+    },
+    "actual_native_queries": 0,
+    "elapsed_seconds": 144.88721158300177,
+    "completed_epoch": 1793342058.71266
+  },
+  {
+    "seed": 7,
+    "variant": "G",
+    "attempt": 1,
+    "status": "trained",
+    "artifact_directory": "outputs/ab_training_force/run_001/train/seed_7/G/attempt_01",
+    "started_epoch": 1793341913.827756,
+    "training": {
+      "candidate": {
+        "id": "G",
+        "mode": "autoregressive",
+        "horizon": 3,
+        "learning_rate": 0.0001,
+        "velocity_weight": 0.5,
+        "mesh_weight": 0.001
+      },
+      "seed": 7,
+      "updates_completed": 2000,
+      "selected_step": 500,
+      "selection_score": 0.16675600411539285,
+      "training_elapsed_seconds": 314.78209229199274,
+      "native_queries_training_and_selection": 102150,
+      "clipped_updates": 2000,
+      "finite_gradients": true,
+      "conditional_gradient": "Current state attached; G/G0 geometry/force stop-gradient; RAW kinematics attached",
+      "actual_native_queries": 0
+    },
+    "actual_native_queries": 0,
+    "elapsed_seconds": 316.5758070410084,
+    "completed_epoch": 1793342230.39854
+  },
+  {
+    "seed": 7,
+    "variant": "G0",
+    "attempt": 1,
+    "status": "trained",
+    "artifact_directory": "outputs/ab_training_force/run_001/train/seed_7/G0/attempt_01",
+    "started_epoch": 1793342061.5711281,
+    "training": {
+      "candidate": {
+        "id": "G0",
+        "mode": "autoregressive",
+        "horizon": 3,
+        "learning_rate": 0.0001,
+        "velocity_weight": 0.5,
+        "mesh_weight": 0.001
+      },
+      "seed": 7,
+      "updates_completed": 2000,
+      "selected_step": 500,
+      "selection_score": 0.16519809171052086,
+      "training_elapsed_seconds": 307.3356163330027,
+      "native_queries_training_and_selection": 102150,
+      "clipped_updates": 2000,
+      "finite_gradients": true,
+      "conditional_gradient": "Current state attached; G/G0 geometry/force stop-gradient; RAW kinematics attached",
+      "actual_native_queries": 0
+    },
+    "actual_native_queries": 0,
+    "elapsed_seconds": 309.04797295799654,
+    "completed_epoch": 1793342370.614191
+  },
+  {
+    "seed": 17,
+    "variant": "RAW",
+    "attempt": 1,
+    "status": "trained",
+    "artifact_directory": "outputs/ab_training_force/run_001/train/seed_17/RAW/attempt_01",
+    "started_epoch": 1793342233.440553,
+    "training": {
+      "candidate": {
+        "id": "RAW",
+        "mode": "autoregressive",
+        "horizon": 3,
+        "learning_rate": 0.0001,
+        "velocity_weight": 0.5,
+        "mesh_weight": 0.001
+      },
+      "seed": 17,
+      "updates_completed": 2000,
+      "selected_step": 400,
+      "selection_score": 0.22421081121651004,
+      "training_elapsed_seconds": 145.74149595899507,
+      "native_queries_training_and_selection": 102150,
+      "clipped_updates": 2000,
+      "finite_gradients": true,
+      "conditional_gradient": "Current state attached; G/G0 geometry/force stop-gradient; RAW kinematics attached",
+      "actual_native_queries": 0
+    },
+    "actual_native_queries": 0,
+    "elapsed_seconds": 147.72154508400126,
+    "completed_epoch": 1793342381.15973
+  },
+  {
+    "seed": 17,
+    "variant": "G",
+    "attempt": 1,
+    "status": "trained",
+    "artifact_directory": "outputs/ab_training_force/run_001/train/seed_17/G/attempt_01",
+    "started_epoch": 1793342374.098764,
+    "training": {
+      "candidate": {
+        "id": "G",
+        "mode": "autoregressive",
+        "horizon": 3,
+        "learning_rate": 0.0001,
+        "velocity_weight": 0.5,
+        "mesh_weight": 0.001
+      },
+      "seed": 17,
+      "updates_completed": 2000,
+      "selected_step": 500,
+      "selection_score": 0.16910568844706458,
+      "training_elapsed_seconds": 325.77871425000194,
+      "native_queries_training_and_selection": 102150,
+      "clipped_updates": 2000,
+      "finite_gradients": true,
+      "conditional_gradient": "Current state attached; G/G0 geometry/force stop-gradient; RAW kinematics attached",
+      "actual_native_queries": 0
+    },
+    "actual_native_queries": 0,
+    "elapsed_seconds": 327.73759008299385,
+    "completed_epoch": 1793342701.83115
+  },
+  {
+    "seed": 17,
+    "variant": "G0",
+    "attempt": 1,
+    "status": "trained",
+    "artifact_directory": "outputs/ab_training_force/run_001/train/seed_17/G0/attempt_01",
+    "started_epoch": 1793342384.123744,
+    "training": {
+      "candidate": {
+        "id": "G0",
+        "mode": "autoregressive",
+        "horizon": 3,
+        "learning_rate": 0.0001,
+        "velocity_weight": 0.5,
+        "mesh_weight": 0.001
+      },
+      "seed": 17,
+      "updates_completed": 2000,
+      "selected_step": 500,
+      "selection_score": 0.16844311158757103,
+      "training_elapsed_seconds": 319.6147916249902,
+      "native_queries_training_and_selection": 102150,
+      "clipped_updates": 2000,
+      "finite_gradients": true,
+      "conditional_gradient": "Current state attached; G/G0 geometry/force stop-gradient; RAW kinematics attached",
+      "actual_native_queries": 0
+    },
+    "actual_native_queries": 0,
+    "elapsed_seconds": 321.31049049999274,
+    "completed_epoch": 1793342705.4291341
+  },
+  {
+    "seed": 27,
+    "variant": "RAW",
+    "attempt": 1,
+    "status": "trained",
+    "artifact_directory": "outputs/ab_training_force/run_001/train/seed_27/RAW/attempt_01",
+    "started_epoch": 1793342704.58231,
+    "training": {
+      "candidate": {
+        "id": "RAW",
+        "mode": "autoregressive",
+        "horizon": 3,
+        "learning_rate": 0.0001,
+        "velocity_weight": 0.5,
+        "mesh_weight": 0.001
+      },
+      "seed": 27,
+      "updates_completed": 2000,
+      "selected_step": 450,
+      "selection_score": 0.2230207756116438,
+      "training_elapsed_seconds": 143.6805794170068,
+      "native_queries_training_and_selection": 102150,
+      "clipped_updates": 2000,
+      "finite_gradients": true,
+      "conditional_gradient": "Current state attached; G/G0 geometry/force stop-gradient; RAW kinematics attached",
+      "actual_native_queries": 0
+    },
+    "actual_native_queries": 0,
+    "elapsed_seconds": 145.55338850000408,
+    "completed_epoch": 1793342850.1333601
+  },
+  {
+    "seed": 27,
+    "variant": "G",
+    "attempt": 1,
+    "status": "trained",
+    "artifact_directory": "outputs/ab_training_force/run_001/train/seed_27/G/attempt_01",
+    "started_epoch": 1793342708.431515,
+    "training": {
+      "candidate": {
+        "id": "G",
+        "mode": "autoregressive",
+        "horizon": 3,
+        "learning_rate": 0.0001,
+        "velocity_weight": 0.5,
+        "mesh_weight": 0.001
+      },
+      "seed": 27,
+      "updates_completed": 2000,
+      "selected_step": 500,
+      "selection_score": 0.16421322065172778,
+      "training_elapsed_seconds": 319.0178979580087,
+      "native_queries_training_and_selection": 102150,
+      "clipped_updates": 2000,
+      "finite_gradients": true,
+      "conditional_gradient": "Current state attached; G/G0 geometry/force stop-gradient; RAW kinematics attached",
+      "actual_native_queries": 0
+    },
+    "actual_native_queries": 0,
+    "elapsed_seconds": 320.7598756660009,
+    "completed_epoch": 1793343029.1862998
+  },
+  {
+    "seed": 27,
+    "variant": "G0",
+    "attempt": 1,
+    "status": "trained",
+    "artifact_directory": "outputs/ab_training_force/run_001/train/seed_27/G0/attempt_01",
+    "started_epoch": 1793342853.253938,
+    "training": {
+      "candidate": {
+        "id": "G0",
+        "mode": "autoregressive",
+        "horizon": 3,
+        "learning_rate": 0.0001,
+        "velocity_weight": 0.5,
+        "mesh_weight": 0.001
+      },
+      "seed": 27,
+      "updates_completed": 2000,
+      "selected_step": 500,
+      "selection_score": 0.16409196895562994,
+      "training_elapsed_seconds": 303.9881935000012,
+      "native_queries_training_and_selection": 102150,
+      "clipped_updates": 2000,
+      "finite_gradients": true,
+      "conditional_gradient": "Current state attached; G/G0 geometry/force stop-gradient; RAW kinematics attached",
+      "actual_native_queries": 0
+    },
+    "actual_native_queries": 0,
+    "elapsed_seconds": 305.82830354198813,
+    "completed_epoch": 1793343159.077379
+  }
+]

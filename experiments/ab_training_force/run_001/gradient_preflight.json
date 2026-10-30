@@ -1,0 +1,17 @@
+{
+  "RAW": {
+    "position_gradient_norm": 2.3504035522899525,
+    "velocity_gradient_norm": 0.0592416059530339,
+    "optimizer_updates": 0
+  },
+  "G": {
+    "position_gradient_norm": 2.351180389149375,
+    "velocity_gradient_norm": 0.05922843542752303,
+    "optimizer_updates": 0
+  },
+  "G0": {
+    "position_gradient_norm": 2.351182648022223,
+    "velocity_gradient_norm": 0.05922846276487262,
+    "optimizer_updates": 0
+  }
+}

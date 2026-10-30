@@ -1,0 +1,20 @@
+{
+  "candidate": {
+    "id": "G0",
+    "mode": "autoregressive",
+    "horizon": 3,
+    "learning_rate": 0.0001,
+    "velocity_weight": 0.5,
+    "mesh_weight": 0.001
+  },
+  "seed": 27,
+  "updates_completed": 2000,
+  "selected_step": 500,
+  "selection_score": 0.16409196895562994,
+  "training_elapsed_seconds": 303.9881935000012,
+  "native_queries_training_and_selection": 102150,
+  "clipped_updates": 2000,
+  "finite_gradients": true,
+  "conditional_gradient": "Current state attached; G/G0 geometry/force stop-gradient; RAW kinematics attached",
+  "actual_native_queries": 0
+}

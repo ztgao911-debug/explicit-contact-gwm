@@ -1,0 +1,206 @@
+{
+  "RAW": {
+    "eligible": true,
+    "scores": {
+      "joint_score": 0.167903611490697,
+      "position_score": 0.33216580334870427,
+      "velocity_score": 0.003641419632689691,
+      "coverage_complete": true,
+      "expected_cells": 24,
+      "observed_cells": 24,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "ordinary_physics": {
+      "eligible": true,
+      "expected_windows": 35,
+      "saved_windows": 35,
+      "missing_windows": 0,
+      "incomplete_or_invalid_windows": 0,
+      "nonfinite_states": 0,
+      "fixed_boundary_violating_states": 0,
+      "inverted_states": 0,
+      "inverted_windows": 0,
+      "minimum_volume_ratio": 0.6052462356038792,
+      "max_fixed_position_error_m": 0.0,
+      "max_fixed_velocity_m_s": 0.0
+    },
+    "intervention_physics": {
+      "eligible": true,
+      "expected_windows": 18,
+      "incomplete_or_invalid_windows": 0,
+      "inverted_windows": 0,
+      "inverted_states": 0,
+      "nonfinite_states": 0,
+      "fixed_boundary_violating_states": 0,
+      "minimum_volume_ratio": 0.6492514288824074
+    },
+    "inverted_states": 0,
+    "inverted_windows": 0,
+    "minimum_volume_ratio": 0.6052462356038792,
+    "ordinary_failures": [],
+    "intervention_failures": [],
+    "forward_contracts": {
+      "nonfinite_outputs": 0,
+      "max_fixed_increment_m": 0.0,
+      "max_fixed_position_error_m": 0.0,
+      "max_fixed_velocity_m_s": 0.0
+    }
+  },
+  "G": {
+    "eligible": true,
+    "scores": {
+      "joint_score": 0.07098509383730377,
+      "position_score": 0.13172276588799614,
+      "velocity_score": 0.010247421786611387,
+      "coverage_complete": true,
+      "expected_cells": 24,
+      "observed_cells": 24,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "ordinary_physics": {
+      "eligible": true,
+      "expected_windows": 35,
+      "saved_windows": 35,
+      "missing_windows": 0,
+      "incomplete_or_invalid_windows": 0,
+      "nonfinite_states": 0,
+      "fixed_boundary_violating_states": 0,
+      "inverted_states": 0,
+      "inverted_windows": 0,
+      "minimum_volume_ratio": 0.6052462356038792,
+      "max_fixed_position_error_m": 0.0,
+      "max_fixed_velocity_m_s": 0.0
+    },
+    "intervention_physics": {
+      "eligible": true,
+      "expected_windows": 18,
+      "incomplete_or_invalid_windows": 0,
+      "inverted_windows": 0,
+      "inverted_states": 0,
+      "nonfinite_states": 0,
+      "fixed_boundary_violating_states": 0,
+      "minimum_volume_ratio": 0.6492514288824074
+    },
+    "inverted_states": 0,
+    "inverted_windows": 0,
+    "minimum_volume_ratio": 0.6052462356038792,
+    "ordinary_failures": [],
+    "intervention_failures": [],
+    "forward_contracts": {
+      "nonfinite_outputs": 0,
+      "max_fixed_increment_m": 0.0,
+      "max_fixed_position_error_m": 0.0,
+      "max_fixed_velocity_m_s": 0.0
+    }
+  },
+  "G0": {
+    "eligible": true,
+    "scores": {
+      "joint_score": 0.0679727522515099,
+      "position_score": 0.12585593493772357,
+      "velocity_score": 0.010089569565296217,
+      "coverage_complete": true,
+      "expected_cells": 24,
+      "observed_cells": 24,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "ordinary_physics": {
+      "eligible": true,
+      "expected_windows": 35,
+      "saved_windows": 35,
+      "missing_windows": 0,
+      "incomplete_or_invalid_windows": 0,
+      "nonfinite_states": 0,
+      "fixed_boundary_violating_states": 0,
+      "inverted_states": 0,
+      "inverted_windows": 0,
+      "minimum_volume_ratio": 0.6052462356038792,
+      "max_fixed_position_error_m": 0.0,
+      "max_fixed_velocity_m_s": 0.0
+    },
+    "intervention_physics": {
+      "eligible": true,
+      "expected_windows": 18,
+      "incomplete_or_invalid_windows": 0,
+      "inverted_windows": 0,
+      "inverted_states": 0,
+      "nonfinite_states": 0,
+      "fixed_boundary_violating_states": 0,
+      "minimum_volume_ratio": 0.6492514288824074
+    },
+    "inverted_states": 0,
+    "inverted_windows": 0,
+    "minimum_volume_ratio": 0.6052462356038792,
+    "ordinary_failures": [],
+    "intervention_failures": [],
+    "forward_contracts": {
+      "nonfinite_outputs": 0,
+      "max_fixed_increment_m": 0.0,
+      "max_fixed_position_error_m": 0.0,
+      "max_fixed_velocity_m_s": 0.0
+    }
+  },
+  "CV": {
+    "eligible": true,
+    "scores": {
+      "joint_score": 0.15869051562237269,
+      "position_score": 0.31358557012753474,
+      "velocity_score": 0.003795461117210632,
+      "coverage_complete": true,
+      "expected_cells": 24,
+      "observed_cells": 24,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "invalid_cells": [],
+      "position_unit_m": 0.001,
+      "velocity_unit_m_s": 0.1
+    },
+    "ordinary_physics": {
+      "eligible": true,
+      "expected_windows": 35,
+      "saved_windows": 35,
+      "missing_windows": 0,
+      "incomplete_or_invalid_windows": 0,
+      "nonfinite_states": 0,
+      "fixed_boundary_violating_states": 0,
+      "inverted_states": 0,
+      "inverted_windows": 0,
+      "minimum_volume_ratio": 0.6051368783814774,
+      "max_fixed_position_error_m": 0.0,
+      "max_fixed_velocity_m_s": 0.0
+    },
+    "intervention_physics": {
+      "eligible": true,
+      "expected_windows": 18,
+      "incomplete_or_invalid_windows": 0,
+      "inverted_windows": 0,
+      "inverted_states": 0,
+      "nonfinite_states": 0,
+      "fixed_boundary_violating_states": 0,
+      "minimum_volume_ratio": 0.6424311793497953
+    },
+    "inverted_states": 0,
+    "inverted_windows": 0,
+    "minimum_volume_ratio": 0.6051368783814774,
+    "ordinary_failures": [],
+    "intervention_failures": [],
+    "forward_contracts": {
+      "nonfinite_outputs": 0,
+      "max_fixed_increment_m": 0.0,
+      "max_fixed_position_error_m": 0.0,
+      "max_fixed_velocity_m_s": 0.0
+    }
+  }
+}

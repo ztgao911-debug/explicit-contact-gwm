@@ -1,0 +1,10 @@
+{
+  "wall_start_epoch": 1793341069.0,
+  "deadline_epoch": 1793348269.0,
+  "budget_seconds": 7200,
+  "maximum_trainings": 9,
+  "updates_each": 2000,
+  "maximum_parallel_workers": 2,
+  "start_basis": "First repository inspection of this authorized A+B turn",
+  "historical_runs_preserved": true
+}

@@ -1,0 +1,14 @@
+{
+  "written_epoch": 1793342260.473731,
+  "written_during_training_before_full_AB_evaluation": "evaluation_ledger.json does not exist at plan write",
+  "evaluation_results_already_available": false,
+  "A": "Within one 2000-update cosine and sampling trajectory compare prefix-best 200/500/1000/2000 plus exact endpoint 2000",
+  "B": "Compare G vs freshly trained G0 at prefix-best 2000, same validation selection and seeds",
+  "metrics": "Report actual-contact one-step increment and instantaneous velocity errors; press/hold/release/recover, active/ROI, 5/10/20-step; original fixed joint score unchanged",
+  "contact_group_definition": "Ground-truth current/start contact flag, never predicted contact flag; rollout group describes initial contact, not guaranteed contact at every future step",
+  "training_diagnostics": "Full central teacher-forced ordinary/branch/pair losses and 16 fixed central AR probes; not the same objective as all training windows",
+  "force_ablation_scope": "Tests utility of explicit force input; G0 may infer force from geometry, so this is not removal of physical force from the independent label solver",
+  "all_seeds_and_failures_retained": true,
+  "no_new_test_data": true,
+  "independent_test_verified": false
+}

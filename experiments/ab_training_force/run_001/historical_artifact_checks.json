@@ -1,0 +1,358 @@
+{
+  "old_large_artifacts_checked": 88,
+  "all_match": true,
+  "records": [
+    {
+      "path": "outputs/fair_mainline/run_001/shared_batch_schedule.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/G/ordinary_train.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/G/selected_weights.pt",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/G/checkpoint.pt",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/G/branch_cache.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/RAW/ordinary_train.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/RAW/selected_weights.pt",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/RAW/checkpoint.pt",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/RAW/branch_cache.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/ordinary/rollout_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/ordinary/one_step_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/70_base_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/110_shift_right_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/110_faster_down_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/150_masks.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/70_shift_left_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/70_shift_right_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/70_faster_down_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/150_detach_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/150_base_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/150_shift_right_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/150_faster_down_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/70_deeper_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/150_shift_left_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/110_detach_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/150_deeper_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/70_detach_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/110_base_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/110_masks.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/70_masks.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/110_shift_left_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline/run_001/evaluation/response_evaluation/110_deeper_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/shared_schedule_seed_17.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/shared_schedule_seed_27.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/G/selected_weights.pt",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/G/checkpoint.pt",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/RAW/selected_weights.pt",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/RAW/checkpoint.pt",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/ordinary/rollout_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/ordinary/one_step_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/70_base_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/110_shift_right_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/110_faster_down_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/150_masks.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/70_shift_left_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/70_shift_right_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/70_faster_down_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/150_detach_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/150_base_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/150_shift_right_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/150_faster_down_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/70_deeper_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/150_shift_left_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/110_detach_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/150_deeper_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/70_detach_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/110_base_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/110_masks.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/70_masks.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/110_shift_left_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_27/evaluation/response_evaluation/110_deeper_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/G/selected_weights.pt",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/G/checkpoint.pt",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/RAW/selected_weights.pt",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/RAW/checkpoint.pt",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/ordinary/rollout_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/ordinary/one_step_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/70_base_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/110_shift_right_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/110_faster_down_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/150_masks.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/70_shift_left_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/70_shift_right_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/70_faster_down_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/150_detach_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/150_base_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/150_shift_right_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/150_faster_down_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/70_deeper_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/150_shift_left_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/110_detach_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/150_deeper_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/70_detach_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/110_base_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/110_masks.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/70_masks.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/110_shift_left_predictions.npz",
+      "matches": true
+    },
+    {
+      "path": "outputs/fair_mainline_multiseed/run_001/seed_17/evaluation/response_evaluation/110_deeper_predictions.npz",
+      "matches": true
+    }
+  ]
+}

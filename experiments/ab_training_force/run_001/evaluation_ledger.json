@@ -1,0 +1,3167 @@
+[
+  {
+    "seed": 7,
+    "stage": "prefix_200",
+    "status": "completed",
+    "per_method": {
+      "RAW": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.20959750929509777,
+          "position_score": 0.41529769619176654,
+          "velocity_score": 0.0038973223984290106,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.12918018721010655,
+          "position_score": 0.25251837399151256,
+          "velocity_score": 0.005842000428700545,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G0": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.12520757310267888,
+          "position_score": 0.24436208080725008,
+          "velocity_score": 0.006053065398107659,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "CV": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.15869051562237269,
+          "position_score": 0.31358557012753474,
+          "velocity_score": 0.003795461117210632,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6051368783814774,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6424311793497953
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6051368783814774,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      }
+    }
+  },
+  {
+    "seed": 7,
+    "stage": "prefix_500",
+    "status": "completed",
+    "per_method": {
+      "RAW": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.17648296199691682,
+          "position_score": 0.34884208353252294,
+          "velocity_score": 0.004123840461310718,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.07349995482636996,
+          "position_score": 0.13285566570503585,
+          "velocity_score": 0.014144243947704088,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G0": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.06979807554621116,
+          "position_score": 0.1287577428027821,
+          "velocity_score": 0.01083840828964023,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "CV": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.15869051562237269,
+          "position_score": 0.31358557012753474,
+          "velocity_score": 0.003795461117210632,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6051368783814774,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6424311793497953
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6051368783814774,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      }
+    }
+  },
+  {
+    "seed": 7,
+    "stage": "prefix_1000",
+    "status": "completed",
+    "per_method": {
+      "RAW": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.17648296199691682,
+          "position_score": 0.34884208353252294,
+          "velocity_score": 0.004123840461310718,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.07349995482636996,
+          "position_score": 0.13285566570503585,
+          "velocity_score": 0.014144243947704088,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G0": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.06979807554621116,
+          "position_score": 0.1287577428027821,
+          "velocity_score": 0.01083840828964023,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "CV": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.15869051562237269,
+          "position_score": 0.31358557012753474,
+          "velocity_score": 0.003795461117210632,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6051368783814774,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6424311793497953
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6051368783814774,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      }
+    }
+  },
+  {
+    "seed": 7,
+    "stage": "prefix_2000",
+    "status": "completed",
+    "per_method": {
+      "RAW": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.17648296199691682,
+          "position_score": 0.34884208353252294,
+          "velocity_score": 0.004123840461310718,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.07349995482636996,
+          "position_score": 0.13285566570503585,
+          "velocity_score": 0.014144243947704088,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G0": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.06979807554621116,
+          "position_score": 0.1287577428027821,
+          "velocity_score": 0.01083840828964023,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "CV": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.15869051562237269,
+          "position_score": 0.31358557012753474,
+          "velocity_score": 0.003795461117210632,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6051368783814774,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6424311793497953
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6051368783814774,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      }
+    }
+  },
+  {
+    "seed": 7,
+    "stage": "exact_2000",
+    "status": "completed",
+    "per_method": {
+      "RAW": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.6272079422435841,
+          "position_score": 1.2427265405255483,
+          "velocity_score": 0.011689343961620016,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.0972650011238014,
+          "position_score": 0.13698741473150133,
+          "velocity_score": 0.05754258751610146,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.49274195390313086,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.5219485378967257
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.49274195390313086,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G0": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.09952928839246705,
+          "position_score": 0.14365160979249705,
+          "velocity_score": 0.05540696699243706,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.5623795684728776,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.5106343559254799
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.5106343559254799,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "CV": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.15869051562237269,
+          "position_score": 0.31358557012753474,
+          "velocity_score": 0.003795461117210632,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6051368783814774,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6424311793497953
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6051368783814774,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      }
+    }
+  },
+  {
+    "seed": 17,
+    "stage": "prefix_200",
+    "status": "completed",
+    "per_method": {
+      "RAW": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.20608801821020573,
+          "position_score": 0.40764565531575486,
+          "velocity_score": 0.0045303811046565915,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.12120472511087732,
+          "position_score": 0.23338779732381257,
+          "velocity_score": 0.009021652897942082,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G0": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.1217376452371076,
+          "position_score": 0.2343229175584378,
+          "velocity_score": 0.009152372915777406,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "CV": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.15869051562237269,
+          "position_score": 0.31358557012753474,
+          "velocity_score": 0.003795461117210632,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6051368783814774,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6424311793497953
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6051368783814774,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      }
+    }
+  },
+  {
+    "seed": 17,
+    "stage": "prefix_500",
+    "status": "completed",
+    "per_method": {
+      "RAW": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.167903611490697,
+          "position_score": 0.33216580334870427,
+          "velocity_score": 0.003641419632689691,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.07098509383730377,
+          "position_score": 0.13172276588799614,
+          "velocity_score": 0.010247421786611387,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G0": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.0679727522515099,
+          "position_score": 0.12585593493772357,
+          "velocity_score": 0.010089569565296217,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "CV": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.15869051562237269,
+          "position_score": 0.31358557012753474,
+          "velocity_score": 0.003795461117210632,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6051368783814774,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6424311793497953
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6051368783814774,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      }
+    }
+  },
+  {
+    "seed": 17,
+    "stage": "prefix_1000",
+    "status": "completed",
+    "per_method": {
+      "RAW": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.167903611490697,
+          "position_score": 0.33216580334870427,
+          "velocity_score": 0.003641419632689691,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.07098509383730377,
+          "position_score": 0.13172276588799614,
+          "velocity_score": 0.010247421786611387,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G0": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.0679727522515099,
+          "position_score": 0.12585593493772357,
+          "velocity_score": 0.010089569565296217,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "CV": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.15869051562237269,
+          "position_score": 0.31358557012753474,
+          "velocity_score": 0.003795461117210632,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6051368783814774,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6424311793497953
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6051368783814774,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      }
+    }
+  },
+  {
+    "seed": 17,
+    "stage": "prefix_2000",
+    "status": "completed",
+    "per_method": {
+      "RAW": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.167903611490697,
+          "position_score": 0.33216580334870427,
+          "velocity_score": 0.003641419632689691,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.07098509383730377,
+          "position_score": 0.13172276588799614,
+          "velocity_score": 0.010247421786611387,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G0": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.0679727522515099,
+          "position_score": 0.12585593493772357,
+          "velocity_score": 0.010089569565296217,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "CV": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.15869051562237269,
+          "position_score": 0.31358557012753474,
+          "velocity_score": 0.003795461117210632,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6051368783814774,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6424311793497953
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6051368783814774,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      }
+    }
+  },
+  {
+    "seed": 17,
+    "stage": "exact_2000",
+    "status": "completed",
+    "per_method": {
+      "RAW": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.3952154908896408,
+          "position_score": 0.7824768833448519,
+          "velocity_score": 0.00795409843442968,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.10728112479829856,
+          "position_score": 0.1479114223765871,
+          "velocity_score": 0.06665082722001,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.48423374337736924,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.5431594819182419
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.48423374337736924,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G0": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.10891821541858085,
+          "position_score": 0.15927277479303692,
+          "velocity_score": 0.058563656044124786,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.45031136159611074,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.5250230749492062
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.45031136159611074,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "CV": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.15869051562237269,
+          "position_score": 0.31358557012753474,
+          "velocity_score": 0.003795461117210632,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6051368783814774,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6424311793497953
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6051368783814774,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      }
+    }
+  },
+  {
+    "seed": 27,
+    "stage": "prefix_200",
+    "status": "completed",
+    "per_method": {
+      "RAW": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.1757547613215409,
+          "position_score": 0.3476995437026694,
+          "velocity_score": 0.003809978940412377,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.14240199577169796,
+          "position_score": 0.277035225836178,
+          "velocity_score": 0.00776876570721793,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G0": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.1330521211535563,
+          "position_score": 0.2580230355234807,
+          "velocity_score": 0.008081206783631894,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "CV": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.15869051562237269,
+          "position_score": 0.31358557012753474,
+          "velocity_score": 0.003795461117210632,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6051368783814774,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6424311793497953
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6051368783814774,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      }
+    }
+  },
+  {
+    "seed": 27,
+    "stage": "prefix_500",
+    "status": "completed",
+    "per_method": {
+      "RAW": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.16113798704585422,
+          "position_score": 0.3184469547551095,
+          "velocity_score": 0.003829019336598946,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.07191467734070828,
+          "position_score": 0.1292508949283095,
+          "velocity_score": 0.014578459753107068,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G0": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.0749798372429045,
+          "position_score": 0.13770516725667073,
+          "velocity_score": 0.012254507229138251,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "CV": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.15869051562237269,
+          "position_score": 0.31358557012753474,
+          "velocity_score": 0.003795461117210632,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6051368783814774,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6424311793497953
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6051368783814774,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      }
+    }
+  },
+  {
+    "seed": 27,
+    "stage": "prefix_1000",
+    "status": "completed",
+    "per_method": {
+      "RAW": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.16113798704585422,
+          "position_score": 0.3184469547551095,
+          "velocity_score": 0.003829019336598946,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.07191467734070828,
+          "position_score": 0.1292508949283095,
+          "velocity_score": 0.014578459753107068,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G0": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.0749798372429045,
+          "position_score": 0.13770516725667073,
+          "velocity_score": 0.012254507229138251,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "CV": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.15869051562237269,
+          "position_score": 0.31358557012753474,
+          "velocity_score": 0.003795461117210632,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6051368783814774,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6424311793497953
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6051368783814774,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      }
+    }
+  },
+  {
+    "seed": 27,
+    "stage": "prefix_2000",
+    "status": "completed",
+    "per_method": {
+      "RAW": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.16113798704585422,
+          "position_score": 0.3184469547551095,
+          "velocity_score": 0.003829019336598946,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.07191467734070828,
+          "position_score": 0.1292508949283095,
+          "velocity_score": 0.014578459753107068,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G0": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.0749798372429045,
+          "position_score": 0.13770516725667073,
+          "velocity_score": 0.012254507229138251,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "CV": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.15869051562237269,
+          "position_score": 0.31358557012753474,
+          "velocity_score": 0.003795461117210632,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6051368783814774,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6424311793497953
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6051368783814774,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      }
+    }
+  },
+  {
+    "seed": 27,
+    "stage": "exact_2000",
+    "status": "completed",
+    "per_method": {
+      "RAW": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.3063567757133418,
+          "position_score": 0.606148554826593,
+          "velocity_score": 0.006564996600090525,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6052462356038792,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6492514288824074
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6052462356038792,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.11103122905014116,
+          "position_score": 0.14673950424016707,
+          "velocity_score": 0.07532295386011525,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.5329144864964379,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.48547481797120884
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.48547481797120884,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "G0": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.10131400084077594,
+          "position_score": 0.14433205140671793,
+          "velocity_score": 0.05829595027483393,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.5411302056501546,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.4900746959662578
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.4900746959662578,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      },
+      "CV": {
+        "eligible": true,
+        "scores": {
+          "joint_score": 0.15869051562237269,
+          "position_score": 0.31358557012753474,
+          "velocity_score": 0.003795461117210632,
+          "coverage_complete": true,
+          "expected_cells": 24,
+          "observed_cells": 24,
+          "missing_cells": [],
+          "duplicate_cells": [],
+          "invalid_cells": [],
+          "position_unit_m": 0.001,
+          "velocity_unit_m_s": 0.1
+        },
+        "ordinary_physics": {
+          "eligible": true,
+          "expected_windows": 35,
+          "saved_windows": 35,
+          "missing_windows": 0,
+          "incomplete_or_invalid_windows": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "inverted_states": 0,
+          "inverted_windows": 0,
+          "minimum_volume_ratio": 0.6051368783814774,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        },
+        "intervention_physics": {
+          "eligible": true,
+          "expected_windows": 18,
+          "incomplete_or_invalid_windows": 0,
+          "inverted_windows": 0,
+          "inverted_states": 0,
+          "nonfinite_states": 0,
+          "fixed_boundary_violating_states": 0,
+          "minimum_volume_ratio": 0.6424311793497953
+        },
+        "inverted_states": 0,
+        "inverted_windows": 0,
+        "minimum_volume_ratio": 0.6051368783814774,
+        "ordinary_failures": [],
+        "intervention_failures": [],
+        "forward_contracts": {
+          "nonfinite_outputs": 0,
+          "max_fixed_increment_m": 0.0,
+          "max_fixed_position_error_m": 0.0,
+          "max_fixed_velocity_m_s": 0.0
+        }
+      }
+    }
+  }
+]

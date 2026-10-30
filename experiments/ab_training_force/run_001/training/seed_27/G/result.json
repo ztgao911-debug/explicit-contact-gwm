@@ -1,0 +1,31 @@
+{
+  "seed": 27,
+  "variant": "G",
+  "attempt": 1,
+  "status": "trained",
+  "artifact_directory": "outputs/ab_training_force/run_001/train/seed_27/G/attempt_01",
+  "started_epoch": 1793342708.431515,
+  "training": {
+    "candidate": {
+      "id": "G",
+      "mode": "autoregressive",
+      "horizon": 3,
+      "learning_rate": 0.0001,
+      "velocity_weight": 0.5,
+      "mesh_weight": 0.001
+    },
+    "seed": 27,
+    "updates_completed": 2000,
+    "selected_step": 500,
+    "selection_score": 0.16421322065172778,
+    "training_elapsed_seconds": 319.0178979580087,
+    "native_queries_training_and_selection": 102150,
+    "clipped_updates": 2000,
+    "finite_gradients": true,
+    "conditional_gradient": "Current state attached; G/G0 geometry/force stop-gradient; RAW kinematics attached",
+    "actual_native_queries": 0
+  },
+  "actual_native_queries": 0,
+  "elapsed_seconds": 320.7598756660009,
+  "completed_epoch": 1793343029.1862998
+}
